@@ -1,2 +1,631 @@
-429: Too Many Requests
-For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+2025:
+    Capitão América: Admirável Mundo Novo
+    O Contador 2
+    Bailarina
+    Lilo & Stitch
+    Superman
+    Guerreiras do K-Pop
+    Como Treinar o Seu Dragão
+    Karatê Kid: Lendas
+    Quarteto Fantástico: Primeiros Passos
+    F1: O Filme
+
+2024:
+    01. Flow
+    02. O Conde de Monte Cristo
+    03. Duna: Parte 2
+    04. Robô Selvagem
+    05. Deadpool & Wolverine
+    06. É Assim que Acaba
+    07. Sonic 3: O Filme
+    08. O Senhor dos Anéis: A Guerra dos Rohirrim
+    09. Todo Tempo que Temos
+    10. L'histoire de Souleymane
+    11. Guerra Civil
+    12. Rebel Moon - Parte 2: A Marcadora de Cicatrizes
+    13. Anora
+    14. Jurado Nº 2
+    15. Ainda Estou Aqui
+    16. Transformers: O Início
+    17. Bad Boys: Até o Fim
+    18. Gladiador II
+    19. Godzilla e Kong: O Novo Império
+    20. Meu Malvado Favorito 4
+    21. Bagagem de Risco
+    22. Rivais
+    23. Operação Natal
+    24. Kung Fu Panda 4
+    25. Borderlands: O Destino do Universo Está em Jogo
+    26. Belo Desastre - O Casamento
+    27. Venom: A Última Rodada
+    28. Sua Culpa
+    29. Kraven, o Caçador
+    30. Madame Teia
+    31. Coringa: Delírio a Dois
+
+2023:
+    01. Nimona
+    02. Oppenheimer
+    03. Vidas Passadas
+    04. Homem-Aranha: Através do Aranhaverso
+    05. O Menino e a Garça
+    06. Anatomia de uma Queda
+    07. Guardiões da Galáxia Vol. 3
+    08. Assassinos da Lua das Flores
+    09. Pobres Criaturas
+    10. Dias Perfeitos
+    11. Gran Turismo: De Jogador a Corredor
+    12. Tetris
+    13. Super Mario Bros. - O Filme
+    14. Air - A História Por Trás do Logo
+    15. Ferrari
+    16. John Wick 4: Baba Yaga
+    17. Creed III
+    18. Transformers: O Despertar das Feras
+    19. Wonka
+    20. Rebel Moon - Parte 1: A Menina do Fogo
+    21. Os Três Mosqueteiros: D'Artagnan
+    22. Os Três Mosqueteiros: Milady
+    23. Dungeons & Dragons: Honra Entre Rebeldes
+    24. Homens Brancos Não Sabem Enterrar
+    25. Barbie
+    26. Amor à Primeira Vista
+    27. Todos Menos Você
+    28. Homem-Formiga e a Vespa: Quantumania
+    29. Minha Culpa
+    30. Besouro Azul
+    31. Flamin' Hot - O Sabor que Mudou a História
+    32. Mistério em Paris
+    33. Que Horas Eu Te Pego?
+    34. Belo Desastre
+    35. After: Para Sempre
+    36. Aquaman 2: O Reino Perdido
+    37. Renfield - Dando o Sangue Pelo Chefe
+    38. Shazam! Fúria dos Deuses
+    39. Five Nights at Freddy's - O Pesadelo Sem Fim
+    40. Velozes e Furiosos 10
+    41. As Marvels
+    42. The Flash
+    43. Napoleão
+
+2022:
+    01. Suzume
+    02. Avatar: O Caminho da Água
+    03. Gato de Botas 2: O Último Pedido
+    04. Continência ao Amor
+    05. Uma Família Extraordinária
+    06. Um Lugar Bem Longe Daqui
+    07. Doutor Estranho no Multiverso da Loucura
+    08. Tudo em Todo o Lugar ao Mesmo Tempo
+    09. Nada de Novo no Front
+    10. O Resgate de Ruby
+    11. O Menino, a Toupeira, a Raposa e o Cavalo
+    12. Top Gun: Maverick
+    13. Sonic 2: O Filme
+    14. Batman
+    15. Jurassic World Domínio
+    16. O Homem do Norte
+    17. O Peso do Talento
+    18. A Filha do Palhaço
+    19. Sorte
+    20. Pantera Negra: Wakanda para Sempre
+    21. Animais Fantásticos: Os Segredos de Dumbledore
+    22. Sisu - Uma História de Determinação
+    23. DC Liga dos Superpets
+    24. Arremessando Alto
+    25. Lamborghini: O Homem Por Trás da Lenda
+    26. Tratamento de Realeza
+    27. After: Depois da Promessa
+    28. Tico e Teco: Defensores da Lei
+    29. Minions 2: A Origem de Gru
+    30. Hotel Transilvânia 4: Transformonstrão
+    31. Jerry e Marge Tiram a Sorte Grande
+    32. A Era do Gelo: As Aventuras de Buck
+    33. 365 Dias: Hoje
+    34. Thor: Amor e Trovão
+    35. 365 Dias Finais
+    36. Adão Negro
+    37. Morbius
+
+2021:
+    01. Homem-Aranha: Sem Volta para Casa
+    02. Duna
+    03. Free Guy: Assumindo o Controle
+    04. Cruella
+    05. No Ritmo do Coração
+    06. tick, tick...BOOM!
+    07. Space Jam: Um Novo Legado
+    08. After: Depois do Desencontro    
+    09. O Esquadrão Suicida
+    10. Shang-Chi e a Lenda dos Dez Anéis
+    11. Mortal Kombat
+    12. Casa Gucci
+    13. O Poderoso Chefinho 2: De Volta aos Negócios
+    14. King Richard: Criando Campeãs
+    15. King's Man: A Origem
+    16. A Guerra do Amanhã
+    17. Godzilla vs. Kong
+    18. Liga da Justiça de Zack Snyder
+    19. Eternos
+    20. Viúva Negra
+    21. Venom: Tempo de Carnificina
+    22. Rua do Medo: 1994 - Parte 1
+    23. Rua do Medo: 1978 - Parte 2
+    24. Rua do Medo: 1666 - Parte 3
+    25. Velozes & Furiosos 9
+
+2020:
+    01. Bad Boys Para Sempre
+    02. Por Lugares Incríveis
+    03. O Banqueiro
+    04. Sonic: O Filme
+    05. Mulher-Maravilha 1984
+    06. Aves de Rapina: Arlequina e sua Emancipação Fantabulosa
+    07. Por Toda a Minha Vida
+    08. Dolittle
+    09. Bob Esponja: O Incrível Resgate
+    10. Um Lugar Silencioso: Parte II
+    11. Meios-Irmãos
+    12. After: Depois da Verdade
+    13. Nomadland
+    14. 365 dni
+    15. A Ilha da Fantasia
+    16. Invasão Zumbi 2: Península
+    17. Os Novos Mutantes
+
+2019:
+    01. Vingadores: Ultimato
+    02. Ford vs Ferrari
+    03. 1917
+    04. Era Uma Vez em... Hollywood
+    05. Alita: Anjo de Combate
+    06. O Gângster, o Policial e o Diabo
+    07. Pokémon: Detetive Pikachu
+    08. Como Treinar o Seu Dragão 3
+    09. Magnatas do Crime
+    10. Meu Eterno Talvez
+    11. Lutando Pela Família 
+    12. História de um Casamento
+    13. Angry Birds 2 - O Filme
+    14. Jojo Rabbit
+    15. Coringa
+    16. Aladdin
+    17. Homem-Aranha: Longe de Casa
+    18. Star Wars: A Ascensão Skywalker
+    19. Frozen II
+    20. O Rei Leão
+    21. Como Treinar o Seu Dragão: Homecoming
+    22. Jumanji: Próxima Fase
+    23. John Wick 3: Parabellum
+    24. Os Jovens Titãs em Ação! Vs. Os Jovens Titãs
+    25. Velozes & Furiosos: Hobbs & Shaw
+    26. X-Men: Fênix Negra
+    27. Mistério no Mediterrâneo
+    28. MIB: Homens de Preto - Internacional
+    29. Armas em Jogo
+    30. After
+    31. Shazam!
+    32. Capitã Marvel
+    33. Joias Brutas
+
+2018:
+    01. Homem-Aranha: No Aranhaverso
+    02. Vingadores: Guerra Infinita
+    03. Jogador Nº 1
+    04. Deadpool 2
+    05. Alfa
+    06. Han Solo: Uma História Star Wars
+    07. Pantera Negra
+    08. Bumblebee
+    09. Jurassic World: Reino Ameaçado
+    10. WiFi Ralph: Quebrando a Internet
+    11. Te Peguei!
+    12. The After Party
+    13. Mamma Mia! Lá Vamos Nós de Novo
+    14. Creed II
+    15. Johnny English 3.0
+    16. Um Lugar Silencioso
+    17. Green Book: O Guia
+    18. Os Incríveis 2
+    19. Tomb Raider: A Origem
+    20. Podres de Ricos
+    21. Hotel Transilvânia 3 - Férias Monstruosas
+    22. Rampage: Destruição Total
+    23. Arranha-Céu: Coragem Sem Limite
+    24. 100 coisas
+    25. Super Lopez
+    26. O Pacote
+    27. Bohemian Rhapsody
+    28. Robin Hood: A Origem
+    29. Tio Drew
+    30. Animais Fantásticos: Os Crimes de Grindelwald
+    31. Homem-Formiga e a Vespa
+    32. A.X.L.: O Cão Robô
+    33. Os Jovens Titãs em Ação! Nos Cinemas
+    34. Aquaman
+    35. Megatubarão
+    36. Venom
+    37. Bird Box
+
+2017:
+    01. Logan
+    02. Mulher-Maravilha
+    03. John Wick: Um Novo Dia para Matar
+    04. Thor: Ragnarok
+    05. Dunkirk
+    06. Baywatch: S.O.S. Malibu
+    07. Guardiões da Galáxia Vol. 2
+    08. Homem-Aranha: De Volta ao Lar
+    09. Em Ritmo de Fuga
+    10. Star Wars: Os Últimos Jedi
+    11. Homens de Coragem
+    12. Amigos para Sempre
+    13. Quatro Vidas de um Cachorro
+    14. Planeta dos Macacos: A Guerra
+    15. Kong: A Ilha da Caveira
+    16. Kingsman: O Círculo Dourado
+    17. John Wick: Um Novo Dia para Matar
+    18. Lego Batman: O Filme
+    19. Jumanji: Bem-Vindo à Selva
+    20. Transformers: O Último Cavaleiro
+    21. O Poderoso Chefinho
+    22. Liga da Justiça
+    23. Meu Malvado Favorito 3
+    24. Carros 3
+    25. Power Rangers
+    26. Bright
+    27. Pica-Pau: O Filme
+    28. Velozes & Furiosos 8
+    29. Death Note
+    30. Fullmetal Alchemist
+
+2016:
+    01. Your Name.
+    02. Eu Sempre Amei Você
+    03. Deadpool
+    04. Até o Último Homem
+    05. La La Land: Cantando Estações
+    06. Capitão América: Guerra Civil
+    07. Doutor Estranho
+    08. Os Caça-Noivas
+    09. Tinha Que Ser Ele?
+    10. Zootopia
+    11. X-Men: Apocalipse
+    12. Animais Fantásticos e Onde Habitam
+    13. Policial em Apuros 2
+    14. XOXO - A Vida é uma Festa
+    15. Um Gato de Rua Chamado Bob
+    16. Cães de Guerra
+    17. O Contador
+    18. Truque de Mestre: O 2º Ato
+    19. Esquadrão Suicida
+    20. Kung Fu Panda 3
+    21. Angry Birds: O Filme
+    22. A Era do Gelo 5: O Big Bang
+    23. Vizinhos 2
+    24. Zerando a Vida
+    25. Como Eu Era Antes de Você
+    26. Tirando o Atraso
+    27. Um Espião e Meio
+    28. Alice Através do Espelho
+    29. Batman vs Superman: A Origem da Justiça
+    30. Fome de Poder
+    31. Maverick: Caçada no Brasil
+    32. Assassin's Creed
+    33. Warcraft: O Primeiro Encontro de Dois Mundos
+    34. Invasão Zumbi
+
+2015:
+    01. Vingadores: Era de Ultron
+    02. Max: O Cão Herói
+    03. Homem-Formiga
+    04. Os Oito Odiados
+    05. Perdido em Marte
+    06. Velozes & Furiosos 7
+    07. Jurassic World: O Mundo dos Dinossauros
+    08. Creed: Nascido para Lutar
+    09. Star Wars: O Despertar da Força
+    10. Steve Jobs
+    11. Minions
+    12. Hotel Transilvânia 2
+    13. Ted 2
+    14. A Travessia
+    15. A Grande Aposta
+    16. O Durão   
+    17. Terremoto: A Falha de San Andreas
+    18. Quarteto Fantástico
+    19. A Ressaca 2
+    20. Super Velozes, Mega Furiosos
+
+2014:
+    01. Interestelar
+    02. Corações de Ferro
+    03. Need for Speed: O Filme
+    04. Como Treinar o Seu Dragão 2   
+    05. Operação Big Hero
+    06. O Espetacular Homem-Aranha 2: A Ameaça de Electro
+    07. O Jogo da Imitação
+    08. O Juiz
+    09. Guardiões da Galáxia
+    10. Kingsman: Serviço Secreto
+    11. De Volta ao Jogo
+    12. Anjos da Lei 2
+    13. Vizinhos
+    14. X-Men: Dias de um Futuro Esquecido
+    15. Capitão América 2 - O Soldado Invernal
+    16. O Hobbit: A Batalha dos Cinco Exércitos
+    17. O Apostador
+    18. Policial em Apuros
+    19. Os Pinguins de Madagascar
+    20. Transformers: A Era da Extinção
+    21. Planeta dos Macacos: O Confronto
+    22. Tiras, Só que Não
+    23. Rio 2
+    24. Uma Noite no Museu 3: O Segredo da Tumba
+    25. Malévola
+    26. Operação Invasão 2
+
+2013:
+    01. O Lobo de Wall Street
+    02. O Grande Gatsby
+    03. Homem de Ferro 3
+    04. Se Beber, Não Case! Parte III
+    05. Jobs
+    06. Jogada de Rei
+    07. Os Suspeitos
+    08. Gente Grande 2
+    09. Velozes & Furiosos 6
+    10. Rush: No Limite da Emoção
+    11. Kick-Ass 2
+    12. Truque de Mestre
+    13. O Hobbit: A Desolação de Smaug
+    14. Meu Malvado Favorito 2
+    15. Percy Jackson e o Mar de Monstros
+    16. Thor: O Mundo Sombrio
+    17. Frozen: Uma Aventura Congelante
+    18. Os Estagiários
+
+2012:
+    01. The Avengers - Os Vingadores
+    02. Django Livre
+    03. O Espetacular Homem-Aranha
+    04. Projeto X: Uma Festa Fora de Controle
+    05. A Origem dos Guardiões
+    06. Batman - O Cavaleiro das Trevas Ressurge
+    07. Valente
+    08. A Era do Gelo 4
+    09. O Hobbit: Uma Jornada Inesperada
+    10. Anjos da Lei
+    11. Curvas da Vida
+    12. Detona Ralph
+    13. O Ditador
+    14. Madagascar 3: Os Procurados
+    15. Hotel Transilvânia
+    16. Ted
+    17. Este é o Meu Garoto
+    18. Um Homem de Sorte
+    19. As Mil Palavras
+    20. Poder Sem Limites
+
+2011:
+    01. Gigantes de Aço
+    02. Gato de Botas
+    03. Se Beber, Não Case! Parte II
+    04. Velozes & Furiosos 5: Operação Rio
+    05. Thor
+    06. X-Men: Primeira Classe
+    07. Planeta dos Macacos: A Origem
+    08. Capitão América: O Primeiro Vingador
+    09. Harry Potter e as Relíquias da Morte - Parte 2
+    10. Intocáveis
+    11. Amor a Toda Prova
+    12. Corajosos
+    13. O Retorno de Johnny English
+    14. Rio
+    15. Transformers: O Lado Oculto da Lua
+    16. O Morro dos Ventos Uivantes
+    17. O Preço do Amanhã
+    18. Kung Fu Panda 2
+    19. Vovó... Zona 3: Tal Pai, Tal Filho
+    20. Operação Invasão
+    21. Carros 2
+    22. Os Padrinhos Mágicos: O Filme - Cresça, Timmy Turner!
+
+2010:
+    01. A Rede Social
+    02. Como Treinar o Seu Dragão
+    03. Homem de Ferro 2
+    04. Karatê Kid
+    05. Gente Grande
+    06. Kick-Ass - Quebrando Tudo
+    07. Scott Pilgrim Contra o Mundo
+    08. O Primeiro Amor
+    09. Harry Potter e as Relíquias da Morte - Parte 1
+    10. Shrek Para Sempre
+    11. Percy Jackson e o Ladrão de Raios
+    12. Meu Malvado Favorito
+    13. Megamente
+    14. As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada
+    15. Toy Story 3
+    16. O Fada do Dente
+    17. Enrolados
+    18. Alice no País das Maravilhas
+    19. Marmaduke
+    20. A Ressaca
+    21. Minha Babá é Uma Vampira - O Filme
+    22. Tropa de Elite 2: O Inimigo Agora é Outro
+    23. Diário de um Banana
+
+2009:
+    01. Avatar
+    02. Velozes & Furiosos 4
+    03. Sempre ao Seu Lado
+    04. Bastardos Inglórios
+    05. Watchmen: O Filme
+    06. Se Beber, Não Case!
+    07. Up: Altas Aventuras
+    08. X-Men Origens: Wolverine
+    09. Harry Potter e o Enigma do Príncipe
+    10. Transformers: A Vingança dos Derrotados
+    11. Entre Irmãos
+    12. A Era do Gelo 3
+    13. Força-G
+    14. Ben 10: Invasão Alienígena
+    15. Alvin e os Esquilos 2
+    16. Segurança de Shopping
+    17. Uma Noite no Museu 2
+    18. Coraline e o Mundo Secreto
+    19. 2012
+    20. Zumbilândia
+    
+2008:
+    01. Kung Fu Panda
+    02. Super-Herói: O Filme
+    03. Homem de Ferro
+    04. Batman - O Cavaleiro das Trevas
+    05. Perdido pra Cachorro
+    06. Hancock
+    07. O Incrível Hulk
+    08. Bolt: Supercão
+    09. Sim Senhor
+    10. Quebrando a Banca
+    11. Mamma Mia! O Filme
+    12. WALL·E
+    13. As Crônicas de Nárnia: Príncipe Caspian
+    14. Madagascar 2: A Grande Escapada
+    15. Madrugada Muito Louca 2
+    16. O Menino do Pijama Listrado
+    17. Speed Racer
+
+2007:
+    01. Os Simpsons: O Filme
+    02. Homem-Aranha 3
+    03. A Hora do Rush 3
+    04. Onde os Fracos Não Têm Vez
+    05. Quarteto Fantástico e o Surfista Prateado
+    06. Treinando o Papai
+    07. Transformers
+    08. Ratatouille
+    09. Sem Reservas
+    10. Harry Potter e a Ordem da Fênix
+    11. A Abadia de Northanger
+    12. Shrek Terceiro
+    13. Bee Movie: A História de uma Abelha
+    14. Ponte para Terabítia
+    15. Ben 10: Corrida Contra o Tempo
+    16. A Família do Futuro
+    17. Alvin e os Esquilos
+    18. Tropa de Elite
+    19. Eu Sou a Lenda
+
+2006:
+    01. Velozes & Furiosos: Desafio em Tóquio
+    02. Zoom - Academia de Super-Heróis
+    03. Menores Desacompanhados
+    04. Garfield 2
+    05. Carros
+    06. A Era do Gelo 2
+    07. Uma Noite no Museu
+    08. O Diabo Veste Prada
+    09. X-Men: O Confronto Final
+    10. O Código Da Vinci
+    11. Happy Feet - O Pinguim
+    12. Os Sem-Floresta
+    13. O Bicho Vai Pegar
+    14. Vovó... Zona 2
+    15. O Segredo dos Animais
+    16. Wendy Wu: A Garota Kung Fu
+    17. A Casa Monstro
+    18. Lucas: Um Intruso no Formigueiro
+
+2005:
+    01. Orgulho & Preconceito
+    02. V de Vingança
+    03. Coach Carter: Treino para a Vida
+    04. Madagascar
+    05. Quarteto Fantástico
+    06. Sky High: Super Escola de Heróis
+    07. Zathura: Uma Aventura Espacial
+    08. Herbie, Meu Fusca Turbinado
+    09. As Aventuras de Sharkboy e Lavagirl
+    10. Operação Babá
+    11. Harry Potter e o Cálice de Fogo
+    12. A Fantástica Fábrica de Chocolate
+    13. As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa
+    14. Papai Bate um Bolão
+    15. King Kong
+    16. O Galinho Chicken Little
+
+2004:
+    01. Eurotrip: Passaporte para a Confusão
+    02. Os Incríveis
+    03. Homem-Aranha 2
+    04. Harry Potter e o Prisioneiro de Azkaban
+    05. Garfield: O Filme
+    06. Shrek 2
+    07. O Expresso Polar
+    08. As Branquelas
+    09. Bob Esponja: O Filme
+    10. Clifford, o Gigante Cão Vermelho: O Filme
+    11. Madrugada Muito Louca
+    12. Menina de Ouro
+
+2003:
+    01. Meu Nome é Radio
+    02. + Velozes + Furiosos
+    03. Os Bad Boys II
+    04. Irmão Urso
+    05. O Senhor dos Anéis: O Retorno do Rei
+    06. Como Perder um Homem em 10 Dias
+    07. Procurando Nemo
+    08. Escola de Rock
+    09. A Creche do Papai
+    10. Hulk
+    11. Canguru Jack
+
+2002:
+    01. Homem-Aranha
+    02. O Pianista
+    03. A Era do Gelo
+    04. O Senhor dos Anéis: As Duas Torres
+    05. Harry Potter e a Câmara Secreta
+    06. Prenda-me se for Capaz
+    07. Scooby-Doo
+
+2001:
+    01. Moulin Rouge: Amor em Vermelho
+    02. Velozes & Furiosos
+    03. A Hora do Rush 2
+    04. Monstros S.A.
+    05. Shrek
+    06. O Senhor dos Anéis: A Sociedade do Anel
+    07. Harry Potter e a Pedra Filosofal
+
+2000:
+    01. Gladiador
+    02. Encontrando Forrester
+    03. Náufrago
+    04. Vovó... Zona
+
+1999:
+    01. Clube da Luta
+    02. À Espera de um Milagre
+    03. Dogma
+    04. Toy Story 2
+    05. O Pequeno Stuart Little
+
+1998:
+    01. A Hora do Rush
+    02. O Resgate do Soldado Ryan
+    03. Operação Cupido
+    04. Vida de Inseto
+
+1997:
+    01. Advogado do Diabo
+
+1996:
+    01. Matilda
+    02. Space Jam: O Jogo do Século
+
+1995:
+    01. Toy Story
