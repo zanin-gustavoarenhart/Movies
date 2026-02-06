@@ -382,17 +382,18 @@
     05. Jobs
     06. Jogada de Rei
     07. Os Suspeitos
-    08. Gente Grande 2
-    09. Velozes & Furiosos 6
-    10. Rush: No Limite da Emoção
-    11. Kick-Ass 2
-    12. Truque de Mestre
-    13. O Hobbit: A Desolação de Smaug
-    14. Meu Malvado Favorito 2
-    15. Percy Jackson e o Mar de Monstros
-    16. Thor: O Mundo Sombrio
-    17. Frozen: Uma Aventura Congelante
-    18. Os Estagiários
+    08. 12 Anos de Escravidão
+    09. Gente Grande 2
+    10. Velozes & Furiosos 6
+    11. Rush: No Limite da Emoção
+    12. Kick-Ass 2
+    13. Truque de Mestre
+    14. O Hobbit: A Desolação de Smaug
+    15. Meu Malvado Favorito 2
+    16. Percy Jackson e o Mar de Monstros
+    17. Thor: O Mundo Sombrio
+    18. Frozen: Uma Aventura Congelante
+    19. Os Estagiários
 
 2012:
     01. The Avengers - Os Vingadores
