@@ -378,22 +378,23 @@
     01. O Lobo de Wall Street
     02. O Grande Gatsby
     03. Homem de Ferro 3
-    04. Se Beber, Não Case! Parte III
-    05. Jobs
-    06. Jogada de Rei
-    07. Os Suspeitos
-    08. 12 Anos de Escravidão
-    09. Gente Grande 2
-    10. Velozes & Furiosos 6
-    11. Rush: No Limite da Emoção
-    12. Kick-Ass 2
-    13. Truque de Mestre
-    14. O Hobbit: A Desolação de Smaug
-    15. Meu Malvado Favorito 2
-    16. Percy Jackson e o Mar de Monstros
-    17. Thor: O Mundo Sombrio
-    18. Frozen: Uma Aventura Congelante
-    19. Os Estagiários
+    04. Questão de Tempo
+    05. Se Beber, Não Case! Parte III
+    06. Jobs
+    07. Jogada de Rei
+    08. Os Suspeitos
+    09. 12 Anos de Escravidão
+    10. Gente Grande 2
+    11. Velozes & Furiosos 6
+    12. Rush: No Limite da Emoção
+    13. Kick-Ass 2
+    14. Truque de Mestre
+    15. O Hobbit: A Desolação de Smaug
+    16. Meu Malvado Favorito 2
+    17. Percy Jackson e o Mar de Monstros
+    18. Thor: O Mundo Sombrio
+    19. Frozen: Uma Aventura Congelante
+    20. Os Estagiários
 
 2012:
     01. The Avengers - Os Vingadores
