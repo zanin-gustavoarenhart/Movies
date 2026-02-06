@@ -304,23 +304,24 @@
     15. Um Gato de Rua Chamado Bob
     16. Cães de Guerra
     17. O Contador
-    18. Truque de Mestre: O 2º Ato
-    19. Esquadrão Suicida
-    20. Kung Fu Panda 3
-    21. Angry Birds: O Filme
-    22. A Era do Gelo 5: O Big Bang
-    23. Vizinhos 2
-    24. Zerando a Vida
-    25. Como Eu Era Antes de Você
-    26. Tirando o Atraso
-    27. Um Espião e Meio
-    28. Alice Através do Espelho
-    29. Batman vs Superman: A Origem da Justiça
-    30. Fome de Poder
-    31. Maverick: Caçada no Brasil
-    32. Assassin's Creed
-    33. Warcraft: O Primeiro Encontro de Dois Mundos
-    34. Invasão Zumbi
+    18. Snowden: Herói ou Traidor
+    19. Truque de Mestre: O 2º Ato
+    20. Esquadrão Suicida
+    21. Kung Fu Panda 3
+    22. Angry Birds: O Filme
+    23. A Era do Gelo 5: O Big Bang
+    24. Vizinhos 2
+    25. Zerando a Vida
+    26. Como Eu Era Antes de Você
+    27. Tirando o Atraso
+    28. Um Espião e Meio
+    29. Alice Através do Espelho
+    30. Batman vs Superman: A Origem da Justiça
+    31. Fome de Poder
+    32. Maverick: Caçada no Brasil
+    33. Assassin's Creed
+    34. Warcraft: O Primeiro Encontro de Dois Mundos
+    35. Invasão Zumbi
 
 2015:
     01. Vingadores: Era de Ultron
