@@ -539,16 +539,17 @@
     06. A Era do Gelo 2
     07. Uma Noite no Museu
     08. O Diabo Veste Prada
-    09. X-Men: O Confronto Final
-    10. O Código Da Vinci
-    11. Happy Feet - O Pinguim
-    12. Os Sem-Floresta
-    13. O Bicho Vai Pegar
-    14. Vovó... Zona 2
-    15. O Segredo dos Animais
-    16. Wendy Wu: A Garota Kung Fu
-    17. A Casa Monstro
-    18. Lucas: Um Intruso no Formigueiro
+    09. Diamante de Sangue
+    10. X-Men: O Confronto Final
+    11. O Código Da Vinci
+    12. Happy Feet - O Pinguim
+    13. Os Sem-Floresta
+    14. O Bicho Vai Pegar
+    15. Vovó... Zona 2
+    16. O Segredo dos Animais
+    17. Wendy Wu: A Garota Kung Fu
+    18. A Casa Monstro
+    19. Lucas: Um Intruso no Formigueiro
 
 2005:
     01. Orgulho & Preconceito
