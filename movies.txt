@@ -434,11 +434,12 @@
     15. Transformers: O Lado Oculto da Lua
     16. O Morro dos Ventos Uivantes
     17. O Preço do Amanhã
-    18. Kung Fu Panda 2
-    19. Vovó... Zona 3: Tal Pai, Tal Filho
+    18. Sherlock Holmes: O Jogo de Sombras
+    19. Kung Fu Panda 2
     20. Operação Invasão
-    21. Carros 2
-    22. Os Padrinhos Mágicos: O Filme - Cresça, Timmy Turner!
+    21. Vovó... Zona 3: Tal Pai, Tal Filho
+    22. Carros 2
+    23. Os Padrinhos Mágicos: O Filme - Cresça, Timmy Turner!
 
 2010:
     01. A Rede Social
