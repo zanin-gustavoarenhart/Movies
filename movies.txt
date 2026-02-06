@@ -448,20 +448,21 @@
     07. Scott Pilgrim Contra o Mundo
     08. O Primeiro Amor
     09. Harry Potter e as Relíquias da Morte - Parte 1
-    10. Shrek Para Sempre
-    11. Percy Jackson e o Ladrão de Raios
-    12. Meu Malvado Favorito
-    13. Megamente
-    14. As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada
-    15. Toy Story 3
-    16. O Fada do Dente
-    17. Enrolados
-    18. Alice no País das Maravilhas
-    19. Marmaduke
-    20. A Ressaca
-    21. Minha Babá é Uma Vampira - O Filme
-    22. Tropa de Elite 2: O Inimigo Agora é Outro
-    23. Diário de um Banana
+    10. Amor e Outras Drogas
+    11. Shrek Para Sempre
+    12. Percy Jackson e o Ladrão de Raios
+    13. Meu Malvado Favorito
+    14. Megamente
+    15. As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada
+    16. Toy Story 3
+    17. Enrolados 
+    18. Alice no País das Maravilhas 
+    19. O Fada do Dente
+    20. Tropa de Elite 2: O Inimigo Agora é Outro
+    21. A Ressaca
+    22. Minha Babá é Uma Vampira - O Filme
+    23. Marmaduke
+    24. Diário de um Banana
 
 2009:
     01. Avatar
