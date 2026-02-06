@@ -475,18 +475,19 @@
     06. Se Beber, Não Case!
     07. Up: Altas Aventuras
     08. X-Men Origens: Wolverine
-    09. Harry Potter e o Enigma do Príncipe
-    10. Transformers: A Vingança dos Derrotados
-    11. Entre Irmãos
-    12. A Era do Gelo 3
-    13. Força-G
-    14. Ben 10: Invasão Alienígena
-    15. Alvin e os Esquilos 2
-    16. Segurança de Shopping
-    17. Uma Noite no Museu 2
-    18. Coraline e o Mundo Secreto
-    19. 2012
-    20. Zumbilândia
+    09. Entre Irmãos
+    10. Sherlock Holmes
+    11. Harry Potter e o Enigma do Príncipe
+    12. Transformers: A Vingança dos Derrotados
+    13. A Era do Gelo 3
+    14. Força-G
+    15. Ben 10: Invasão Alienígena
+    16. Alvin e os Esquilos 2
+    17. Segurança de Shopping
+    18. Uma Noite no Museu 2
+    19. Coraline e o Mundo Secreto
+    20. 2012
+    21. Zumbilândia
     
 2008:
     01. Kung Fu Panda
