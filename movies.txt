@@ -15,7 +15,7 @@ movies_list = [
             {or: "K-Pop Demon Hunters", pt-br: "Guerreiras do K-Pop"},
             {or: "Lilo & Stitch", pt-br: null},
             {or: "Now You See Me: Now You Don't", pt-br: "Truque de Mestre: O 3° Ato"},
-            {or: "Regretting You", pt-br: "Se Não Fosse Você"}]
+            {or: "Regretting You", pt-br: "Se Não Fosse Você"},
             {or: "Roofman", pt-br: "O Bom Bandido"},
             {or: "Sisu 2", pt-br: "Sisu: Estrada da Vingança"},
             {or: "Sorry, Baby", pt-br: null},
@@ -26,40 +26,44 @@ movies_list = [
             {or: "The Naked Gun", pt-br: "Corra que a Polícia Vem Aí!"},
             {or: "The Roses", pt-br: "Os Roses: Até que a Morte os Separe"},
             {or: "Thunderbolts*", pt-br: null},
+        ]
     },
-
-2024:
-    01. Flow
-    02. O Conde de Monte Cristo
-    03. Duna: Parte 2
-    04. Robô Selvagem
-    05. Deadpool & Wolverine
-    06. É Assim que Acaba
-    07. Sonic 3: O Filme
-    08. O Senhor dos Anéis: A Guerra dos Rohirrim
-    09. Todo Tempo que Temos
-    10. L'histoire de Souleymane
-    11. Guerra Civil
-    12. Rebel Moon - Parte 2: A Marcadora de Cicatrizes
-    13. Anora
-    14. Jurado Nº 2
-    15. Ainda Estou Aqui
-    16. Transformers: O Início
-    17. Bad Boys: Até o Fim
-    18. Gladiador II
-    19. Godzilla e Kong: O Novo Império
-    20. Meu Malvado Favorito 4
-    21. Bagagem de Risco
-    22. Rivais
-    23. Operação Natal
-    24. Kung Fu Panda 4
-    25. Borderlands: O Destino do Universo Está em Jogo
-    26. Belo Desastre - O Casamento
-    27. Venom: A Última Rodada
-    28. Sua Culpa
-    29. Kraven, o Caçador
-    30. Madame Teia
-    31. Coringa: Delírio a Dois
+    {
+        year: 2024,
+        itens: [
+            {or: "Straume", pt-br: "Flow"},
+            {or: "Le Comte de Monte-Cristo", pt-br: "O Conde de Monte Cristo"},
+            {or: "Dune: Part Two", pt-br: "Duna: Parte 2"},
+            {or: "The Wild Robot", pt-br: "Robô Selvagem"},
+            {or: "Deadpool & Wolverine", pt-br: null},
+            {or: "It Ends with Us", pt-br: "É Assim que Acaba"},
+            {or: "Sonic the Hedgehog 3", pt-br: "Sonic 3: O Filme"},
+            {or: "The Lord of the Rings: The War of the Rohirrim", pt-br: "O Senhor dos Anéis: A Guerra dos Rohirrim"},
+            {or: "We Live in Time", pt-br: "Todo Tempo que Temos"},
+            {or: "L'histoire de Souleymane", pt-br: "A História de Souleymane"},
+            {or: "Civil War", pt-br: "Guerra Civil"},
+            {or: "Rebel Moon - Part Two: The Scargiver", pt-br: "Rebel Moon - Parte 2: A Marcadora de Cicatrizes"},
+            {or: "Anora", pt-br: null},
+            {or: "Juror #2", pt-br: "Jurado Nº 2"},
+            {or: "Ainda Estou Aqui", pt-br: null},
+            {or: "Transformers One", pt-br: "Transformers: O Início"},
+            {or: "Bad Boys: Ride or Die", pt-br: "Bad Boys: Até o Fim"},
+            ", pt-br: "Gladiador II"},
+            ", pt-br: "Godzilla e Kong: O Novo Império"},
+            ", pt-br: "Meu Malvado Favorito 4"},
+            ", pt-br: "Bagagem de Risco"},
+            ", pt-br: "Rivais"},
+            ", pt-br: "Operação Natal"},
+            ", pt-br: "Kung Fu Panda 4"},
+            ", pt-br: "Borderlands: O Destino do Universo Está em Jogo"},
+            ", pt-br: "Belo Desastre - O Casamento"},
+            ", pt-br: "Venom: A Última Rodada"},
+            ", pt-br: "Sua Culpa"},
+            ", pt-br: "Kraven, o Caçador"},
+            ", pt-br: "Madame Teia"},
+            ", pt-br: "Coringa: Delírio a Dois"},
+        ]
+    }
 
 2023:
     01. Nimona
