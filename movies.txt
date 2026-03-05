@@ -1,28 +1,32 @@
-2025:
-    Capitão América: Admirável Mundo Novo
-    Sorry, Baby
-    O Contador 2
-    Thunderbolts*
-    Valor Sentimental
-    Bailarina
-    Lilo & Stitch
-    Superman
-    Guerreiras do K-Pop
-    Um Filme Minecraft
-    Como Treinar o Seu Dragão
-    Operação Vingança
-    Os Roses: Até que a Morte os Separe
-    Karatê Kid: Lendas
-    Quarteto Fantástico: Primeiros Passos
-    F1: O Filme
-    Corra que a Polícia Vem Aí!
-    O Bom Bandido
-    Sisu: Estrada da Vingança
-    Avatar: Fogo e Cinzas
-    Quando o Céu se Engana
-    Truque de Mestre: O 3° Ato
-    Nossa Culpa
-    Se Não Fosse Você
+movies_list = [
+    {
+        year: 2025,
+        itens: [
+            {or: "Affeksjonsverdi", pt-br: "Valor Sentimental"},
+            {or: "A Minecraft Movie", pt-br: "Um Filme Minecraft"},
+            {or: "Avatar: Fire and Ash", pt-br: "Avatar: Fogo e Cinzas"},
+            {or: "Ballerina", pt-br: "Bailarina"},
+            {or: "Captain America: Brave New World", pt-br: "Capitão América: Admirável Mundo Novo"}, 
+            {or: "Culpa nuestra", pt-br: "Nossa Culpa"},
+            {or: "F1", pt-br: "F1: O Filme"},
+            {or: "Good Fortune", pt-br: "Quando o Céu se Engana"},
+            {or: "How to Train Your Dragon", pt-br: "Como Treinar o Seu Dragão"},
+            {or: "Karate Kid: Legends", pt-br: "Karatê Kid: Lendas"},
+            {or: "K-Pop Demon Hunters", pt-br: "Guerreiras do K-Pop"},
+            {or: "Lilo & Stitch", pt-br: null},
+            {or: "Now You See Me: Now You Don't", pt-br: "Truque de Mestre: O 3° Ato"},
+            {or: "Regretting You", pt-br: "Se Não Fosse Você"}]
+            {or: "Roofman", pt-br: "O Bom Bandido"},
+            {or: "Sisu 2", pt-br: "Sisu: Estrada da Vingança"},
+            {or: "Sorry, Baby", pt-br: null},
+            {or: "Superman", pt-br: null},
+            {or: "The Accountant 2", pt-br: "O Contador 2"},
+            {or: "The Amateur", pt-br: "Operação Vingança"},
+            {or: "The Fantastic Four: First Steps", pt-br: "Quarteto Fantástico: Primeiros Passos"},
+            {or: "The Naked Gun", pt-br: "Corra que a Polícia Vem Aí!"},
+            {or: "The Roses", pt-br: "Os Roses: Até que a Morte os Separe"},
+            {or: "Thunderbolts*", pt-br: null},
+    },
 
 2024:
     01. Flow
@@ -618,9 +622,9 @@
     01. Moulin Rouge: Amor em Vermelho
     02. Velozes & Furiosos
     03. A Hora do Rush 2
-    04. Monstros S.A.
-    05. Shrek
-    06. O Senhor dos Anéis: A Sociedade do Anel
+    04. Shrek
+    05. O Senhor dos Anéis: A Sociedade do Anel
+    06. Monstros S.A.
     07. Harry Potter e a Pedra Filosofal
 
 2000:
@@ -637,8 +641,8 @@
     05. O Pequeno Stuart Little
 
 1998:
-    01. A Hora do Rush
-    02. O Resgate do Soldado Ryan
+    01. O Resgate do Soldado Ryan
+    02. A Hora do Rush
     03. Operação Cupido
     04. Vida de Inseto
 
