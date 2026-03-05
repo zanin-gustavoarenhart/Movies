@@ -63,52 +63,53 @@ movies_list = [
             {or: "Venom: The Last Dance", pt-br: "Venom: A Última Rodada"},
             {or: "We Live in Time", pt-br: "Todo Tempo que Temos"},
         ]
-    }
-
-2023:
-    01. Nimona
-    02. Oppenheimer
-    03. Vidas Passadas
-    04. Homem-Aranha: Através do Aranhaverso
-    05. O Menino e a Garça
-    06. Anatomia de uma Queda
-    07. Guardiões da Galáxia Vol. 3
-    08. Assassinos da Lua das Flores
-    09. Pobres Criaturas
-    10. Dias Perfeitos
-    11. Gran Turismo: De Jogador a Corredor
-    12. Tetris
-    13. Super Mario Bros. - O Filme
-    14. Air - A História Por Trás do Logo
-    15. Ferrari
-    16. John Wick 4: Baba Yaga
-    17. Creed III
-    18. Transformers: O Despertar das Feras
-    19. Wonka
-    20. Rebel Moon - Parte 1: A Menina do Fogo
-    21. Os Três Mosqueteiros: D'Artagnan
-    22. Os Três Mosqueteiros: Milady
-    23. Dungeons & Dragons: Honra Entre Rebeldes
-    24. Homens Brancos Não Sabem Enterrar
-    25. Barbie
-    26. Amor à Primeira Vista
-    27. Todos Menos Você
-    28. Homem-Formiga e a Vespa: Quantumania
-    29. Minha Culpa
-    30. Besouro Azul
-    31. Flamin' Hot - O Sabor que Mudou a História
-    32. Mistério em Paris
-    33. Que Horas Eu Te Pego?
-    34. Belo Desastre
-    35. After: Para Sempre
-    36. Aquaman 2: O Reino Perdido
-    37. Renfield - Dando o Sangue Pelo Chefe
-    38. Shazam! Fúria dos Deuses
-    39. Five Nights at Freddy's - O Pesadelo Sem Fim
-    40. Velozes e Furiosos 10
-    41. As Marvels
-    42. The Flash
-    43. Napoleão
+    },
+    {
+        year: 2023,
+        itens: [
+            {or: "Nimona", pt-br: null},
+            {or: "Oppenheimer", pt-br: null},
+            {or: "Past Lives", pt-br: "Vidas Passadas"},
+            {or: "Spider-Man: Across the Spider-Verse", pt-br: "Homem-Aranha: Através do Aranhaverso"},
+            {or: "Kimi-tachi wa dô ikiru ka", pt-br: "O Menino e a Garça"},
+            {or: "Anatomie d'une chute", pt-br: "Anatomia de uma Queda"},
+            {or: "Guardians of the Galaxy Vol. 3", pt-br: "Guardiões da Galáxia Vol. 3"},
+            {or: "Killers of the Flower Moon", pt-br: "Assassinos da Lua das Flores"},
+            {or: "Poor Things", pt-br: "Pobres Criaturas"},
+            {or: "Perfect Days", pt-br: "Dias Perfeitos"},
+            {or: "Gran Turismo", pt-br: "Gran Turismo: De Jogador a Corredor"},
+            {or: "Tetris", pt-br: null},
+            {or: "The Super Mario Bros. Movie", pt-br: "Super Mario Bros. - O Filme"},
+            {or: "Air", pt-br: "Air - A História Por Trás do Logo"},
+    ", pt-br: "Ferrari"},
+    ", pt-br: "John Wick 4: Baba Yaga"},
+    ", pt-br: "Creed III"},
+    ", pt-br: "Transformers: O Despertar das Feras"},
+    ", pt-br: "Wonka"},
+    ", pt-br: "Rebel Moon - Parte 1: A Menina do Fogo"},
+    ", pt-br: "Os Três Mosqueteiros: D'Artagnan"},
+    ", pt-br: "Os Três Mosqueteiros: Milady"},
+    ", pt-br: "Dungeons & Dragons: Honra Entre Rebeldes"},
+    ", pt-br: "Homens Brancos Não Sabem Enterrar"},
+    ", pt-br: "Barbie"},
+    ", pt-br: "Amor à Primeira Vista"},
+    ", pt-br: "Todos Menos Você"},
+    ", pt-br: "Homem-Formiga e a Vespa: Quantumania"},
+    ", pt-br: "Minha Culpa"},
+    ", pt-br: "Besouro Azul"},
+    ", pt-br: "Flamin' Hot - O Sabor que Mudou a História"},
+    ", pt-br: "Mistério em Paris"},
+    ", pt-br: "Que Horas Eu Te Pego?"},
+    ", pt-br: "Belo Desastre"},
+    ", pt-br: "After: Para Sempre"},
+    ", pt-br: "Aquaman 2: O Reino Perdido"},
+    ", pt-br: "Renfield - Dando o Sangue Pelo Chefe"},
+    ", pt-br: "Shazam! Fúria dos Deuses"},
+    ", pt-br: "Five Nights at Freddy's - O Pesadelo Sem Fim"},
+    ", pt-br: "Velozes e Furiosos 10"},
+    ", pt-br: "As Marvels"},
+    ", pt-br: "The Flash"},
+    ", pt-br: "Napoleão"},
 
 2022:
     01. Suzume
