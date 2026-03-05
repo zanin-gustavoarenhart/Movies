@@ -115,73 +115,73 @@ movies_list = [
     {
         year: 2022,
         itens: [
-    ", pt-br: "Suzume"},
-    ", pt-br: "Avatar: O Caminho da Água"},
-    ", pt-br: "Gato de Botas 2: O Último Pedido"},
-    ", pt-br: "Continência ao Amor"},
-    ", pt-br: "Uma Família Extraordinária"},
-    ", pt-br: "Um Lugar Bem Longe Daqui"},
-    ", pt-br: "Doutor Estranho no Multiverso da Loucura"},
-    ", pt-br: "Tudo em Todo o Lugar ao Mesmo Tempo"},
-    ", pt-br: "Nada de Novo no Front"},
-    ", pt-br: "O Resgate de Ruby"},
-    ", pt-br: "O Menino, a Toupeira, a Raposa e o Cavalo"},
-    ", pt-br: "Top Gun: Maverick"},
-    ", pt-br: "Sonic 2: O Filme"},
-    ", pt-br: "Batman"},
-    ", pt-br: "Jurassic World Domínio"},
-    ", pt-br: "O Homem do Norte"},
-    ", pt-br: "O Peso do Talento"},
-    ", pt-br: "A Filha do Palhaço"},
-    ", pt-br: "Sorte"},
-    ", pt-br: "Pantera Negra: Wakanda para Sempre"},
-    ", pt-br: "Animais Fantásticos: Os Segredos de Dumbledore"},
-    ", pt-br: "Sisu - Uma História de Determinação"},
-    ", pt-br: "DC Liga dos Superpets"},
-    ", pt-br: "Arremessando Alto"},
-    ", pt-br: "Lamborghini: O Homem Por Trás da Lenda"},
-    ", pt-br: "Tratamento de Realeza"},
-    ", pt-br: "After: Depois da Promessa"},
-    ", pt-br: "Tico e Teco: Defensores da Lei"},
-    ", pt-br: "Minions 2: A Origem de Gru"},
-    ", pt-br: "Hotel Transilvânia 4: Transformonstrão"},
-    ", pt-br: "Jerry e Marge Tiram a Sorte Grande"},
-    ", pt-br: "A Era do Gelo: As Aventuras de Buck"},
-    ", pt-br: "365 Dias: Hoje"},
-    ", pt-br: "Thor: Amor e Trovão"},
-    ", pt-br: "365 Dias Finais"},
-    ", pt-br: "Adão Negro"},
-    ", pt-br: "Morbius"},
+            {or: "365 Days: This Day", pt-br: "365 Dias: Hoje"},
+            {or: "A Filha do Palhaço", pt-br: null},
+            {or: "After Ever Happy", pt-br: "After: Depois da Promessa"},
+            {or: "Avatar: The Way of Water", pt-br: "Avatar: O Caminho da Água"},
+            {or: "Black Adam", pt-br: "Adão Negro"},
+            {or: "Black Panther: Wakanda Forever", pt-br: "Pantera Negra: Wakanda para Sempre"},
+            {or: "Chip 'n Dale: Rescue Rangers", pt-br: "Tico e Teco: Defensores da Lei"},
+            {or: "DC League of Super-Pets", pt-br: "DC Liga dos Superpets"},
+            {or: "Doctor Strange in the Multiverse of Madness", pt-br: "Doutor Estranho no Multiverso da Loucura"},
+            {or: "Everything Everywhere All at Once", pt-br: "Tudo em Todo o Lugar ao Mesmo Tempo"},
+            {or: "Fantastic Beasts: The Secrets of Dumbledore", pt-br: "Animais Fantásticos: Os Segredos de Dumbledore"},
+            {or: "Hotel Transylvania: Transformania", pt-br: "Hotel Transilvânia 4: Transformonstrão"},
+            {or: "Hustle", pt-br: "Arremessando Alto"},
+            {or: "Im Westen nichts Neues", pt-br: "Nada de Novo no Front"},
+            {or: "Jerry & Marge Go Large", pt-br: "Jerry e Marge Tiram a Sorte Grande"},
+            {or: "Jurassic World: Dominion", pt-br: "Jurassic World Domínio"},
+            {or: "Lamborghini: The Man Behind the Legend", pt-br: "Lamborghini: O Homem Por Trás da Lenda"},
+            {or: "Luck", pt-br: "Sorte"},
+            {or: "Minions: The Rise of Gru", pt-br: "Minions 2: A Origem de Gru"},
+            {or: "Morbius", pt-br: null},
+            {or: "Purple Hearts", pt-br: "Continência ao Amor"},
+            {or: "Puss in Boots: The Last Wish", pt-br: "Gato de Botas 2: O Último Pedido"},
+            {or: "Rescued by Ruby", pt-br: "O Resgate de Ruby"},
+            {or: "Sisu", pt-br: "Sisu - Uma História de Determinação"},
+            {or: "Sonic the Hedgehog 2", pt-br: "Sonic 2: O Filme"},
+            {or: "Suzume no Tojimari", pt-br: "Suzume"},
+            {or: "The Batman", pt-br: "Batman"},
+            {or: "The Boy, the Mole, the Fox and the Horse", pt-br: "O Menino, a Toupeira, a Raposa e o Cavalo"},
+            {or: "The Ice Age Adventures of Buck Wild", pt-br: "A Era do Gelo: As Aventuras de Buck"},
+            {or: "The Northman", pt-br: "O Homem do Norte"},
+            {or: "The Royal Treatment", pt-br: "Tratamento de Realeza"},
+            {or: "The Next 365 Days", pt-br: "365 Dias Finais"},
+            {or: "The Unbearable Weight of Massive Talent", pt-br: "O Peso do Talento"},
+            {or: "Thor: Love and Thunder", pt-br: "Thor: Amor e Trovão"},
+            {or: "Top Gun: Maverick", pt-br: null},
+            {or: "Where the Crawdads Sing", pt-br: "Um Lugar Bem Longe Daqui"},
+            {or: "Wildflower", pt-br: "Uma Família Extraordinária"},
         ]
     },
-
-
-2021:
-    01. Homem-Aranha: Sem Volta para Casa
-    02. Duna
-    03. Free Guy: Assumindo o Controle
-    04. Cruella
-    05. No Ritmo do Coração
-    06. tick, tick...BOOM!
-    07. Space Jam: Um Novo Legado
-    08. After: Depois do Desencontro    
-    09. O Esquadrão Suicida
-    10. Shang-Chi e a Lenda dos Dez Anéis
-    11. Mortal Kombat
-    12. Casa Gucci
-    13. O Poderoso Chefinho 2: De Volta aos Negócios
-    14. King Richard: Criando Campeãs
-    15. King's Man: A Origem
-    16. A Guerra do Amanhã
-    17. Godzilla vs. Kong
-    18. Liga da Justiça de Zack Snyder
-    19. Eternos
-    20. Viúva Negra
-    21. Venom: Tempo de Carnificina
-    22. Rua do Medo: 1994 - Parte 1
-    23. Rua do Medo: 1978 - Parte 2
-    24. Rua do Medo: 1666 - Parte 3
-    25. Velozes & Furiosos 9
+    {
+        year: 2021,
+        itens: [
+            Spider-Man: No Way Home", pt-br: "Homem-Aranha: Sem Volta para Casa"},
+            Dune: Part One", pt-br: "Duna"},
+            Free Guy", pt-br: "Free Guy: Assumindo o Controle"},
+            Cruella", pt-br: null},
+            CODA", pt-br: "No Ritmo do Coração"},
+            tick, tick...BOOM!", pt-br: null},
+            Space Jam: A New Legacy", pt-br: "Space Jam: Um Novo Legado"},
+            After We Fell", pt-br: "After: Depois do Desencontro"},    
+            The Suicide Squad", pt-br: "O Esquadrão Suicida"},
+            Shang-Chi and the Legend of the Ten Rings", pt-br: "Shang-Chi e a Lenda dos Dez Anéis"},
+            Mortal Kombat", pt-br: null},
+            House of Gucci", pt-br: "Casa Gucci"},
+            The Boss Baby: Family Business", pt-br: "O Poderoso Chefinho 2: De Volta aos Negócios"},
+            King Richard", pt-br: "King Richard: Criando Campeãs"},
+            The King's Man", pt-br: "King's Man: A Origem"},
+            The Tomorrow War", pt-br: "A Guerra do Amanhã"},
+            Godzilla vs. Kong", pt-br: null},
+            Zack Snyder's Justice League", pt-br: "Liga da Justiça de Zack Snyder"},
+            Eternals", pt-br: "Eternos"},
+            ", pt-br: "Viúva Negra"},
+            ", pt-br: "Venom: Tempo de Carnificina"},
+            ", pt-br: "Rua do Medo: 1994 - Parte 1"},
+            ", pt-br: "Rua do Medo: 1978 - Parte 2"},
+            ", pt-br: "Rua do Medo: 1666 - Parte 3"},
+            ", pt-br: "Velozes & Furiosos 9"},
 
 2020:
     01. Bad Boys Para Sempre
