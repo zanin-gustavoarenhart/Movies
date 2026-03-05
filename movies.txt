@@ -115,43 +115,43 @@ movies_list = [
     {
         year: 2022,
         itens: [
-    Suzume
-    Avatar: O Caminho da Água
-    Gato de Botas 2: O Último Pedido
-    Continência ao Amor
-    Uma Família Extraordinária
-    Um Lugar Bem Longe Daqui
-    Doutor Estranho no Multiverso da Loucura
-    Tudo em Todo o Lugar ao Mesmo Tempo
-    Nada de Novo no Front
-    O Resgate de Ruby
-    O Menino, a Toupeira, a Raposa e o Cavalo
-    Top Gun: Maverick
-    Sonic 2: O Filme
-    Batman
-    Jurassic World Domínio
-    O Homem do Norte
-    O Peso do Talento
-    A Filha do Palhaço
-    Sorte
-    Pantera Negra: Wakanda para Sempre
-    Animais Fantásticos: Os Segredos de Dumbledore
-    Sisu - Uma História de Determinação
-    DC Liga dos Superpets
-    Arremessando Alto
-    Lamborghini: O Homem Por Trás da Lenda
-    Tratamento de Realeza
-    After: Depois da Promessa
-    Tico e Teco: Defensores da Lei
-    Minions 2: A Origem de Gru
-    Hotel Transilvânia 4: Transformonstrão
-    Jerry e Marge Tiram a Sorte Grande
-    A Era do Gelo: As Aventuras de Buck
-    365 Dias: Hoje
-    Thor: Amor e Trovão
-    365 Dias Finais
-    Adão Negro
-    Morbius
+    ", pt-br: "Suzume"},
+    ", pt-br: "Avatar: O Caminho da Água"},
+    ", pt-br: "Gato de Botas 2: O Último Pedido"},
+    ", pt-br: "Continência ao Amor"},
+    ", pt-br: "Uma Família Extraordinária"},
+    ", pt-br: "Um Lugar Bem Longe Daqui"},
+    ", pt-br: "Doutor Estranho no Multiverso da Loucura"},
+    ", pt-br: "Tudo em Todo o Lugar ao Mesmo Tempo"},
+    ", pt-br: "Nada de Novo no Front"},
+    ", pt-br: "O Resgate de Ruby"},
+    ", pt-br: "O Menino, a Toupeira, a Raposa e o Cavalo"},
+    ", pt-br: "Top Gun: Maverick"},
+    ", pt-br: "Sonic 2: O Filme"},
+    ", pt-br: "Batman"},
+    ", pt-br: "Jurassic World Domínio"},
+    ", pt-br: "O Homem do Norte"},
+    ", pt-br: "O Peso do Talento"},
+    ", pt-br: "A Filha do Palhaço"},
+    ", pt-br: "Sorte"},
+    ", pt-br: "Pantera Negra: Wakanda para Sempre"},
+    ", pt-br: "Animais Fantásticos: Os Segredos de Dumbledore"},
+    ", pt-br: "Sisu - Uma História de Determinação"},
+    ", pt-br: "DC Liga dos Superpets"},
+    ", pt-br: "Arremessando Alto"},
+    ", pt-br: "Lamborghini: O Homem Por Trás da Lenda"},
+    ", pt-br: "Tratamento de Realeza"},
+    ", pt-br: "After: Depois da Promessa"},
+    ", pt-br: "Tico e Teco: Defensores da Lei"},
+    ", pt-br: "Minions 2: A Origem de Gru"},
+    ", pt-br: "Hotel Transilvânia 4: Transformonstrão"},
+    ", pt-br: "Jerry e Marge Tiram a Sorte Grande"},
+    ", pt-br: "A Era do Gelo: As Aventuras de Buck"},
+    ", pt-br: "365 Dias: Hoje"},
+    ", pt-br: "Thor: Amor e Trovão"},
+    ", pt-br: "365 Dias Finais"},
+    ", pt-br: "Adão Negro"},
+    ", pt-br: "Morbius"},
         ]
     },
 
