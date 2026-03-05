@@ -157,85 +157,103 @@ movies_list = [
     {
         year: 2021,
         itens: [
-            Spider-Man: No Way Home", pt-br: "Homem-Aranha: Sem Volta para Casa"},
-            Dune: Part One", pt-br: "Duna"},
-            Free Guy", pt-br: "Free Guy: Assumindo o Controle"},
-            Cruella", pt-br: null},
-            CODA", pt-br: "No Ritmo do Coração"},
-            tick, tick...BOOM!", pt-br: null},
-            Space Jam: A New Legacy", pt-br: "Space Jam: Um Novo Legado"},
-            After We Fell", pt-br: "After: Depois do Desencontro"},    
-            The Suicide Squad", pt-br: "O Esquadrão Suicida"},
-            Shang-Chi and the Legend of the Ten Rings", pt-br: "Shang-Chi e a Lenda dos Dez Anéis"},
-            Mortal Kombat", pt-br: null},
-            House of Gucci", pt-br: "Casa Gucci"},
-            The Boss Baby: Family Business", pt-br: "O Poderoso Chefinho 2: De Volta aos Negócios"},
-            King Richard", pt-br: "King Richard: Criando Campeãs"},
-            The King's Man", pt-br: "King's Man: A Origem"},
-            The Tomorrow War", pt-br: "A Guerra do Amanhã"},
-            Godzilla vs. Kong", pt-br: null},
-            Zack Snyder's Justice League", pt-br: "Liga da Justiça de Zack Snyder"},
-            Eternals", pt-br: "Eternos"},
-            ", pt-br: "Viúva Negra"},
-            ", pt-br: "Venom: Tempo de Carnificina"},
-            ", pt-br: "Rua do Medo: 1994 - Parte 1"},
-            ", pt-br: "Rua do Medo: 1978 - Parte 2"},
-            ", pt-br: "Rua do Medo: 1666 - Parte 3"},
-            ", pt-br: "Velozes & Furiosos 9"},
+            {or: "After We Fell", pt-br: "After: Depois do Desencontro"},  
+            {or: "Black Widow", pt-br: "Viúva Negra"},
+            {or: "CODA", pt-br: "No Ritmo do Coração"},
+            {or: "Cruella", pt-br: null},
+            {or: "Dune: Part One", pt-br: "Duna"},
+            {or: "Eternals", pt-br: "Eternos"},
+            {or: "F9", pt-br: "Velozes & Furiosos 9"},
+            {or: "Fear Street: 1666", pt-br: "Rua do Medo: 1666 - Parte 3"},
+            {or: "Fear Street: 1978", pt-br: "Rua do Medo: 1978 - Parte 2"},
+            {or: "Fear Street: 1994", pt-br: "Rua do Medo: 1994 - Parte 1"},
+            {or: "Free Guy", pt-br: "Free Guy: Assumindo o Controle"},
+            {or: "Godzilla vs. Kong", pt-br: null},
+            {or: "House of Gucci", pt-br: "Casa Gucci"},
+            {or: "King Richard", pt-br: "King Richard: Criando Campeãs"},
+            {or: "Mortal Kombat", pt-br: null},
+            {or: "Shang-Chi and the Legend of the Ten Rings", pt-br: "Shang-Chi e a Lenda dos Dez Anéis"},
+            {or: "Space Jam: A New Legacy", pt-br: "Space Jam: Um Novo Legado"},  
+            {or: "Spider-Man: No Way Home", pt-br: "Homem-Aranha: Sem Volta para Casa"},
+            {or: "The Boss Baby: Family Business", pt-br: "O Poderoso Chefinho 2: De Volta aos Negócios"},
+            {or: "The King's Man", pt-br: "King's Man: A Origem"},
+            {or: "The Suicide Squad", pt-br: "O Esquadrão Suicida"},
+            {or: "The Tomorrow War", pt-br: "A Guerra do Amanhã"},
+            {or: "tick, tick...BOOM!", pt-br: null},
+            {or: "Venom: Let There Be Carnage", pt-br: "Venom: Tempo de Carnificina"},
+            {or: "Zack Snyder's Justice League", pt-br: "Liga da Justiça de Zack Snyder"},
+        ]
+    },
+    {
+        year: 2020,
+        itens: [
+            {or: "365 dni", pt-br: "365 Dias"},
+            {or: "After We Collided", pt-br: "After: Depois da Verdade"},
+            {or: "All My Life", pt-br: "Por Toda a Minha Vida"},
+            {or: "All the Bright Places", pt-br: "Por Lugares Incríveis"},
+            {or: "A Quiet Place Part II", pt-br: "Um Lugar Silencioso: Parte II"},
+            {or: "Bad Boys for Life", pt-br: "Bad Boys Para Sempre"},
+            {or: "Bando", pt-br: "Invasão Zumbi 2: Península"},
+            {or: "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)", pt-br: "Aves de Rapina: Arlequina e sua Emancipação Fantabulosa"},
+            {or: "Dolittle", pt-br: null},
+            {or: "Fantasy Island", pt-br: "A Ilha da Fantasia"},
+            {or: "Half Brothers", pt-br: "Meios-Irmãos"},
+            {or: "Nomadland", pt-br: null},
+            {or: "Sonic the Hedgehog", pt-br: "Sonic: O Filme"},
+            {or: "The Banker", pt-br: null},
+            {or: "The New Mutants", pt-br: "Os Novos Mutantes"},
+            {or: "The SpongeBob Movie: Sponge on the Run", pt-br: "Bob Esponja: O Incrível Resgate"},
+            {or: "Wonder Woman 1984", pt-br: "Mulher-Maravilha 1984"},
+        ]
+    },
+    {
+        year: 2019,
+        itens: [
+            ", pt-br: "Vingadores: Ultimato"},
+            ", pt-br: "Ford vs Ferrari"},
+            ", pt-br: "1917"},
+            ", pt-br: "Era Uma Vez em... Hollywood"},
+            ", pt-br: "Alita: Anjo de Combate"},
+            ", pt-br: "O Gângster, o Policial e o Diabo"},
+            ", pt-br: "Pokémon: Detetive Pikachu"},
+            ", pt-br: "Como Treinar o Seu Dragão 3"},
+            ", pt-br: "Magnatas do Crime"},
+            ", pt-br: "Meu Eterno Talvez"},
+            ", pt-br: "Lutando Pela Família"}, 
+            ", pt-br: "História de um Casamento"},
+            ", pt-br: "Angry Birds 2 - O Filme"},
+            ", pt-br: "Jojo Rabbit"},
+            ", pt-br: "Coringa"},
+            ", pt-br: "Aladdin"},
+            ", pt-br: "Homem-Aranha: Longe de Casa"},
+            ", pt-br: "Star Wars: A Ascensão Skywalker"},
+            ", pt-br: "Frozen II"},
+            ", pt-br: "O Rei Leão"},
+            ", pt-br: "Como Treinar o Seu Dragão: Homecoming"},
+            ", pt-br: "Jumanji: Próxima Fase"},
+            ", pt-br: "John Wick 3: Parabellum"},
+            ", pt-br: "Os Jovens Titãs em Ação! Vs. Os Jovens Titãs"},
+            ", pt-br: "Velozes & Furiosos: Hobbs & Shaw"},
+            ", pt-br: "X-Men: Fênix Negra"},
+            ", pt-br: "Mistério no Mediterrâneo"},
+            ", pt-br: "MIB: Homens de Preto - Internacional"},
+            ", pt-br: "Armas em Jogo"},
+            ", pt-br: "After"},
+            ", pt-br: "Shazam!"},
+            ", pt-br: "Capitã Marvel"},
+            ", pt-br: "Joias Brutas"},
 
-2020:
-    01. Bad Boys Para Sempre
-    02. Por Lugares Incríveis
-    03. O Banqueiro
-    04. Sonic: O Filme
-    05. Mulher-Maravilha 1984
-    06. Aves de Rapina: Arlequina e sua Emancipação Fantabulosa
-    07. Por Toda a Minha Vida
-    08. Dolittle
-    09. Bob Esponja: O Incrível Resgate
-    10. Um Lugar Silencioso: Parte II
-    11. Meios-Irmãos
-    12. After: Depois da Verdade
-    13. Nomadland
-    14. 365 dni
-    15. A Ilha da Fantasia
-    16. Invasão Zumbi 2: Península
-    17. Os Novos Mutantes
 
-2019:
-    01. Vingadores: Ultimato
-    02. Ford vs Ferrari
-    03. 1917
-    04. Era Uma Vez em... Hollywood
-    05. Alita: Anjo de Combate
-    06. O Gângster, o Policial e o Diabo
-    07. Pokémon: Detetive Pikachu
-    08. Como Treinar o Seu Dragão 3
-    09. Magnatas do Crime
-    10. Meu Eterno Talvez
-    11. Lutando Pela Família 
-    12. História de um Casamento
-    13. Angry Birds 2 - O Filme
-    14. Jojo Rabbit
-    15. Coringa
-    16. Aladdin
-    17. Homem-Aranha: Longe de Casa
-    18. Star Wars: A Ascensão Skywalker
-    19. Frozen II
-    20. O Rei Leão
-    21. Como Treinar o Seu Dragão: Homecoming
-    22. Jumanji: Próxima Fase
-    23. John Wick 3: Parabellum
-    24. Os Jovens Titãs em Ação! Vs. Os Jovens Titãs
-    25. Velozes & Furiosos: Hobbs & Shaw
-    26. X-Men: Fênix Negra
-    27. Mistério no Mediterrâneo
-    28. MIB: Homens de Preto - Internacional
-    29. Armas em Jogo
-    30. After
-    31. Shazam!
-    32. Capitã Marvel
-    33. Joias Brutas
+
+
+
+
+
+
+
+
+
+
 
 2018:
     01. Homem-Aranha: No Aranhaverso
