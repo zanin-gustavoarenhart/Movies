@@ -248,81 +248,79 @@ movies_list = [
     {
         year: 2018,
         itens: [
+            {or: "100 Dinge", en: "100 Things", pt-br: "100 coisas"},
             {or: "Alpha", en: null, pt-br: "Alfa"},
-            {or: "A Quiet Place", pt-br: "Um Lugar Silencioso"},
+            {or: "Ant-Man and the Wasp", en: null, pt-br: "Homem-Formiga e a Vespa"},
+            {or: "Aquaman", en: null, pt-br: null},
+            {or: "A Quiet Place", en: null, pt-br: "Um Lugar Silencioso"},
+            {or: "A-X-L", en: null, pt-br: "A.X.L.: O Cão Robô"},
             {or: "Avengers: Infinity War", en: null, pt-br: "Vingadores: Guerra Infinita"},
+            {or: "Bird Box", en: null, pt-br: "Caixa de Pássaros"},
             {or: "Black Panther", en: null, pt-br: "Pantera Negra"},
+            {or: "Bohemian Rhapsody", en: null, pt-br: null},
             {or: "Bumblebee", en: null, pt-br: null},
-            {or: "Crazy Rich Asians", pt-br: "Podres de Ricos"},
-            {or: "Creed II", pt-br: null},
+            {or: "Crazy Rich Asians", en: null, pt-br: "Podres de Ricos"},
+            {or: "Creed II", en: null, pt-br: null},
             {or: "Deadpool 2", en: null, pt-br: null},
-            {or: "Forever My Girl", pt-br: "Minha Garota para Sempre"},
-            {or: "Green Book", pt-br: "Green Book: O Guia"},
-            {or: "Incredibles 2", pt-br: "Os Incríveis 2"},
-            {or: "Johnny English Strikes Again", pt-br: "Johnny English 3.0"},
+            {or: "Fantastic Beasts: The Crimes of Grindelwald", en: null, pt-br: "Animais Fantásticos: Os Crimes de Grindelwald"},
+            {or: "Forever My Girl", en: null, pt-br: "Minha Garota para Sempre"},
+            {or: "Green Book", en: null, pt-br: "Green Book: O Guia"},
+            {or: "Hotel Transylvania 3: Summer Vacation", en: null, pt-br: "Hotel Transilvânia 3 - Férias Monstruosas"},
+            {or: "Incredibles 2", en: null, pt-br: "Os Incríveis 2"},
+            {or: "Johnny English Strikes Again", en: null, pt-br: "Johnny English 3.0"},
             {or: "Jurassic World: Fallen Kingdom", en: null, pt-br: "Jurassic World: Reino Ameaçado"},
-            {or: "Mamma Mia! Here We Go Again", pt-br: "Mamma Mia! Lá Vamos Nós de Novo"},
-            {or: "Ralph Breaks the Internet", pt-br: "WiFi Ralph: Quebrando a Internet"},
+            {or: "Mamma Mia! Here We Go Again", en: null, pt-br: "Mamma Mia! Lá Vamos Nós de Novo"},
+            {or: "Ralph Breaks the Internet", en: null, pt-br: "WiFi Ralph: Quebrando a Internet"},
+            {or: "Rampage", en: null, pt-br: "Rampage: Destruição Total"},
             {or: "Ready Player One", en: null, pt-br: "Jogador Nº 1"},
+            {or: "Robin Hood", en: null, pt-br: "Robin Hood: A Origem"},
+            {or: "Skyscraper", en: null, pt-br: "Arranha-Céu: Coragem Sem Limite"},
             {or: "Solo: A Star Wars Story", en: null, pt-br: "Han Solo: Uma História Star Wars"},
             {or: "Spider-Man: Into the Spider-Verse", en: null, pt-br: "Homem-Aranha: No Aranhaverso"},
-            {or: "Tag", pt-br: "Te Peguei!"},
-            {or: "The After Party", pt-br: null},
-            {or: "Tomb Raider", pt-br: "Tomb Raider: A Origem"},
-
-
-
-
-
-            ", pt-br: "Hotel Transilvânia 3 - Férias Monstruosas"},
-            ", pt-br: "Rampage: Destruição Total"},
-            ", pt-br: "Arranha-Céu: Coragem Sem Limite"},
-            ", pt-br: "100 coisas"},
-            ", pt-br: "Super Lopez"},
-            ", pt-br: "O Pacote"},
-            ", pt-br: "Bohemian Rhapsody"},
-            ", pt-br: "Robin Hood: A Origem"},
-            ", pt-br: "Tio Drew"},
-            ", pt-br: "Animais Fantásticos: Os Crimes de Grindelwald"},
-            ", pt-br: "Homem-Formiga e a Vespa"},
-            ", pt-br: "A.X.L.: O Cão Robô"},
-            ", pt-br: "Os Jovens Titãs em Ação! Nos Cinemas"},
-            ", pt-br: "Aquaman"},
-            ", pt-br: "Megatubarão"},
-            ", pt-br: "Venom"},
-            ", pt-br: "Bird Box"},
-
-2017:
-    01. Logan
-    02. Mulher-Maravilha
-    03. John Wick: Um Novo Dia para Matar
-    04. Thor: Ragnarok
-    05. Dunkirk
-    06. Baywatch: S.O.S. Malibu
-    07. Guardiões da Galáxia Vol. 2
-    08. Homem-Aranha: De Volta ao Lar
-    09. Em Ritmo de Fuga
-    10. Star Wars: Os Últimos Jedi
-    11. Homens de Coragem
-    12. Amigos para Sempre
-    13. Quatro Vidas de um Cachorro
-    14. Planeta dos Macacos: A Guerra
-    15. Kong: A Ilha da Caveira
-    16. Kingsman: O Círculo Dourado
-    17. John Wick: Um Novo Dia para Matar
-    18. Lego Batman: O Filme
-    19. Jumanji: Bem-Vindo à Selva
-    20. Transformers: O Último Cavaleiro
-    21. O Poderoso Chefinho
-    22. Liga da Justiça
-    23. Meu Malvado Favorito 3
-    24. Carros 3
-    25. Power Rangers
-    26. Bright
-    27. Pica-Pau: O Filme
-    28. Velozes & Furiosos 8
-    29. Death Note
-    30. Fullmetal Alchemist
+            {or: "Superlópez", en: "Superlopez", pt-br: "Super Lopez"},
+            {or: "Tag", en: null, pt-br: "Te Peguei!"},
+            {or: "Teen Titans Go! To the Movies", en: null, pt-br: "Os Jovens Titãs em Ação! Nos Cinemas"},
+            {or: "The After Party", en: null, pt-br: null},
+            {or: "The Meg", en: null, pt-br: "Megatubarão"},
+            {or: "The Package", en: null, pt-br: "O Pacote"},
+            {or: "Tomb Raider", en: null, pt-br: "Tomb Raider: A Origem"},
+            {or: "Uncle Drew", en: null, pt-br: "Tio Drew"},
+            {or: "Venom", en: null, pt-br: null},
+        ]
+    },
+    {
+        year: 2017,
+        itens: [
+    Logan},
+    Mulher-Maravilha},
+    John Wick: Um Novo Dia para Matar},
+    Thor: Ragnarok},
+    Dunkirk},
+    Baywatch: S.O.S. Malibu},
+    Guardiões da Galáxia Vol. 2},
+    Homem-Aranha: De Volta ao Lar},
+    Em Ritmo de Fuga},
+    Star Wars: Os Últimos Jedi},
+    Homens de Coragem},
+    Amigos para Sempre},
+    Quatro Vidas de um Cachorro},
+    Planeta dos Macacos: A Guerra},
+    Kong: A Ilha da Caveira},
+    Kingsman: O Círculo Dourado},
+    John Wick: Um Novo Dia para Matar},
+    Lego Batman: O Filme},
+    Jumanji: Bem-Vindo à Selva},
+    Transformers: O Último Cavaleiro},
+    O Poderoso Chefinho},
+    Liga da Justiça},
+    Meu Malvado Favorito 3},
+    Carros 3},
+    Power Rangers},
+    Bright},
+    Pica-Pau: O Filme},
+    Velozes & Furiosos 8},
+    Death Note},
+    Fullmetal Alchemist},
 
 2016:
     01. Your Name.
