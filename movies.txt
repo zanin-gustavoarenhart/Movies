@@ -325,70 +325,70 @@ movies_list = [
     {
         year: 2016,
         itens: [
+            {or: "Alice Through the Looking Glass", en: null, pt-br: "Alice Através do Espelho"},
+            {or: "Assassin's Creed", en: null, pt-br: null},
+            {or: "A Street Cat Named Bob", en: null, pt-br: "Um Gato de Rua Chamado Bob"},
+            {or: "Batman v Superman: Dawn of Justice", en: null, pt-br: "Batman vs Superman: A Origem da Justiça"},
+            {or: "Busanhaeng", en: "Train to Busan", pt-br: "Invasão Zumbi"},
             {or: "Captain America: Civil War", en: null, pt-br: "Capitão América: Guerra Civil"},
+            {or: "Central Intelligence", en: null, pt-br: "Um Espião e Meio"},
             {or: "Deadpool", en: null, pt-br: null},
+            {or: "Dirty Grandpa", en: null, pt-br: "Tirando o Atraso"},
             {or: "Doctor Strange", en: null, pt-br: "Doutor Estranho"},
+            {or: "Fantastic Beasts and Where to Find Them", en: null, pt-br: "Animais Fantásticos e Onde Habitam"},
             {or: "Hacksaw Ridge", en: null, pt-br: "Até o Último Homem"},
+            {or: "Ice Age: Collision Course", en: null, pt-br: "A Era do Gelo 5: O Big Bang"},
             {or: "Kimi no na wa.", en: "Your Name.", pt-br: "Your Name"},
+            {or: "Kung Fu Panda 3", en: null, pt-br: null},
             {or: "La La Land", en: null, pt-br: "La La Land: Cantando Estações"},
+            {or: "Maverick: Manhunt Brazil", en: null, pt-br: "Maverick: Caçada no Brasil"},
+            {or: "Me Before You", en: null, pt-br: "Como Eu Era Antes de Você"},
             {or: "Mike and Dave Need Wedding Dates", en: null, pt-br: "Os Caça-Noivas"},
+            {or: "Neighbors 2: Sorority Rising", en: null, pt-br: "Vizinhos 2"},
+            {or: "Now You See Me 2", en: null, pt-br: "Truque de Mestre: O 2º Ato"},
+            {or: "Ride Along 2", en: null, pt-br: "Policial em Apuros 2"},
+            {or: "Snowden", en: null, pt-br: "Snowden: Herói ou Traidor"},
+            {or: "Suicide Squad", en: null, pt-br: "Esquadrão Suicida"},
+            {or: "The Accountant", en: null, pt-br: "O Contador"},
+            {or: "The Angry Birds Movie", en: null, pt-br: "Angry Birds: O Filme"},
+            {or: "The Do-Over", en: null, pt-br: "Zerando a Vida"},
+            {or: "The Founder", en: null, pt-br: "Fome de Poder"},
+            {or: "Warcraft", en: null, pt-br: "Warcraft: O Primeiro Encontro de Dois Mundos"},
+            {or: "War Dogs", en: null, pt-br: "Cães de Guerra"},
             {or: "Why Him?", en: null, pt-br: "Tinha Que Ser Ele?"},
+            {or: "XOXO", en: null, pt-br: "XOXO - A Vida é uma Festa"},
+            {or: "X-Men: Apocalypse", en: null, pt-br: "X-Men: Apocalipse"},
+            {or: "Zootopia", en: null, pt-br: "Zootopia: Essa Cidade é o Bicho"},
             {or: "Zuttomaekara sukideshita.: Kokuhaku jikkou iinkai", en: "I Want to Let You Know That I Love You", pt-br: "Eu Sempre Amei Você"},
-        
-        
+        ]
+    },
+    {
+        year: 2015,
+        itens: [ 
+            {or: "Ant-Man", en: null, pt-br: "Homem-Formiga"},
+            {or: "Avengers: Age of Ultron", en: null, pt-br: "Vingadores: Era de Ultron"},
+            {or: "Fast & Furious 7", en: "Furious 7", pt-br: "Velozes & Furiosos 7"},
+            {or: "Max", en: null, pt-br: "Max: O Cão Herói"},
+            {or: "The Hateful Eight", en: null, pt-br: "Os Oito Odiados"},
+            {or: "The Martian", en: null, pt-br: "Perdido em Marte"},
 
 
 
 
-
-    ", pt-br: "Zootopia"},
-    ", pt-br: "X-Men: Apocalipse"},
-    ", pt-br: "Animais Fantásticos e Onde Habitam"},
-    ", pt-br: "Policial em Apuros 2"},
-    ", pt-br: "XOXO - A Vida é uma Festa"},
-    ", pt-br: "Um Gato de Rua Chamado Bob"},
-    ", pt-br: "Cães de Guerra"},
-    ", pt-br: "O Contador"},
-    ", pt-br: "Snowden: Herói ou Traidor"},
-    ", pt-br: "Truque de Mestre: O 2º Ato"},
-    ", pt-br: "Esquadrão Suicida"},
-    ", pt-br: "Kung Fu Panda 3"},
-    ", pt-br: "Angry Birds: O Filme"},
-    ", pt-br: "A Era do Gelo 5: O Big Bang"},
-    ", pt-br: "Vizinhos 2"},
-    ", pt-br: "Zerando a Vida"},
-    ", pt-br: "Como Eu Era Antes de Você"},
-    ", pt-br: "Tirando o Atraso"},
-    ", pt-br: "Um Espião e Meio"},
-    ", pt-br: "Alice Através do Espelho"},
-    ", pt-br: "Batman vs Superman: A Origem da Justiça"},
-    ", pt-br: "Fome de Poder"},
-    ", pt-br: "Maverick: Caçada no Brasil"},
-    ", pt-br: "Assassin's Creed"},
-    ", pt-br: "Warcraft: O Primeiro Encontro de Dois Mundos"},
-    ", pt-br: "Invasão Zumbi"},
-
-2015:
-    01. Vingadores: Era de Ultron
-    02. Max: O Cão Herói
-    03. Homem-Formiga
-    04. Os Oito Odiados
-    05. Perdido em Marte
-    06. Velozes & Furiosos 7
-    07. Jurassic World: O Mundo dos Dinossauros
-    08. Creed: Nascido para Lutar
-    09. Star Wars: O Despertar da Força
-    10. Steve Jobs
-    11. Minions
-    12. Hotel Transilvânia 2
-    13. Ted 2
-    14. A Travessia
-    15. A Grande Aposta
-    16. O Durão   
-    17. Terremoto: A Falha de San Andreas
-    18. Quarteto Fantástico
-    19. A Ressaca 2
-    20. Super Velozes, Mega Furiosos
+            ", pt-br: "Jurassic World: O Mundo dos Dinossauros"},
+            ", pt-br: "Creed: Nascido para Lutar"},
+            ", pt-br: "Star Wars: O Despertar da Força"},
+            ", pt-br: "Steve Jobs"},
+            ", pt-br: "Minions"},
+            ", pt-br: "Hotel Transilvânia 2"},
+            ", pt-br: "Ted 2"},
+            ", pt-br: "A Travessia"},
+            ", pt-br: "A Grande Aposta"},
+            ", pt-br: "O Durão"},   
+            ", pt-br: "Terremoto: A Falha de San Andreas"},
+            ", pt-br: "Quarteto Fantástico"},
+            ", pt-br: "A Ressaca 2"},
+            ", pt-br: "Super Velozes, Mega Furiosos"},
 
 2014:
     01. Interestelar
