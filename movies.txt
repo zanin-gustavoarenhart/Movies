@@ -211,99 +211,86 @@ movies_list = [
         year: 2019,
         itens: [
             {or: "1917", en: null, pt-br: null},
+            {or: "After", en: null, pt-br: null},
             {or: "Akinjeon", en: "The Gangster, the Cop, the Devil", pt-br: "O Gângster, o Policial e o Diabo"},
             {or: "Aladdin", en: null, pt-br: null},
             {or: "Alita: Battle Angel", en: null, pt-br: "Alita: Anjo de Combate"},
             {or: "Always Be My Maybe", en: null, pt-br: "Meu Eterno Talvez"},
             {or: "Avengers: Endgame", en: null, pt-br: "Vingadores: Ultimato"},
+            {or: "Captain Marvel", en: null, pt-br: "Capitã Marvel"},
+            {or: "Fast & Furious Presents: Hobbs & Shaw", en: null, pt-br: "Velozes & Furiosos: Hobbs & Shaw"},
             {or: "Fighting with My Family", en: null, pt-br: "Lutando Pela Família"},
             {or: "Ford v Ferrari", en: null, pt-br: "Ford vs Ferrari"},
+            {or: "Frozen II", en: null, pt-br: null},
+            {or: "Guns Akimbo", en: null, pt-br: "Armas em Jogo"},
+            {or: "How to Train Your Dragon: Homecoming", en: null, pt-br: "Como Treinar o Seu Dragão: Volta ao Lar"},
             {or: "How to Train Your Dragon: The Hidden World", en: null, pt-br: "Como Treinar o Seu Dragão 3"},
+            {or: "John Wick: Chapter 3 - Parabellum", en: null, pt-br: "John Wick 3: Parabellum"},
             {or: "Jojo Rabbit", en: null, pt-br: null},
             {or: "Joker", en: null, pt-br: "Coringa"},
+            {or: "Jumanji: The Next Level", en: null, pt-br: "Jumanji: Próxima Fase"},
             {or: "Marriage Story", en: null, pt-br: "História de um Casamento"},
+            {or: "Men in Black: International", en: null, pt-br: "MIB: Homens de Preto - Internacional"},
+            {or: "Murder Mystery", en: null, pt-br: "Mistério no Mediterrâneo"},
             {or: "Once Upon a Time in... Hollywood", en: null, pt-br: "Era Uma Vez em... Hollywood"},
             {or: "Pokémon: Detective Pikachu", en: null, pt-br: "Pokémon: Detetive Pikachu"},
+            {or: "Shazam!", en: null, pt-br: null},
+            {or: "Spider-Man: Far from Home", en: null, pt-br: "Homem-Aranha: Longe de Casa"},
+            {or: "Star Wars: Episode IX - The Rise of Skywalker", en: null, pt-br: "Star Wars: A Ascensão Skywalker"},
+            {or: "Teen Titans Go! Vs. Teen Titans", en: null, pt-br: "Os Jovens Titãs em Ação! Vs. Os Jovens Titãs"},
             {or: "The Angry Birds Movie 2", en: null, pt-br: "Angry Birds 2 - O Filme"},
             {or: "The Gentlemen", en: null, pt-br: "Magnatas do Crime"},
+            {or: "The Lion King", en: null, pt-br: "O Rei Leão"},
+            {or: "Uncut Gems", en: null, pt-br: "Joias Brutas"},
+            {or: "X-Men: Dark Phoenix", en: null, pt-br: "X-Men: Fênix Negra"},
+        ]
+    },
+    {
+        year: 2018,
+        itens: [
+            {or: "Alpha", en: null, pt-br: "Alfa"},
+            {or: "A Quiet Place", pt-br: "Um Lugar Silencioso"},
+            {or: "Avengers: Infinity War", en: null, pt-br: "Vingadores: Guerra Infinita"},
+            {or: "Black Panther", en: null, pt-br: "Pantera Negra"},
+            {or: "Bumblebee", en: null, pt-br: null},
+            {or: "Crazy Rich Asians", pt-br: "Podres de Ricos"},
+            {or: "Creed II", pt-br: null},
+            {or: "Deadpool 2", en: null, pt-br: null},
+            {or: "Forever My Girl", pt-br: "Minha Garota para Sempre"},
+            {or: "Green Book", pt-br: "Green Book: O Guia"},
+            {or: "Incredibles 2", pt-br: "Os Incríveis 2"},
+            {or: "Johnny English Strikes Again", pt-br: "Johnny English 3.0"},
+            {or: "Jurassic World: Fallen Kingdom", en: null, pt-br: "Jurassic World: Reino Ameaçado"},
+            {or: "Mamma Mia! Here We Go Again", pt-br: "Mamma Mia! Lá Vamos Nós de Novo"},
+            {or: "Ralph Breaks the Internet", pt-br: "WiFi Ralph: Quebrando a Internet"},
+            {or: "Ready Player One", en: null, pt-br: "Jogador Nº 1"},
+            {or: "Solo: A Star Wars Story", en: null, pt-br: "Han Solo: Uma História Star Wars"},
+            {or: "Spider-Man: Into the Spider-Verse", en: null, pt-br: "Homem-Aranha: No Aranhaverso"},
+            {or: "Tag", pt-br: "Te Peguei!"},
+            {or: "The After Party", pt-br: null},
+            {or: "Tomb Raider", pt-br: "Tomb Raider: A Origem"},
 
 
 
 
 
-
-
-
-
-            ", pt-br: "Homem-Aranha: Longe de Casa"},
-            ", pt-br: "Star Wars: A Ascensão Skywalker"},
-            ", pt-br: "Frozen II"},
-            ", pt-br: "O Rei Leão"},
-            ", pt-br: "Como Treinar o Seu Dragão: Homecoming"},
-            ", pt-br: "Jumanji: Próxima Fase"},
-            ", pt-br: "John Wick 3: Parabellum"},
-            ", pt-br: "Os Jovens Titãs em Ação! Vs. Os Jovens Titãs"},
-            ", pt-br: "Velozes & Furiosos: Hobbs & Shaw"},
-            ", pt-br: "X-Men: Fênix Negra"},
-            ", pt-br: "Mistério no Mediterrâneo"},
-            ", pt-br: "MIB: Homens de Preto - Internacional"},
-            ", pt-br: "Armas em Jogo"},
-            ", pt-br: "After"},
-            ", pt-br: "Shazam!"},
-            ", pt-br: "Capitã Marvel"},
-            ", pt-br: "Joias Brutas"},
-
-
-
-
-
-
-
-
-
-
-
-
-
-2018:
-    01. Homem-Aranha: No Aranhaverso
-    02. Vingadores: Guerra Infinita
-    03. Jogador Nº 1
-    04. Deadpool 2
-    05. Alfa
-    06. Han Solo: Uma História Star Wars
-    07. Pantera Negra
-    08. Bumblebee
-    09. Jurassic World: Reino Ameaçado
-    10. WiFi Ralph: Quebrando a Internet
-    11. Te Peguei!
-    12. The After Party
-    13. Mamma Mia! Lá Vamos Nós de Novo
-    14. Minha Garota para Sempre
-    15. Creed II
-    16. Johnny English 3.0
-    17. Um Lugar Silencioso
-    18. Green Book: O Guia
-    19. Os Incríveis 2
-    20. Tomb Raider: A Origem
-    21. Podres de Ricos
-    22. Hotel Transilvânia 3 - Férias Monstruosas
-    23. Rampage: Destruição Total
-    24. Arranha-Céu: Coragem Sem Limite
-    25. 100 coisas
-    26. Super Lopez
-    27. O Pacote
-    28. Bohemian Rhapsody
-    29. Robin Hood: A Origem
-    30. Tio Drew
-    31. Animais Fantásticos: Os Crimes de Grindelwald
-    32. Homem-Formiga e a Vespa
-    33. A.X.L.: O Cão Robô
-    34. Os Jovens Titãs em Ação! Nos Cinemas
-    35. Aquaman
-    36. Megatubarão
-    37. Venom
-    38. Bird Box
+            ", pt-br: "Hotel Transilvânia 3 - Férias Monstruosas"},
+            ", pt-br: "Rampage: Destruição Total"},
+            ", pt-br: "Arranha-Céu: Coragem Sem Limite"},
+            ", pt-br: "100 coisas"},
+            ", pt-br: "Super Lopez"},
+            ", pt-br: "O Pacote"},
+            ", pt-br: "Bohemian Rhapsody"},
+            ", pt-br: "Robin Hood: A Origem"},
+            ", pt-br: "Tio Drew"},
+            ", pt-br: "Animais Fantásticos: Os Crimes de Grindelwald"},
+            ", pt-br: "Homem-Formiga e a Vespa"},
+            ", pt-br: "A.X.L.: O Cão Robô"},
+            ", pt-br: "Os Jovens Titãs em Ação! Nos Cinemas"},
+            ", pt-br: "Aquaman"},
+            ", pt-br: "Megatubarão"},
+            ", pt-br: "Venom"},
+            ", pt-br: "Bird Box"},
 
 2017:
     01. Logan
