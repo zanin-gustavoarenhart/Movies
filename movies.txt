@@ -294,8 +294,13 @@ movies_list = [
             {or: "A Dog's Purpose", en: null, pt-br: "Quatro Vidas de um Cachorro"},
             {or: "Baby Driver", en: null, pt-br: "Em Ritmo de Fuga"},
             {or: "Baywatch", en: null, pt-br: "Baywatch: S.O.S. Malibu"},
+            {or: "Bright", en: null, pt-br: null},
+            {or: "Cars 3", en: null, pt-br: "Carros 3"},
+            {or: "Death Note", en: null, pt-br: null},
+            {or: "Despicable Me 3", en: null, pt-br: "Meu Malvado Favorito 3"},
             {or: "Dunkirk", en: null, pt-br: null},
             {or: "Guardians of the Galaxy Vol. 2", en: null, pt-br: "Guardiões da Galáxia Vol. 2"},
+            {or: "Hagane no renkinjutsushi", en: "Fullmetal Alchemist", pt-br: "Fullmetal Alchemist"},
             {or: "John Wick: Chapter 2", en: null, pt-br: "John Wick: Um Novo Dia para Matar"},
             {or: "Jumanji: Welcome to the Jungle", en: null, pt-br: "Jumanji: Bem-Vindo à Selva"},
             {or: "Justice League", en: null, pt-br: "Liga da Justiça"},
@@ -303,66 +308,65 @@ movies_list = [
             {or: "Kong: Skull Island", en: null, pt-br: "Kong: A Ilha da Caveira"},
             {or: "Logan", en: null, pt-br: null},
             {or: "Only the Brave", en: null, pt-br: "Homens de Coragem"},
+            {or: "Power Rangers", en: null, pt-br: null},
             {or: "Spider-Man: Homecoming", en: null, pt-br: "Homem-Aranha: De Volta ao Lar"},
             {or: "Star Wars: Episode VIII - The Last Jedi", en: null, pt-br: "Star Wars: Os Últimos Jedi"},
             {or: "The Boss Baby", en: null, pt-br: "O Poderoso Chefinho"},
+            {or: "The Fate of the Furious", en: null, pt-br: "Velozes & Furiosos 8"},
             {or: "The Lego Batman Movie", en: null, pt-br: "Lego Batman: O Filme"},
             {or: "The Upside", en: null, pt-br: "Amigos para Sempre"},
             {or: "Thor: Ragnarok", en: null, pt-br: null},
             {or: "Transformers: The Last Knight", en: null, pt-br: "Transformers: O Último Cavaleiro"},
             {or: "War for the Planet of the Apes", en: null, pt-br: "Planeta dos Macacos: A Guerra"},
+            {or: "Woody Woodpecker", en: null, pt-br: "Pica-Pau: O Filme"},
             {or: "Wonder Woman", en: null, pt-br: "Mulher-Maravilha"},
+        ]
+    },
+    {
+        year: 2016,
+        itens: [
+            {or: "Captain America: Civil War", en: null, pt-br: "Capitão América: Guerra Civil"},
+            {or: "Deadpool", en: null, pt-br: null},
+            {or: "Doctor Strange", en: null, pt-br: "Doutor Estranho"},
+            {or: "Hacksaw Ridge", en: null, pt-br: "Até o Último Homem"},
+            {or: "Kimi no na wa.", en: "Your Name.", pt-br: "Your Name"},
+            {or: "La La Land", en: null, pt-br: "La La Land: Cantando Estações"},
+            {or: "Mike and Dave Need Wedding Dates", en: null, pt-br: "Os Caça-Noivas"},
+            {or: "Why Him?", en: null, pt-br: "Tinha Que Ser Ele?"},
+            {or: "Zuttomaekara sukideshita.: Kokuhaku jikkou iinkai", en: "I Want to Let You Know That I Love You", pt-br: "Eu Sempre Amei Você"},
+        
+        
 
 
 
 
 
-
-            Despicable Me 3", pt-br: "Meu Malvado Favorito 3"},
-            Cars 3", pt-br: "Carros 3"},
-            Power Rangers", pt-br: null},
-            Bright", pt-br: null},
-            Woody Woodpecker", pt-br: "Pica-Pau: O Filme"},
-            ", pt-br: "Velozes & Furiosos 8"},
-            ", pt-br: "Death Note"},
-            ", pt-br: "Fullmetal Alchemist"},
-
-2016:
-    01. Your Name.
-    02. Eu Sempre Amei Você
-    03. Deadpool
-    04. Até o Último Homem
-    05. La La Land: Cantando Estações
-    06. Capitão América: Guerra Civil
-    07. Doutor Estranho
-    08. Os Caça-Noivas
-    09. Tinha Que Ser Ele?
-    10. Zootopia
-    11. X-Men: Apocalipse
-    12. Animais Fantásticos e Onde Habitam
-    13. Policial em Apuros 2
-    14. XOXO - A Vida é uma Festa
-    15. Um Gato de Rua Chamado Bob
-    16. Cães de Guerra
-    17. O Contador
-    18. Snowden: Herói ou Traidor
-    19. Truque de Mestre: O 2º Ato
-    20. Esquadrão Suicida
-    21. Kung Fu Panda 3
-    22. Angry Birds: O Filme
-    23. A Era do Gelo 5: O Big Bang
-    24. Vizinhos 2
-    25. Zerando a Vida
-    26. Como Eu Era Antes de Você
-    27. Tirando o Atraso
-    28. Um Espião e Meio
-    29. Alice Através do Espelho
-    30. Batman vs Superman: A Origem da Justiça
-    31. Fome de Poder
-    32. Maverick: Caçada no Brasil
-    33. Assassin's Creed
-    34. Warcraft: O Primeiro Encontro de Dois Mundos
-    35. Invasão Zumbi
+    ", pt-br: "Zootopia"},
+    ", pt-br: "X-Men: Apocalipse"},
+    ", pt-br: "Animais Fantásticos e Onde Habitam"},
+    ", pt-br: "Policial em Apuros 2"},
+    ", pt-br: "XOXO - A Vida é uma Festa"},
+    ", pt-br: "Um Gato de Rua Chamado Bob"},
+    ", pt-br: "Cães de Guerra"},
+    ", pt-br: "O Contador"},
+    ", pt-br: "Snowden: Herói ou Traidor"},
+    ", pt-br: "Truque de Mestre: O 2º Ato"},
+    ", pt-br: "Esquadrão Suicida"},
+    ", pt-br: "Kung Fu Panda 3"},
+    ", pt-br: "Angry Birds: O Filme"},
+    ", pt-br: "A Era do Gelo 5: O Big Bang"},
+    ", pt-br: "Vizinhos 2"},
+    ", pt-br: "Zerando a Vida"},
+    ", pt-br: "Como Eu Era Antes de Você"},
+    ", pt-br: "Tirando o Atraso"},
+    ", pt-br: "Um Espião e Meio"},
+    ", pt-br: "Alice Através do Espelho"},
+    ", pt-br: "Batman vs Superman: A Origem da Justiça"},
+    ", pt-br: "Fome de Poder"},
+    ", pt-br: "Maverick: Caçada no Brasil"},
+    ", pt-br: "Assassin's Creed"},
+    ", pt-br: "Warcraft: O Primeiro Encontro de Dois Mundos"},
+    ", pt-br: "Invasão Zumbi"},
 
 2015:
     01. Vingadores: Era de Ultron
