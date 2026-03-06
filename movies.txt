@@ -23,6 +23,7 @@ movies_list = [
             {or: "The Accountant 2", en: null, pt-br: "O Contador 2"},
             {or: "The Amateur", en: null, pt-br: "Operação Vingança"},
             {or: "The Fantastic Four: First Steps", en: null, pt-br: "Quarteto Fantástico: Primeiros Passos"},
+            {or: "The Housemaid", en: null, pt-br: "A Empregada"},
             {or: "The Naked Gun", en: null, pt-br: "Corra que a Polícia Vem Aí!"},
             {or: "The Roses", en: null, pt-br: "Os Roses: Até que a Morte os Separe"},
             {or: "Thunderbolts*", en: null, pt-br: null},
