@@ -421,48 +421,51 @@ movies_list = [
     {
         year: 2013,
         itens: [
-    01. O Lobo de Wall Street
-    02. O Grande Gatsby
-    03. Homem de Ferro 3
-    04. Questão de Tempo
-    05. Se Beber, Não Case! Parte III
-    06. Jobs
-    07. Jogada de Rei
-    08. Os Suspeitos
-    09. 12 Anos de Escravidão
-    10. Gente Grande 2
-    11. Velozes & Furiosos 6
-    12. Rush: No Limite da Emoção
-    13. Kick-Ass 2
-    14. Truque de Mestre
-    15. O Hobbit: A Desolação de Smaug
-    16. Meu Malvado Favorito 2
-    17. Percy Jackson e o Mar de Monstros
-    18. Thor: O Mundo Sombrio
-    19. Frozen: Uma Aventura Congelante
-    20. Os Estagiários
-
-2012:
-    01. The Avengers - Os Vingadores
-    02. Django Livre
-    03. O Espetacular Homem-Aranha
-    04. Projeto X: Uma Festa Fora de Controle
-    05. A Origem dos Guardiões
-    06. Batman - O Cavaleiro das Trevas Ressurge
-    07. Valente
-    08. A Era do Gelo 4
-    09. O Hobbit: Uma Jornada Inesperada
-    10. Anjos da Lei
-    11. Curvas da Vida
-    12. Detona Ralph
-    13. O Ditador
-    14. Madagascar 3: Os Procurados
-    15. Hotel Transilvânia
-    16. Ted
-    17. Este é o Meu Garoto
-    18. Um Homem de Sorte
-    19. As Mil Palavras
-    20. Poder Sem Limites
+            {or: "12 Years a Slave", en: null, pt-br: "12 Anos de Escravidão"},
+            {or: "About Time", en: null, pt-br: "Questão de Tempo"},
+            {or: "Despicable Me 2", en: null, pt-br: "Meu Malvado Favorito 2"},
+            {or: "Frozen", en: null, pt-br: "Frozen: Uma Aventura Congelante"},
+            {or: "Furious 6", en: "Fast & Furious 6", pt-br: "Velozes & Furiosos 6"},
+            {or: "Grown Ups 2", en: null, pt-br: "Gente Grande 2"},
+            {or: "Iron Man Three", en: "Iron Man 3", pt-br: "Homem de Ferro 3"},
+            {or: "Jobs", en: null, pt-br: null},
+            {or: "Kick-Ass 2", en: null, pt-br: null},
+            {or: "Life of a King", en: null, pt-br: "Jogada de Rei"},
+            {or: "Now You See Me", en: null, pt-br: "Truque de Mestre"},
+            {or: "Percy Jackson: Sea of Monsters", en: null, pt-br: "Percy Jackson e o Mar de Monstros"},
+            {or: "Prisoners", en: null, pt-br: "Os Suspeitos"},
+            {or: "Rush", en: null, pt-br: "Rush: No Limite da Emoção"},
+            {or: "The Great Gatsby", en: null, pt-br: "O Grande Gatsby"},
+            {or: "The Hangover Part III", en: null, pt-br: "Se Beber, Não Case! Parte III"},
+            {or: "The Hobbit: The Desolation of Smaug", en: null, pt-br: "O Hobbit: A Desolação de Smaug"},
+            {or: "The Internship", en: null, pt-br: "Os Estagiários"},
+            {or: "The Wolf of Wall Street", en: null, pt-br: "O Lobo de Wall Street"},
+            {or: "Thor: The Dark World", en: null, pt-br: "Thor: O Mundo Sombrio"},
+        ]
+    },
+    {
+        year: 2012,
+        itens: [
+            ", pt-br: "The Avengers - Os Vingadores"},
+            ", pt-br: "Django Livre"},
+            ", pt-br: "O Espetacular Homem-Aranha"},
+            ", pt-br: "Projeto X: Uma Festa Fora de Controle"},
+            ", pt-br: "A Origem dos Guardiões"},
+            ", pt-br: "Batman - O Cavaleiro das Trevas Ressurge"},
+            ", pt-br: "Valente"},
+            ", pt-br: "A Era do Gelo 4"},
+            ", pt-br: "O Hobbit: Uma Jornada Inesperada"},
+            ", pt-br: "Anjos da Lei"},
+            ", pt-br: "Curvas da Vida"},
+            ", pt-br: "Detona Ralph"},
+            ", pt-br: "O Ditador"},
+            ", pt-br: "Madagascar 3: Os Procurados"},
+            ", pt-br: "Hotel Transilvânia"},
+            ", pt-br: "Ted"},
+            ", pt-br: "Este é o Meu Garoto"},
+            ", pt-br: "Um Homem de Sorte"},
+            ", pt-br: "As Mil Palavras"},
+            ", pt-br: "Poder Sem Limites"},
 
 2011:
     01. Gigantes de Aço
