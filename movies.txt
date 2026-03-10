@@ -367,58 +367,60 @@ movies_list = [
         itens: [ 
             {or: "Ant-Man", en: null, pt-br: "Homem-Formiga"},
             {or: "Avengers: Age of Ultron", en: null, pt-br: "Vingadores: Era de Ultron"},
+            {or: "Creed", en: null, pt-br: "Creed: Nascido para Lutar"},
+            {or: "Fantastic Four", en: null, pt-br: "Quarteto Fantástico"},
             {or: "Fast & Furious 7", en: "Furious 7", pt-br: "Velozes & Furiosos 7"},
+            {or: "Get Hard", en: null, pt-br: "O Durão"},  
+            {or: "Hotel Transylvania 2", en: null, pt-br: "Hotel Transilvânia 2"},
+            {or: "Hot Tub Time Machine 2", en: null, pt-br: "A Ressaca 2"},
+            {or: "Jurassic World", en: null, pt-br: "Jurassic World: O Mundo dos Dinossauros"},
             {or: "Max", en: null, pt-br: "Max: O Cão Herói"},
+            {or: "Minions", en: null, pt-br: null},
+            {or: "San Andreas", en: null, pt-br: "Terremoto: A Falha de San Andreas"},
+            {or: "Star Wars: Episode VII - The Force Awakens", en: null, pt-br: "Star Wars: O Despertar da Força"},
+            {or: "Steve Jobs", en: null, pt-br: null},
+            {or: "Superfast!", en: null, pt-br: "Super Velozes, Mega Furiosos"},
+            {or: "Ted 2", en: null, pt-br: null},
+            {or: "The Big Short", en: null, pt-br: "A Grande Aposta"},
             {or: "The Hateful Eight", en: null, pt-br: "Os Oito Odiados"},
             {or: "The Martian", en: null, pt-br: "Perdido em Marte"},
-
-
-
-
-            ", pt-br: "Jurassic World: O Mundo dos Dinossauros"},
-            ", pt-br: "Creed: Nascido para Lutar"},
-            ", pt-br: "Star Wars: O Despertar da Força"},
-            ", pt-br: "Steve Jobs"},
-            ", pt-br: "Minions"},
-            ", pt-br: "Hotel Transilvânia 2"},
-            ", pt-br: "Ted 2"},
-            ", pt-br: "A Travessia"},
-            ", pt-br: "A Grande Aposta"},
-            ", pt-br: "O Durão"},   
-            ", pt-br: "Terremoto: A Falha de San Andreas"},
-            ", pt-br: "Quarteto Fantástico"},
-            ", pt-br: "A Ressaca 2"},
-            ", pt-br: "Super Velozes, Mega Furiosos"},
-
-2014:
-    01. Interestelar
-    02. Corações de Ferro
-    03. Need for Speed: O Filme
-    04. Como Treinar o Seu Dragão 2   
-    05. Operação Big Hero
-    06. O Espetacular Homem-Aranha 2: A Ameaça de Electro
-    07. O Jogo da Imitação
-    08. O Juiz
-    09. Guardiões da Galáxia
-    10. Kingsman: Serviço Secreto
-    11. De Volta ao Jogo
-    12. Anjos da Lei 2
-    13. Vizinhos
-    14. X-Men: Dias de um Futuro Esquecido
-    15. Capitão América 2 - O Soldado Invernal
-    16. O Hobbit: A Batalha dos Cinco Exércitos
-    17. O Apostador
-    18. Policial em Apuros
-    19. Os Pinguins de Madagascar
-    20. Transformers: A Era da Extinção
-    21. Planeta dos Macacos: O Confronto
-    22. Tiras, Só que Não
-    23. Rio 2
-    24. Uma Noite no Museu 3: O Segredo da Tumba
-    25. Malévola
-    26. Operação Invasão 2
-
-2013:
+            {or: "The Walk", en: null, pt-br: "A Travessia"}, 
+        ]
+    },
+    {
+        year: 2014,
+        itens: [ 
+            {or: "22 Jump Street", en: null, pt-br: "Anjos da Lei 2"}, 
+            {or: "Big Hero 6", en: null, pt-br: "Operação Big Hero"}, 
+            {or: "Captain America: The Winter Soldier", en: null, pt-br: "Capitão América 2 - O Soldado Invernal"}, 
+            {or: "Dawn of the Planet of the Apes", en: null, pt-br: "Planeta dos Macacos: O Confronto"}, 
+            {or: "Fury", en: null, pt-br: "Corações de Ferro"}, 
+            {or: "Guardians of the Galaxy", en: null, pt-br: "Guardiões da Galáxia"}, 
+            {or: "How to Train Your Dragon 2", en: null, pt-br: "Como Treinar o Seu Dragão 2"}, 
+            {or: "Interstellar", en: null, pt-br: "Interestelar"}, 
+            {or: "John Wick", en: null, pt-br: "De Volta ao Jogo"}, 
+            {or: "Kingsman: The Secret Service", en: null, pt-br: "Kingsman: Serviço Secreto"}, 
+            {or: "Let's Be Cops", en: null, pt-br: "Tiras, Só que Não"}, 
+            {or: "Maleficent", en: null, pt-br: "Malévola"}, 
+            {or: "Need for Speed", en: null, pt-br: "Need for Speed: O Filme"},
+            {or: "Neighbors", en: null, pt-br: "Vizinhos"}, 
+            {or: "Night at the Museum: Secret of the Tom", en: null, pt-br: "Uma Noite no Museu 3: O Segredo da Tumba"}, 
+            {or: "Penguins of Madagascar", en: null, pt-br: "Os Pinguins de Madagascar"}, 
+            {or: "Ride Along", en: null, pt-br: "Policial em Apuros"}, 
+            {or: "Rio 2", en: null, pt-br: null}, 
+            {or: "Serbuan maut 2: Berandal", en: "The Raid 2", pt-br: "Operação Invasão 2"}, 
+            {or: "The Amazing Spider-Man 2", en: null, pt-br: "O Espetacular Homem-Aranha 2: A Ameaça de Electro"}, 
+            {or: "The Gambler", en: null, pt-br: "O Apostador"}, 
+            {or: "The Hobbit: The Battle of the Five Armies", en: null, pt-br: "O Hobbit: A Batalha dos Cinco Exércitos"}, 
+            {or: "The Imitation Game", en: null, pt-br: "O Jogo da Imitação"}, 
+            {or: "The Judge", en: null, pt-br: "O Juiz"}, 
+            {or: "Transformers: Age of Extinction", en: null, pt-br: "Transformers: A Era da Extinção"}, 
+            {or: "X-Men: Days of Future Past", en: null, pt-br: "X-Men: Dias de um Futuro Esquecido"}, 
+        ]
+    },
+    {
+        year: 2013,
+        itens: [
     01. O Lobo de Wall Street
     02. O Grande Gatsby
     03. Homem de Ferro 3
