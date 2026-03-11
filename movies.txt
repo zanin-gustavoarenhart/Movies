@@ -446,51 +446,54 @@ movies_list = [
     {
         year: 2012,
         itens: [
-            ", pt-br: "The Avengers - Os Vingadores"},
-            ", pt-br: "Django Livre"},
-            ", pt-br: "O Espetacular Homem-Aranha"},
-            ", pt-br: "Projeto X: Uma Festa Fora de Controle"},
-            ", pt-br: "A Origem dos Guardiões"},
-            ", pt-br: "Batman - O Cavaleiro das Trevas Ressurge"},
-            ", pt-br: "Valente"},
-            ", pt-br: "A Era do Gelo 4"},
-            ", pt-br: "O Hobbit: Uma Jornada Inesperada"},
-            ", pt-br: "Anjos da Lei"},
-            ", pt-br: "Curvas da Vida"},
-            ", pt-br: "Detona Ralph"},
-            ", pt-br: "O Ditador"},
-            ", pt-br: "Madagascar 3: Os Procurados"},
-            ", pt-br: "Hotel Transilvânia"},
-            ", pt-br: "Ted"},
-            ", pt-br: "Este é o Meu Garoto"},
-            ", pt-br: "Um Homem de Sorte"},
-            ", pt-br: "As Mil Palavras"},
-            ", pt-br: "Poder Sem Limites"},
-
-2011:
-    01. Gigantes de Aço
-    02. Gato de Botas
-    03. Se Beber, Não Case! Parte II
-    04. Velozes & Furiosos 5: Operação Rio
-    05. Thor
-    06. X-Men: Primeira Classe
-    07. Planeta dos Macacos: A Origem
-    08. Capitão América: O Primeiro Vingador
-    09. Harry Potter e as Relíquias da Morte - Parte 2
-    10. Intocáveis
-    11. Amor a Toda Prova
-    12. Corajosos
-    13. O Retorno de Johnny English
-    14. Rio
-    15. Transformers: O Lado Oculto da Lua
-    16. O Morro dos Ventos Uivantes
-    17. O Preço do Amanhã
-    18. Sherlock Holmes: O Jogo de Sombras
-    19. Kung Fu Panda 2
-    20. Operação Invasão
-    21. Vovó... Zona 3: Tal Pai, Tal Filho
-    22. Carros 2
-    23. Os Padrinhos Mágicos: O Filme - Cresça, Timmy Turner!
+            {or: "21 Jump Street", en: null, pt-br: "Anjos da Lei"},
+            {or: "A Thousand Words", en: null, pt-br: "As Mil Palavras"},
+            {or: "Brave", en: null, pt-br: "Valente"},
+            {or: "Chronicle", en: null, pt-br: "Poder Sem Limites"},
+            {or: "Django Unchained", en: null, pt-br: "Django Livre"},
+            {or: "Hotel Transylvania", en: null, pt-br: "Hotel Transilvânia"},
+            {or: "Ice Age: Continental Drift", en: null, pt-br: "A Era do Gelo 4"},
+            {or: "Madagascar 3: Europe's Most Wanted", en: null, pt-br: "Madagascar 3: Os Procurados"},
+            {or: "Project X", en: null, pt-br: "Projeto X: Uma Festa Fora de Controle"},
+            {or: "Rise of the Guardians", en: null, pt-br: "A Origem dos Guardiões"},
+            {or: "Ted", en: null, pt-br: null},
+            {or: "That's My Boy", en: null, pt-br: "Este é o Meu Garoto"},
+            {or: "The Amazing Spider-Man", en: null, pt-br: "O Espetacular Homem-Aranha"},
+            {or: "The Avengers", en: null, pt-br: "The Avengers - Os Vingadores"},
+            {or: "The Dark Knight Rises", en: null, pt-br: "Batman - O Cavaleiro das Trevas Ressurge"},
+            {or: "The Dictator", en: null, pt-br: "O Ditador"},
+            {or: "The Hobbit: An Unexpected Journey", en: null, pt-br: "O Hobbit: Uma Jornada Inesperada"},
+            {or: "The Lucky One", en: null, pt-br: "Um Homem de Sorte"},
+            {or: "Trouble with the Curve", en: null, pt-br: "Curvas da Vida"},
+            {or: "Wreck-It Ralph", en: null, pt-br: "Detona Ralph"},
+        ]
+    },
+    {
+        year: 2011,
+        itens: [
+            ", pt-br: "Gigantes de Aço"},
+            ", pt-br: "Gato de Botas"},
+            ", pt-br: "Se Beber, Não Case! Parte II"},
+            ", pt-br: "Velozes & Furiosos 5: Operação Rio"},
+            ", pt-br: "Thor"},
+            ", pt-br: "X-Men: Primeira Classe"},
+            ", pt-br: "Planeta dos Macacos: A Origem"},
+            ", pt-br: "Capitão América: O Primeiro Vingador"},
+            ", pt-br: "Harry Potter e as Relíquias da Morte - Parte 2"},
+            ", pt-br: "Intocáveis"},
+            ", pt-br: "Amor a Toda Prova"},
+            ", pt-br: "Corajosos"},
+            ", pt-br: "O Retorno de Johnny English"},
+            ", pt-br: "Rio"},
+            ", pt-br: "Transformers: O Lado Oculto da Lua"},
+            ", pt-br: "O Morro dos Ventos Uivantes"},
+            ", pt-br: "O Preço do Amanhã"},
+            ", pt-br: "Sherlock Holmes: O Jogo de Sombras"},
+            ", pt-br: "Kung Fu Panda 2"},
+            ", pt-br: "Operação Invasão"},
+            ", pt-br: "Vovó... Zona 3: Tal Pai, Tal Filho"},
+            ", pt-br: "Carros 2"},
+            ", pt-br: "Os Padrinhos Mágicos: O Filme - Cresça, Timmy Turner!"},
 
 2010:
     01. A Rede Social
