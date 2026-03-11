@@ -529,28 +529,29 @@ movies_list = [
     {
         year: 2009,
         itens: [
-2009:
-    01. Avatar
-    02. Velozes & Furiosos 4
-    03. Sempre ao Seu Lado
-    04. Bastardos Inglórios
-    05. Watchmen: O Filme
-    06. Se Beber, Não Case!
-    07. Up: Altas Aventuras
-    08. X-Men Origens: Wolverine
-    09. Entre Irmãos
-    10. Sherlock Holmes
-    11. Harry Potter e o Enigma do Príncipe
-    12. Transformers: A Vingança dos Derrotados
-    13. A Era do Gelo 3
-    14. Força-G
-    15. Ben 10: Invasão Alienígena
-    16. Alvin e os Esquilos 2
-    17. Segurança de Shopping
-    18. Uma Noite no Museu 2
-    19. Coraline e o Mundo Secreto
-    20. 2012
-    21. Zumbilândia
+            {or: "Avatar", en: null, pt-br: null},
+            {or: "Fast & Furious", en: null, pt-br: "Velozes & Furiosos 4"},
+            {or: "Hachi: A Dog's Tale", en: null, pt-br: "Sempre ao Seu Lado"},
+            {or: "Inglourious Basterds", en: null, pt-br: "Bastardos Inglórios"},
+            {or: "The Hangover", en: null, pt-br: "Se Beber, Não Case!"},
+            {or: "Up", en: null, pt-br: "Up: Altas Aventuras"},
+            {or: "Watchmen", en: null, pt-br: "Watchmen: O Filme"},
+
+
+            ", pt-br: "X-Men Origens: Wolverine"},
+            ", pt-br: "Entre Irmãos"},
+            ", pt-br: "Sherlock Holmes"},
+            ", pt-br: "Harry Potter e o Enigma do Príncipe"},
+            ", pt-br: "Transformers: A Vingança dos Derrotados"},
+            ", pt-br: "A Era do Gelo 3"},
+            ", pt-br: "Força-G"},
+            ", pt-br: "Ben 10: Invasão Alienígena"},
+            ", pt-br: "Alvin e os Esquilos 2"},
+            ", pt-br: "Segurança de Shopping"},
+            ", pt-br: "Uma Noite no Museu 2"},
+            ", pt-br: "Coraline e o Mundo Secreto"},
+            ", pt-br: "2012"},
+            ", pt-br: "Zumbilândia"},
     
 2008:
     01. Kung Fu Panda
