@@ -440,6 +440,7 @@ movies_list = [
             {or: "The Hobbit: The Desolation of Smaug", en: null, pt-br: "O Hobbit: A Desolação de Smaug"},
             {or: "The Internship", en: null, pt-br: "Os Estagiários"},
             {or: "The Wolf of Wall Street", en: null, pt-br: "O Lobo de Wall Street"},
+            {or: "The Wolverine", en: null, pt-br: "Wolverine: Imortal"},
             {or: "Thor: The Dark World", en: null, pt-br: "Thor: O Mundo Sombrio"},
         ]
     },
@@ -448,6 +449,7 @@ movies_list = [
         itens: [
             {or: "21 Jump Street", en: null, pt-br: "Anjos da Lei"},
             {or: "A Thousand Words", en: null, pt-br: "As Mil Palavras"},
+            {or: "Beverly Hills Chihuahua 3: Viva La Fiesta!", en: null, pt-br: "Perdido Pra Cachorro 3"},
             {or: "Brave", en: null, pt-br: "Valente"},
             {or: "Chronicle", en: null, pt-br: "Poder Sem Limites"},
             {or: "Django Unchained", en: null, pt-br: "Django Livre"},
@@ -471,10 +473,11 @@ movies_list = [
     {
         year: 2011,
         itens: [
-            {or: "A Fairly Odd Movie: Grow Up, Timmy Turner!", pt-br: "Os Padrinhos Mágicos: O Filme - Cresça, Timmy Turner!"},
-            {or: "Big Mommas: Like Father, Like Son", pt-br: "Vovó... Zona 3: Tal Pai, Tal Filho"},
+            {or: "A Fairly Odd Movie: Grow Up, Timmy Turner!", en: null, pt-br: "Os Padrinhos Mágicos: O Filme - Cresça, Timmy Turner!"},
+            {or: "Beverly Hills Chihuahua 2", en: null, pt-br: "Perdido Pra Cachorro 2"},
+            {or: "Big Mommas: Like Father, Like Son", en: nullpt-br: "Vovó... Zona 3: Tal Pai, Tal Filho"},
             {or: "Captain America: The First Avenger", en: null, pt-br: "Capitão América: O Primeiro Vingador"},
-            {or: "Cars 2", pt-br: "Carros 2"},
+            {or: "Cars 2", en: null, pt-br: "Carros 2"},
             {or: "Courageous", en: null, pt-br: "Corajosos"},
             {or: "Crazy, Stupid, Love.", en: null, pt-br: "Amor a Toda Prova"},
             {or: "Diary of a Wimpy Kid: Rodrick Rules", en: null, pt-br: "Diário de um Banana 2: Rodrick é o Cara"},
@@ -529,48 +532,49 @@ movies_list = [
     {
         year: 2009,
         itens: [
+            {or: "2012", en: null, pt-br: null},
+            {or: "Alvin and the Chipmunks: The Squeakquel", en: null, pt-br: "Alvin e os Esquilos 2"},
             {or: "Avatar", en: null, pt-br: null},
+            {or: "Ben 10: Alien Swarm", en: null, pt-br: "Ben 10: Invasão Alienígena"},
+            {or: "Brothers", en: null, pt-br: "Entre Irmãos"},
+            {or: "Coraline", en: null, pt-br: "Coraline e o Mundo Secreto"},
             {or: "Fast & Furious", en: null, pt-br: "Velozes & Furiosos 4"},
+            {or: "G-Force", en: null, pt-br: "Força-G"},
             {or: "Hachi: A Dog's Tale", en: null, pt-br: "Sempre ao Seu Lado"},
+            {or: "Harry Potter and the Half-Blood Prince", en: null, pt-br: "Harry Potter e o Enigma do Príncipe"},
+            {or: "Ice Age: Dawn of the Dinosaurs", en: null, pt-br: "A Era do Gelo 3"},
             {or: "Inglourious Basterds", en: null, pt-br: "Bastardos Inglórios"},
+            {or: "Night at the Museum: Battle of the Smithsonian", en: null, pt-br: "Uma Noite no Museu 2"},
+            {or: "Paul Blart: Mall Cop", en: null, pt-br: "Segurança de Shopping"},
+            {or: "Sherlock Holmes", en: null, pt-br: null},
             {or: "The Hangover", en: null, pt-br: "Se Beber, Não Case!"},
+            {or: "Transformers: Revenge of the Fallen", en: null, pt-br: "Transformers: A Vingança dos Derrotados"},
             {or: "Up", en: null, pt-br: "Up: Altas Aventuras"},
             {or: "Watchmen", en: null, pt-br: "Watchmen: O Filme"},
-
-
-            ", pt-br: "X-Men Origens: Wolverine"},
-            ", pt-br: "Entre Irmãos"},
-            ", pt-br: "Sherlock Holmes"},
-            ", pt-br: "Harry Potter e o Enigma do Príncipe"},
-            ", pt-br: "Transformers: A Vingança dos Derrotados"},
-            ", pt-br: "A Era do Gelo 3"},
-            ", pt-br: "Força-G"},
-            ", pt-br: "Ben 10: Invasão Alienígena"},
-            ", pt-br: "Alvin e os Esquilos 2"},
-            ", pt-br: "Segurança de Shopping"},
-            ", pt-br: "Uma Noite no Museu 2"},
-            ", pt-br: "Coraline e o Mundo Secreto"},
-            ", pt-br: "2012"},
-            ", pt-br: "Zumbilândia"},
-    
-2008:
-    01. Kung Fu Panda
-    02. Super-Herói: O Filme
-    03. Homem de Ferro
-    04. Batman - O Cavaleiro das Trevas
-    05. Perdido pra Cachorro
-    06. Hancock
-    07. O Incrível Hulk
-    08. Bolt: Supercão
-    09. Sim Senhor
-    10. Quebrando a Banca
-    11. Mamma Mia! O Filme
-    12. WALL·E
-    13. As Crônicas de Nárnia: Príncipe Caspian
-    14. Madagascar 2: A Grande Escapada
-    15. Madrugada Muito Louca 2
-    16. O Menino do Pijama Listrado
-    17. Speed Racer
+            {or: "X-Men Origins: Wolverine", en: null, pt-br: "X-Men Origens: Wolverine"},
+            {or: "Zombieland", en: null, pt-br: "Zumbilândia"},
+        ]
+    },
+    {
+        year: 2008,
+        itens: [
+            Kung Fu Panda", pt-br: null},
+            Superhero Movie", pt-br: "Super-Herói: O Filme"},
+            Iron Man", pt-br: "Homem de Ferro"},
+            The Dark Knight", pt-br: "Batman - O Cavaleiro das Trevas"},
+            Beverly Hills Chihuahua", pt-br: "Perdido pra Cachorro"},
+            ", pt-br: "Hancock"},
+            ", pt-br: "O Incrível Hulk"},
+            ", pt-br: "Bolt: Supercão"},
+            ", pt-br: "Sim Senhor"},
+            ", pt-br: "Quebrando a Banca"},
+            ", pt-br: "Mamma Mia! O Filme"},
+            ", pt-br: "WALL·E"},
+            ", pt-br: "As Crônicas de Nárnia: Príncipe Caspian"},
+            ", pt-br: "Madagascar 2: A Grande Escapada"},
+            ", pt-br: "Madrugada Muito Louca 2"},
+            ", pt-br: "O Menino do Pijama Listrado"},
+            ", pt-br: "Speed Racer"},
 
 2007:
     01. Os Simpsons: O Filme
