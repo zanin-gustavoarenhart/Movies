@@ -501,14 +501,18 @@ movies_list = [
         itens: [
             {or: "Alice in Wonderland", en: null, pt-br: "Alice no País das Maravilhas"},
             {or: "Despicable Me", en: null, pt-br: "Meu Malvado Favorito"},
+            {or: "Diary of a Wimpy Kid", en: null, pt-br: "Diário de um Banana"},
             {or: "Flipped", en: null, pt-br: "O Primeiro Amor"},
             {or: "Grown Ups", en: null, pt-br: "Gente Grande"},
             {or: "Harry Potter and the Deathly Hallows: Part 1", en: null, pt-br: "Harry Potter e as Relíquias da Morte - Parte 1"},
+            {or: "Hot Tub Time Machine", en: null, pt-br: "A Ressaca"},
             {or: "How to Train Your Dragon", en: null, pt-br: "Como Treinar o Seu Dragão"},
             {or: "Iron Man 2", en: null, pt-br: "Homem de Ferro 2"},
             {or: "Kick-Ass", en: null, pt-br: "Kick-Ass - Quebrando Tudo"},
             {or: "Love & Other Drugs", en: null, pt-br: "Amor e Outras Drogas"},
+            {or: "Marmaduke", en: null, pt-br: null},
             {or: "Megamind", en: null, pt-br: "Megamente"},
+            {or: "My Babysitter's a Vampire", en: null, pt-br: "Minha Babá é Uma Vampira - O Filme"},
             {or: "Percy Jackson & the Olympians: The Lightning Thief", en: null, pt-br: "Percy Jackson e o Ladrão de Raios"},
             {or: "Scott Pilgrim vs. the World", en: null, pt-br: "Scott Pilgrim Contra o Mundo"},
             {or: "Shrek Forever After", en: null, pt-br: "Shrek Para Sempre"},
@@ -519,13 +523,11 @@ movies_list = [
             {or: "Tooth Fairy", en: null, pt-br: "O Fada do Dente"},
             {or: "Toy Story 3", en: null, pt-br: null},
             {or: "Tropa de Elite 2: O Inimigo Agora é Outro", en: "Elite Squad 2: The Enemy Within", pt-br: null},
-
-
-            Hot Tub Time Machine", pt-br: "A Ressaca"},
-            My Babysitter's a Vampire", pt-br: "Minha Babá é Uma Vampira - O Filme"},
-            ", pt-br: "Marmaduke"},
-            ", pt-br: "Diário de um Banana"},
-
+        ]
+    },
+    {
+        year: 2009,
+        itens: [
 2009:
     01. Avatar
     02. Velozes & Furiosos 4
