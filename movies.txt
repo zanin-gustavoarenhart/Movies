@@ -499,6 +499,7 @@ movies_list = [
     {
         year: 2010,
         itens: [
+            {or: "Despicable Me", en: null, pt-br: "Meu Malvado Favorito"},
             {or: "Flipped", en: null, pt-br: "O Primeiro Amor"},
             {or: "Grown Ups", en: null, pt-br: "Gente Grande"},
             {or: "Harry Potter and the Deathly Hallows: Part 1", en: null, pt-br: "Harry Potter e as Relíquias da Morte - Parte 1"},
@@ -506,18 +507,17 @@ movies_list = [
             {or: "Iron Man 2", en: null, pt-br: "Homem de Ferro 2"},
             {or: "Kick-Ass", en: null, pt-br: "Kick-Ass - Quebrando Tudo"},
             {or: "Love & Other Drugs", en: null, pt-br: "Amor e Outras Drogas"},
+            {or: "Megamind", en: null, pt-br: "Megamente"},
+            {or: "Percy Jackson & the Olympians: The Lightning Thief", en: null, pt-br: "Percy Jackson e o Ladrão de Raios"},
             {or: "Scott Pilgrim vs. the World", en: null, pt-br: "Scott Pilgrim Contra o Mundo"},
+            {or: "Shrek Forever After", en: null, pt-br: "Shrek Para Sempre"},
+            {or: "The Chronicles of Narnia: The Voyage of the Dawn Treader", en: null, pt-br: "As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada"},
             {or: "The Karate Kid", en: null, pt-br: "Karatê Kid"},
             {or: "The Social Network", en: null, pt-br: "A Rede Social"},
+            {or: "Toy Story 3", en: null, pt-br: null},
 
 
 
-            ", pt-br: "Shrek Para Sempre"},
-            ", pt-br: "Percy Jackson e o Ladrão de Raios"},
-            ", pt-br: "Meu Malvado Favorito"},
-            ", pt-br: "Megamente"},
-            ", pt-br: "As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada"},
-            ", pt-br: "Toy Story 3"},
             ", pt-br: "Enrolados"},
             ", pt-br: "Alice no País das Maravilhas"},
             ", pt-br: "O Fada do Dente"},
