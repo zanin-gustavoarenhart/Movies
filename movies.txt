@@ -477,6 +477,7 @@ movies_list = [
             {or: "Cars 2", pt-br: "Carros 2"},
             {or: "Courageous", en: null, pt-br: "Corajosos"},
             {or: "Crazy, Stupid, Love.", en: null, pt-br: "Amor a Toda Prova"},
+            {or: "Diary of a Wimpy Kid: Rodrick Rules", en: null, pt-br: "Diário de um Banana 2: Rodrick é o Cara"},
             {or: "Fast Five", en: null, pt-br: "Velozes & Furiosos 5: Operação Rio"},
             {or: "Harry Potter and the Deathly Hallows: Part 2", en: null, pt-br: "Harry Potter e as Relíquias da Morte - Parte 2"},
             {or: "In Time", en: null, pt-br: "O Preço do Amanhã"},
