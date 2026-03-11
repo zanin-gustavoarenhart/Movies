@@ -499,16 +499,19 @@ movies_list = [
     {
         year: 2010,
         itens: [
-            ", pt-br: "A Rede Social"},
-            ", pt-br: "Como Treinar o Seu Dragão"},
-            ", pt-br: "Homem de Ferro 2"},
-            ", pt-br: "Karatê Kid"},
-            ", pt-br: "Gente Grande"},
-            ", pt-br: "Kick-Ass - Quebrando Tudo"},
-            ", pt-br: "Scott Pilgrim Contra o Mundo"},
-            ", pt-br: "O Primeiro Amor"},
-            ", pt-br: "Harry Potter e as Relíquias da Morte - Parte 1"},
-            ", pt-br: "Amor e Outras Drogas"},
+            {or: "Flipped", en: null, pt-br: "O Primeiro Amor"},
+            {or: "Grown Ups", en: null, pt-br: "Gente Grande"},
+            {or: "Harry Potter and the Deathly Hallows: Part 1", en: null, pt-br: "Harry Potter e as Relíquias da Morte - Parte 1"},
+            {or: "How to Train Your Dragon", en: null, pt-br: "Como Treinar o Seu Dragão"},
+            {or: "Iron Man 2", en: null, pt-br: "Homem de Ferro 2"},
+            {or: "Kick-Ass", en: null, pt-br: "Kick-Ass - Quebrando Tudo"},
+            {or: "Love & Other Drugs", en: null, pt-br: "Amor e Outras Drogas"},
+            {or: "Scott Pilgrim vs. the World", en: null, pt-br: "Scott Pilgrim Contra o Mundo"},
+            {or: "The Karate Kid", en: null, pt-br: "Karatê Kid"},
+            {or: "The Social Network", en: null, pt-br: "A Rede Social"},
+
+
+
             ", pt-br: "Shrek Para Sempre"},
             ", pt-br: "Percy Jackson e o Ladrão de Raios"},
             ", pt-br: "Meu Malvado Favorito"},
