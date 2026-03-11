@@ -580,54 +580,51 @@ movies_list = [
     {
         year: 2007,
         itens: [
+            {or: "Alvin and the Chipmunks", en: null, pt-br: "Alvin e os Esquilos"},
+            {or: "Bee Movie", en: null, pt-br: "Bee Movie: A História de uma Abelha"},
+            {or: "Ben 10: Race Against Time", en: null, pt-br: "Ben 10: Corrida Contra o Tempo"},
             {or: "Fantastic Four: Rise of the Silver Surfer", en: null, pt-br: "Quarteto Fantástico e o Surfista Prateado"},
+            {or: "Harry Potter and the Order of the Phoenix", en: null, pt-br: "Harry Potter e a Ordem da Fênix"},
+            {or: "I Am Legend", en: null, pt-br: "Eu Sou a Lenda"},
             {or: "No Country for Old Men", en: null, pt-br: "Onde os Fracos Não Têm Vez"},
+            {or: "No Reservations", en: null, pt-br: "Sem Reservas"},
+            {or: "Northanger Abbey", en: null, pt-br: "A Abadia de Northanger"},
             {or: "Ratatouille", en: null, pt-br: null},
             {or: "Rush Hour 3", en: null, pt-br: "A Hora do Rush 3"},
+            {or: "Shrek the Third", en: null, pt-br: "Shrek Terceiro"},
             {or: "Spider-Man 3", en: null, pt-br: "Homem-Aranha 3"},
             {or: "The Game Plan", en: null, pt-br: "Treinando o Papai"},
             {or: "The Simpsons Movie", en: null, pt-br: "Os Simpsons: O Filme"},
             {or: "Transformers", en: null, pt-br: null},
+            {or: "Tropa de Elite", en: "Elite Squad", pt-br: null},
+        ]
+    },
+    {
+        year: 2006,
+        itens: [
+            Velozes & Furiosos: Desafio em Tóquio"},
+            Zoom - Academia de Super-Heróis"},
+            Menores Desacompanhados"},
+            Garfield 2"},
+            Carros"},
+            A Era do Gelo 2"},
+            Uma Noite no Museu"},
+            O Diabo Veste Prada"},
+            Diamante de Sangue"},
+            X-Men: O Confronto Final"},
+            O Código Da Vinci"},
+            Happy Feet - O Pinguim"},
+            Os Sem-Floresta"},
+            O Bicho Vai Pegar"},
+            Vovó... Zona 2"},
+            O Segredo dos Animais"},
+            Wendy Wu: A Garota Kung Fu"},
+            A Casa Monstro"},
+            Lucas: Um Intruso no Formigueiro"},
 
 
-            ", pt-br: "Sem Reservas"},
-            ", pt-br: "Harry Potter e a Ordem da Fênix"},
-            ", pt-br: "A Abadia de Northanger"},
-            ", pt-br: "Shrek Terceiro"},
-            ", pt-br: "Bee Movie: A História de uma Abelha"},
-            ", pt-br: "Ponte para Terabítia"},
-            ", pt-br: "Ben 10: Corrida Contra o Tempo"},
-            ", pt-br: "A Família do Futuro"},
-            ", pt-br: "Alvin e os Esquilos"},
-            ", pt-br: "Tropa de Elite"},
-            ", pt-br: "Eu Sou a Lenda"},
 
 
-
-
-
-
-
-2006:
-    01. Velozes & Furiosos: Desafio em Tóquio
-    02. Zoom - Academia de Super-Heróis
-    03. Menores Desacompanhados
-    04. Garfield 2
-    05. Carros
-    06. A Era do Gelo 2
-    07. Uma Noite no Museu
-    08. O Diabo Veste Prada
-    09. Diamante de Sangue
-    10. X-Men: O Confronto Final
-    11. O Código Da Vinci
-    12. Happy Feet - O Pinguim
-    13. Os Sem-Floresta
-    14. O Bicho Vai Pegar
-    15. Vovó... Zona 2
-    16. O Segredo dos Animais
-    17. Wendy Wu: A Garota Kung Fu
-    18. A Casa Monstro
-    19. Lucas: Um Intruso no Formigueiro
 
 2005:
     01. Orgulho & Preconceito
