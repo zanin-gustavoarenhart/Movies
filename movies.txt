@@ -471,55 +471,58 @@ movies_list = [
     {
         year: 2011,
         itens: [
-            ", pt-br: "Gigantes de Aço"},
-            ", pt-br: "Gato de Botas"},
-            ", pt-br: "Se Beber, Não Case! Parte II"},
-            ", pt-br: "Velozes & Furiosos 5: Operação Rio"},
-            ", pt-br: "Thor"},
-            ", pt-br: "X-Men: Primeira Classe"},
-            ", pt-br: "Planeta dos Macacos: A Origem"},
-            ", pt-br: "Capitão América: O Primeiro Vingador"},
-            ", pt-br: "Harry Potter e as Relíquias da Morte - Parte 2"},
-            ", pt-br: "Intocáveis"},
-            ", pt-br: "Amor a Toda Prova"},
-            ", pt-br: "Corajosos"},
-            ", pt-br: "O Retorno de Johnny English"},
-            ", pt-br: "Rio"},
-            ", pt-br: "Transformers: O Lado Oculto da Lua"},
-            ", pt-br: "O Morro dos Ventos Uivantes"},
-            ", pt-br: "O Preço do Amanhã"},
-            ", pt-br: "Sherlock Holmes: O Jogo de Sombras"},
-            ", pt-br: "Kung Fu Panda 2"},
-            ", pt-br: "Operação Invasão"},
-            ", pt-br: "Vovó... Zona 3: Tal Pai, Tal Filho"},
-            ", pt-br: "Carros 2"},
-            ", pt-br: "Os Padrinhos Mágicos: O Filme - Cresça, Timmy Turner!"},
-
-2010:
-    01. A Rede Social
-    02. Como Treinar o Seu Dragão
-    03. Homem de Ferro 2
-    04. Karatê Kid
-    05. Gente Grande
-    06. Kick-Ass - Quebrando Tudo
-    07. Scott Pilgrim Contra o Mundo
-    08. O Primeiro Amor
-    09. Harry Potter e as Relíquias da Morte - Parte 1
-    10. Amor e Outras Drogas
-    11. Shrek Para Sempre
-    12. Percy Jackson e o Ladrão de Raios
-    13. Meu Malvado Favorito
-    14. Megamente
-    15. As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada
-    16. Toy Story 3
-    17. Enrolados 
-    18. Alice no País das Maravilhas 
-    19. O Fada do Dente
-    20. Tropa de Elite 2: O Inimigo Agora é Outro
-    21. A Ressaca
-    22. Minha Babá é Uma Vampira - O Filme
-    23. Marmaduke
-    24. Diário de um Banana
+            {or: "A Fairly Odd Movie: Grow Up, Timmy Turner!", pt-br: "Os Padrinhos Mágicos: O Filme - Cresça, Timmy Turner!"},
+            {or: "Big Mommas: Like Father, Like Son", pt-br: "Vovó... Zona 3: Tal Pai, Tal Filho"},
+            {or: "Captain America: The First Avenger", en: null, pt-br: "Capitão América: O Primeiro Vingador"},
+            {or: "Cars 2", pt-br: "Carros 2"},
+            {or: "Courageous", en: null, pt-br: "Corajosos"},
+            {or: "Crazy, Stupid, Love.", en: null, pt-br: "Amor a Toda Prova"},
+            {or: "Fast Five", en: null, pt-br: "Velozes & Furiosos 5: Operação Rio"},
+            {or: "Harry Potter and the Deathly Hallows: Part 2", en: null, pt-br: "Harry Potter e as Relíquias da Morte - Parte 2"},
+            {or: "In Time", en: null, pt-br: "O Preço do Amanhã"},
+            {or: "Intouchables", en: null, pt-br: "Intocáveis"},
+            {or: "Johnny English Reborn", en: null, pt-br: "O Retorno de Johnny English"},
+            {or: "Kung Fu Panda 2", en: null, pt-br: null},
+            {or: "Puss in Boots", en: null, pt-br: "Gato de Botas"},
+            {or: "Real Steel", en: null, pt-br: "Gigantes de Aço"},
+            {or: "Rio", en: null, pt-br: null},
+            {or: "Rise of the Planet of the Apes", en: null, pt-br: "Planeta dos Macacos: A Origem"},
+            {or: "Serbuan maut", en: "The Raid: Redemption", pt-br: "Operação Invasão"},
+            {or: "Sherlock Holmes: A Game of Shadows", en: null, pt-br: "Sherlock Holmes: O Jogo de Sombras"},
+            {or: "The Hangover Part II", en: null, pt-br: "Se Beber, Não Case! Parte II"},
+            {or: "Thor", en: null, pt-br: null},
+            {or: "Transformers: Dark of the Moon", en: null, pt-br: "Transformers: O Lado Oculto da Lua"},
+            {or: "Wuthering Heights", en: null, pt-br: "O Morro dos Ventos Uivantes"},
+            {or: "X: First Class", en: "X-Men: First Class", pt-br: "X-Men: Primeira Classe"},
+        ]
+    },
+    {
+        year: 2010,
+        itens: [
+            ", pt-br: "A Rede Social"},
+            ", pt-br: "Como Treinar o Seu Dragão"},
+            ", pt-br: "Homem de Ferro 2"},
+            ", pt-br: "Karatê Kid"},
+            ", pt-br: "Gente Grande"},
+            ", pt-br: "Kick-Ass - Quebrando Tudo"},
+            ", pt-br: "Scott Pilgrim Contra o Mundo"},
+            ", pt-br: "O Primeiro Amor"},
+            ", pt-br: "Harry Potter e as Relíquias da Morte - Parte 1"},
+            ", pt-br: "Amor e Outras Drogas"},
+            ", pt-br: "Shrek Para Sempre"},
+            ", pt-br: "Percy Jackson e o Ladrão de Raios"},
+            ", pt-br: "Meu Malvado Favorito"},
+            ", pt-br: "Megamente"},
+            ", pt-br: "As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada"},
+            ", pt-br: "Toy Story 3"},
+            ", pt-br: "Enrolados"},
+            ", pt-br: "Alice no País das Maravilhas"},
+            ", pt-br: "O Fada do Dente"},
+            ", pt-br: "Tropa de Elite 2: O Inimigo Agora é Outro"},
+            ", pt-br: "A Ressaca"},
+            ", pt-br: "Minha Babá é Uma Vampira - O Filme"},
+            ", pt-br: "Marmaduke"},
+            ", pt-br: "Diário de um Banana"},
 
 2009:
     01. Avatar
