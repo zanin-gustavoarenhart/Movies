@@ -14,6 +14,7 @@ movies_list = [
             {or: "Karate Kid: Legends", en: null, pt-br: "Karatê Kid: Lendas"},
             {or: "K-Pop Demon Hunters", en: "KPop Demon Hunters", pt-br: "Guerreiras do K-Pop"},
             {or: "Lilo & Stitch", en: null, pt-br: null},
+            {or: "Marty Supreme", en: null, pt-br: null},
             {or: "Now You See Me: Now You Don't", en: null, pt-br: "Truque de Mestre: O 3° Ato"},
             {or: "Regretting You", en: null, pt-br: "Se Não Fosse Você"},
             {or: "Roofman", en: null, pt-br: "O Bom Bandido"},
