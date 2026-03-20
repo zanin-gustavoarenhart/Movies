@@ -696,39 +696,59 @@ movies_list = [
     {
         year: 2001,
         itens: [
-    ", pt-br: "Moulin Rouge: Amor em Vermelho"},
-    ", pt-br: "Velozes & Furiosos"},
-    ", pt-br: "A Hora do Rush 2"},
-    ", pt-br: "Shrek"},
-    ", pt-br: "O Senhor dos Anéis: A Sociedade do Anel"},
-    ", pt-br: "Monstros S.A."},
-    ", pt-br: "Harry Potter e a Pedra Filosofal"},
-
-2000:
-    01. Gladiador
-    02. Encontrando Forrester
-    03. Náufrago
-    04. Vovó... Zona
-
-1999:
-    01. Clube da Luta
-    02. À Espera de um Milagre
-    03. Dogma
-    04. Toy Story 2
-    05. O Pequeno Stuart Little
-
-1998:
-    01. O Resgate do Soldado Ryan
-    02. A Hora do Rush
-    03. Operação Cupido
-    04. Vida de Inseto
-
-1997:
-    01. Advogado do Diabo
-
-1996:
-    01. Matilda
-    02. Space Jam: O Jogo do Século
-
-1995:
-    01. Toy Story
+            {or: "Harry Potter and the Sorcerer's Stone", en: null, pt-br: "Harry Potter e a Pedra Filosofal"},
+            {or: "Monsters, Inc.", en: null, pt-br: "Monstros S.A."},
+            {or: "Moulin Rouge!", en: null, pt-br: "Moulin Rouge: Amor em Vermelho"},
+            {or: "Rush Hour 2", en: null, pt-br: "A Hora do Rush 2"},
+            {or: "Shrek", en: null, pt-br: null},
+            {or: "The Fast and the Furious", en: null, pt-br: "Velozes & Furiosos"},
+            {or: "The Lord of the Rings: The Fellowship of the Ring", en: null, pt-br: "O Senhor dos Anéis: A Sociedade do Anel"},
+        ]
+    },
+    {
+        year: 2000,
+        itens: [
+            {or: "Big Momma's House", en: null, pt-br: "Vovó... Zona"},
+            {or: "Cast Away", en: null, pt-br: "Náufrago"},
+            {or: "Finding Forrester", en: null, pt-br: "Encontrando Forrester"},
+            {or: "Gladiator", en: null, pt-br: "Gladiador"},
+        ]
+    },
+    {
+        year: 1999,
+        itens: [
+            {or: "Dogma", en: null, pt-br: null},
+            {or: "Fight Club", en: null, pt-br: "Clube da Luta"},
+            {or: "Stuart Little", en: null, pt-br: "O Pequeno Stuart Little"},
+            {or: "The Green Mile", en: null, pt-br: "À Espera de um Milagre"},
+            {or: "Toy Story 2", en: null, pt-br: null},
+        ]
+    },
+    {
+        year: 1998,
+        itens: [
+            {or: "A Bug's Life", en: null, pt-br: "Vida de Inseto"},
+            {or: "Rush Hour", en: null, pt-br: "A Hora do Rush"},
+            {or: "Saving Private Ryan", en: null, pt-br: "O Resgate do Soldado Ryan"},
+            {or: "The Parent Trap", en: null, pt-br: "Operação Cupido"},
+        ]
+    },
+    {
+        year: 1997,
+        itens: [
+            {or: "The Devil's Advocate", en: null, pt-br: "Advogado do Diabo"},
+        ]
+    },
+    {
+        year: 1996,
+        itens: [
+            {or: "Matilda", en: null, pt-br: null},
+            {or: "Space Jam", en: null, pt-br: "Space Jam: O Jogo do Século"},
+        ]
+    },
+    {
+        year: 1995,
+        itens: [
+            {or: "Toy Story", en: null, pt-br: null},
+        ]
+    }
