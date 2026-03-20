@@ -7,7 +7,9 @@ movies_list = [
             {or: "Avatar: Fire and Ash", en: null, pt-br: "Avatar: Fogo e Cinzas"},
             {or: "Ballerina", en: null, pt-br: "Bailarina"},
             {or: "Captain America: Brave New World", en: null, pt-br: "Capitão América: Admirável Mundo Novo"}, 
+            {or: "Companion", en: null, pt-br: "Acompanhante Perfeita"},
             {or: "Culpa nuestra", en: null, pt-br: "Nossa Culpa"},
+            {or: "Eojjeolsuga eobsda", en: "No Other Choice", pt-br: "A Única Saída"},
             {or: "F1", en: "F1: The Movie", pt-br: "F1: O Filme"},
             {or: "Good Fortune", en: null, pt-br: "Quando o Céu se Engana"},
             {or: "How to Train Your Dragon", en: null, pt-br: "Como Treinar o Seu Dragão"},
@@ -26,6 +28,7 @@ movies_list = [
             {or: "The Fantastic Four: First Steps", en: null, pt-br: "Quarteto Fantástico: Primeiros Passos"},
             {or: "The Housemaid", en: null, pt-br: "A Empregada"},
             {or: "The Naked Gun", en: null, pt-br: "Corra que a Polícia Vem Aí!"},
+            {or: "The Phoenician Scheme", en: null, pt-br: "O Esquema Fenício"},
             {or: "The Roses", en: null, pt-br: "Os Roses: Até que a Morte os Separe"},
             {or: "Thunderbolts*", en: null, pt-br: null},
         ]
@@ -603,74 +606,81 @@ movies_list = [
     {
         year: 2006,
         itens: [
-            Velozes & Furiosos: Desafio em Tóquio"},
-            Zoom - Academia de Super-Heróis"},
-            Menores Desacompanhados"},
-            Garfield 2"},
-            Carros"},
-            A Era do Gelo 2"},
-            Uma Noite no Museu"},
-            O Diabo Veste Prada"},
-            Diamante de Sangue"},
-            X-Men: O Confronto Final"},
-            O Código Da Vinci"},
-            Happy Feet - O Pinguim"},
-            Os Sem-Floresta"},
-            O Bicho Vai Pegar"},
-            Vovó... Zona 2"},
-            O Segredo dos Animais"},
-            Wendy Wu: A Garota Kung Fu"},
-            A Casa Monstro"},
-            Lucas: Um Intruso no Formigueiro"},
+            {or: "Barnyard", en: null, pt-br: "O Segredo dos Animais"},
+            {or: "Big Momma's House 2", en: null, pt-br: "Vovó... Zona 2"},
+            {or: "Blood Diamond", en: null, pt-br: "Diamante de Sangue"},
+            {or: "Cars", en: null, pt-br: "Carros"},
+            {or: "Garfield: A Tail of Two Kitties", en: null, pt-br: "Garfield 2"},
+            {or: "Happy Feet", en: null, pt-br: "Happy Feet - O Pinguim"},
+            {or: "Ice Age: The Meltdown", en: null, pt-br: "A Era do Gelo 2"},
+            {or: "Monster House", en: null, pt-br: "A Casa Monstro"},
+            {or: "Night at the Museum", en: null, pt-br: "Uma Noite no Museu"},
+            {or: "Open Season", en: null, pt-br: "O Bicho Vai Pegar"},
+            {or: "Over the Hedge", en: null, pt-br: "Os Sem-Floresta"},
+            {or: "The Ant Bully", en: null, pt-br: "Lucas: Um Intruso no Formigueiro"},
+            {or: "The Da Vinci Code", en: null, pt-br: "O Código Da Vinci"},
+            {or: "The Devil Wears Prada", en: null, pt-br: "O Diabo Veste Prada"},
+            {or: "The Fast and the Furious: Tokyo Drift", en: null, pt-br: "Velozes & Furiosos: Desafio em Tóquio"},
+            {or: "Unaccompanied Minors", en: null, pt-br: "Menores Desacompanhados"},
+            {or: "Wendy Wu: Homecoming Warrior", en: null, pt-br: "Wendy Wu: A Garota Kung Fu"},
+            {or: "X-Men: The Last Stand", en: null, pt-br: "X-Men: O Confronto Final"},
+            {or: "Zoom", en: null, pt-br: "Zoom - Academia de Super-Heróis"},
+        ]
+    },
+    {
+        year: 2005,
+        itens: [
+            {or: "Charlie and the Chocolate Factory", en: null, pt-br: "A Fantástica Fábrica de Chocolate"},
+            {or: "Chicken Little", en: null, pt-br: "O Galinho Chicken Little"},
+            {or: "Coach Carter", en: null, pt-br: "Coach Carter: Treino para a Vida"},
+            {or: "Fantastic Four", en: null, pt-br: "Quarteto Fantástico"},
+            {or: "Harry Potter and the Goblet of Fire", en: null, pt-br: "Harry Potter e o Cálice de Fogo"},
+            {or: "Herbie: Fully Loaded", en: null, pt-br: "Herbie, Meu Fusca Turbinado"},
+            {or: "Kicking & Screaming", en: null, pt-br: "Papai Bate um Bolão"},
+            {or: "King Kong", en: null, pt-br: null},
+            {or: "Madagascar", en: null, pt-br: null},
+            {or: "Pride & Prejudice", en: null, pt-br: "Orgulho & Preconceito"},
+            {or: "Sky High", en: null, pt-br: "Sky High: Super Escola de Heróis"},
+            {or: "The Adventures of Sharkboy and Lavagirl in 3-D", en: null, pt-br: "As Aventuras de Sharkboy e Lavagirl"},
+            {or: "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe", en: null, pt-br: "As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa"},
+            {or: "The Pacifier", en: null, pt-br: "Operação Babá"},
+            {or: "V for Vendetta", en: null, pt-br: "V de Vingança"},
+            {or: "Zathura: A Space Adventure", en: null, pt-br: "Zathura: Uma Aventura Espacial"},
+        ]
+    },
+    {
+        year: 2004,
+        itens: [
+            {or: "Clifford's Really Big Movie", en: null, pt-br: "Clifford, o Gigante Cão Vermelho: O Filme"},
+            {or: "EuroTrip", en: null, pt-br: "Eurotrip: Passaporte para a Confusão"},
+            {or: "Garfield: The Movie", en: null, pt-br: "Garfield: O Filme"},
+            {or: "Harold & Kumar Go to White Castle", en: null, pt-br: "Madrugada Muito Louca"},
+            {or: "Harry Potter and the Prisoner of Azkaban", en: null, pt-br: "Harry Potter e o Prisioneiro de Azkaban"},
+            {or: "Million Dollar Baby", en: null, pt-br: "Menina de Ouro"},
+            {or: "Shrek 2", en: null, pt-br: null},
+            {or: "Spider-Man 2", en: null, pt-br: "Homem-Aranha 2"},
+            {or: "The Incredibles", en: null, pt-br: "Os Incríveis"},
+            {or: "The Polar Express", en: null, pt-br: "O Expresso Polar"},
+            {or: "The SpongeBob SquarePants Movie", en: null, pt-br: "Bob Esponja: O Filme"},
+            {or: "White Chicks", en: null, pt-br: "As Branquelas"},
+        ]
+    },
+    {
+        year: 2003,
+        itens: [
+            {or: "2 Fast 2 Furious", en: null, pt-br: "+ Velozes + Furiosos"},
+            {or: "Bad Boys II", en: null, pt-br: null},
+            {or: "Brother Bear", en: null, pt-br: "Irmão Urso"},
+            {or: "Daddy Day Care", en: null, pt-br: "A Creche do Papai"},
+            {or: "Finding Nemo", en: null, pt-br: "Procurando Nemo"},
+            {or: "How to Lose a Guy in 10 Days", en: null, pt-br: "Como Perder um Homem em 10 Dias"},
+            {or: "Hulk", en: null, pt-br: null},
 
 
-
-
-
-2005:
-    01. Orgulho & Preconceito
-    02. V de Vingança
-    03. Coach Carter: Treino para a Vida
-    04. Madagascar
-    05. Quarteto Fantástico
-    06. Sky High: Super Escola de Heróis
-    07. Zathura: Uma Aventura Espacial
-    08. Herbie, Meu Fusca Turbinado
-    09. As Aventuras de Sharkboy e Lavagirl
-    10. Operação Babá
-    11. Harry Potter e o Cálice de Fogo
-    12. A Fantástica Fábrica de Chocolate
-    13. As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa
-    14. Papai Bate um Bolão
-    15. King Kong
-    16. O Galinho Chicken Little
-
-2004:
-    01. Eurotrip: Passaporte para a Confusão
-    02. Os Incríveis
-    03. Homem-Aranha 2
-    04. Harry Potter e o Prisioneiro de Azkaban
-    05. Garfield: O Filme
-    06. Shrek 2
-    07. O Expresso Polar
-    08. As Branquelas
-    09. Bob Esponja: O Filme
-    10. Clifford, o Gigante Cão Vermelho: O Filme
-    11. Madrugada Muito Louca
-    12. Menina de Ouro
-
-2003:
-    01. Meu Nome é Radio
-    02. + Velozes + Furiosos
-    03. Os Bad Boys II
-    04. Irmão Urso
-    05. O Senhor dos Anéis: O Retorno do Rei
-    06. Como Perder um Homem em 10 Dias
-    07. Procurando Nemo
-    08. Escola de Rock
-    09. A Creche do Papai
-    10. Hulk
-    11. Canguru Jack
+            {or: "Radio", en: null, pt-br: "Meu Nome é Radio"},
+            {or: "The Lord of the Rings: The Return of the King", en: null, pt-br: "O Senhor dos Anéis: O Retorno do Rei"},
+            {or: "School of Rock", en: null, pt-br: "Escola de Rock"},
+            {or: "Kangaroo Jack", en: null, pt-br: "Canguru Jack"},
 
 2002:
     01. Homem-Aranha
