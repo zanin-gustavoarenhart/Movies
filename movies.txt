@@ -675,30 +675,34 @@ movies_list = [
             {or: "Finding Nemo", en: null, pt-br: "Procurando Nemo"},
             {or: "How to Lose a Guy in 10 Days", en: null, pt-br: "Como Perder um Homem em 10 Dias"},
             {or: "Hulk", en: null, pt-br: null},
-
-
-            {or: "Radio", en: null, pt-br: "Meu Nome é Radio"},
-            {or: "The Lord of the Rings: The Return of the King", en: null, pt-br: "O Senhor dos Anéis: O Retorno do Rei"},
-            {or: "School of Rock", en: null, pt-br: "Escola de Rock"},
             {or: "Kangaroo Jack", en: null, pt-br: "Canguru Jack"},
-
-2002:
-    01. Homem-Aranha
-    02. O Pianista
-    03. A Era do Gelo
-    04. O Senhor dos Anéis: As Duas Torres
-    05. Harry Potter e a Câmara Secreta
-    06. Prenda-me se for Capaz
-    07. Scooby-Doo
-
-2001:
-    01. Moulin Rouge: Amor em Vermelho
-    02. Velozes & Furiosos
-    03. A Hora do Rush 2
-    04. Shrek
-    05. O Senhor dos Anéis: A Sociedade do Anel
-    06. Monstros S.A.
-    07. Harry Potter e a Pedra Filosofal
+            {or: "Radio", en: null, pt-br: "Meu Nome é Radio"},
+            {or: "School of Rock", en: null, pt-br: "Escola de Rock"},
+            {or: "The Lord of the Rings: The Return of the King", en: null, pt-br: "O Senhor dos Anéis: O Retorno do Rei"},
+        ]
+    },
+    {
+        year: 2002,
+        itens: [
+            {or: "Catch Me If You Can", en: null, pt-br: "Prenda-me se for Capaz"},
+            {or: "Harry Potter and the Chamber of Secrets", en: null, pt-br: "Harry Potter e a Câmara Secreta"},
+            {or: "Ice Age", en: null, pt-br: "A Era do Gelo"},
+            {or: "Scooby-Doo", en: null, pt-br: null},
+            {or: "Spider-Man", en: null, pt-br: "Homem-Aranha"},
+            {or: "The Lord of the Rings: The Two Towers", en: null, pt-br: "O Senhor dos Anéis: As Duas Torres"},
+            {or: "The Pianist", en: null, pt-br: "O Pianista"},
+        ]
+    },
+    {
+        year: 2001,
+        itens: [
+    ", pt-br: "Moulin Rouge: Amor em Vermelho"},
+    ", pt-br: "Velozes & Furiosos"},
+    ", pt-br: "A Hora do Rush 2"},
+    ", pt-br: "Shrek"},
+    ", pt-br: "O Senhor dos Anéis: A Sociedade do Anel"},
+    ", pt-br: "Monstros S.A."},
+    ", pt-br: "Harry Potter e a Pedra Filosofal"},
 
 2000:
     01. Gladiador
