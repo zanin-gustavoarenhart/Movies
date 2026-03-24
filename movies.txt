@@ -718,38 +718,38 @@ movies_list = [
     {
         year: 1999,
         itens: [
-            {or: "Dogma", en: null, pt-br: null},
-            {or: "Fight Club", en: null, pt-br: "Clube da Luta"},
-            {or: "Stuart Little", en: null, pt-br: "O Pequeno Stuart Little"},
-            {or: "The Green Mile", en: null, pt-br: "À Espera de um Milagre"},
-            {or: "Toy Story 2", en: null, pt-br: null},
+            {or: "Dogma", en: null, pt-br: null, rating: 7.0},
+            {or: "Fight Club", en: null, pt-br: "Clube da Luta", rating: 9.1},
+            {or: "Stuart Little", en: null, pt-br: "O Pequeno Stuart Little", rating: 4.0},
+            {or: "The Green Mile", en: null, pt-br: "À Espera de um Milagre", rating: 9.0},
+            {or: "Toy Story 2", en: null, pt-br: null, rating: 8.0},
         ]
     },
     {
         year: 1998,
         itens: [
-            {or: "A Bug's Life", en: null, pt-br: "Vida de Inseto"},
-            {or: "Rush Hour", en: null, pt-br: "A Hora do Rush"},
-            {or: "Saving Private Ryan", en: null, pt-br: "O Resgate do Soldado Ryan"},
-            {or: "The Parent Trap", en: null, pt-br: "Operação Cupido"},
+            {or: "A Bug's Life", en: null, pt-br: "Vida de Inseto", rating: 6.9},
+            {or: "Rush Hour", en: null, pt-br: "A Hora do Rush", rating: 7.5},
+            {or: "Saving Private Ryan", en: null, pt-br: "O Resgate do Soldado Ryan", rating: 9.0},
+            {or: "The Parent Trap", en: null, pt-br: "Operação Cupido", rating: 6.5},
         ]
     },
     {
         year: 1997,
         itens: [
-            {or: "The Devil's Advocate", en: null, pt-br: "Advogado do Diabo"},
+            {or: "The Devil's Advocate", en: null, pt-br: "Advogado do Diabo", rating: 7.5},
         ]
     },
     {
         year: 1996,
         itens: [
-            {or: "Matilda", en: null, pt-br: null},
-            {or: "Space Jam", en: null, pt-br: "Space Jam: O Jogo do Século"},
+            {or: "Matilda", en: null, pt-br: null, rating: 6.5},
+            {or: "Space Jam", en: null, pt-br: "Space Jam: O Jogo do Século", rating: 8.2},
         ]
     },
     {
         year: 1995,
         itens: [
-            {or: "Toy Story", en: null, pt-br: null},
+            {or: "Toy Story", en: null, pt-br: null, rating: 8.0},
         ]
     }
