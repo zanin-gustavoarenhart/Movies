@@ -697,22 +697,22 @@ movies_list = [
     {
         year: 2001,
         itens: [
-            {or: "Harry Potter and the Sorcerer's Stone", en: null, pt-br: "Harry Potter e a Pedra Filosofal"},
-            {or: "Monsters, Inc.", en: null, pt-br: "Monstros S.A."},
-            {or: "Moulin Rouge!", en: null, pt-br: "Moulin Rouge: Amor em Vermelho"},
-            {or: "Rush Hour 2", en: null, pt-br: "A Hora do Rush 2"},
-            {or: "Shrek", en: null, pt-br: null},
-            {or: "The Fast and the Furious", en: null, pt-br: "Velozes & Furiosos"},
-            {or: "The Lord of the Rings: The Fellowship of the Ring", en: null, pt-br: "O Senhor dos Anéis: A Sociedade do Anel"},
+            {or: "Harry Potter and the Sorcerer's Stone", en: null, pt-br: "Harry Potter e a Pedra Filosofal", rating: 7.5},
+            {or: "Monsters, Inc.", en: null, pt-br: "Monstros S.A.", rating: 8.0},
+            {or: "Moulin Rouge!", en: null, pt-br: "Moulin Rouge: Amor em Vermelho", rating: 8.5},
+            {or: "Rush Hour 2", en: null, pt-br: "A Hora do Rush 2", rating: 7.2},
+            {or: "Shrek", en: null, pt-br: null, rating: 8.2},
+            {or: "The Fast and the Furious", en: null, pt-br: "Velozes & Furiosos", rating: 7.5},
+            {or: "The Lord of the Rings: The Fellowship of the Ring", en: null, pt-br: "O Senhor dos Anéis: A Sociedade do Anel", rating: 9.0},
         ]
     },
     {
         year: 2000,
         itens: [
-            {or: "Big Momma's House", en: null, pt-br: "Vovó... Zona"},
-            {or: "Cast Away", en: null, pt-br: "Náufrago"},
-            {or: "Finding Forrester", en: null, pt-br: "Encontrando Forrester"},
-            {or: "Gladiator", en: null, pt-br: "Gladiador"},
+            {or: "Big Momma's House", en: null, pt-br: "Vovó... Zona", rating: 4.0},
+            {or: "Cast Away", en: null, pt-br: "Náufrago", rating: 7.9},
+            {or: "Finding Forrester", en: null, pt-br: "Encontrando Forrester", rating: 7.0},
+            {or: "Gladiator", en: null, pt-br: "Gladiador", rating: 8.5},
         ]
     },
     {
