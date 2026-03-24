@@ -689,9 +689,9 @@ movies_list = [
             {or: "Harry Potter and the Chamber of Secrets", en: null, pt-br: "Harry Potter e a Câmara Secreta"},
             {or: "Ice Age", en: null, pt-br: "A Era do Gelo"},
             {or: "Scooby-Doo", en: null, pt-br: null},
-            {or: "Spider-Man", en: null, pt-br: "Homem-Aranha"},
-            {or: "The Lord of the Rings: The Two Towers", en: null, pt-br: "O Senhor dos Anéis: As Duas Torres"},
-            {or: "The Pianist", en: null, pt-br: "O Pianista"},
+            {or: "Spider-Man", en: null, pt-br: "Homem-Aranha", rating: 7.0},
+            {or: "The Lord of the Rings: The Two Towers", en: null, pt-br: "O Senhor dos Anéis: As Duas Torres", rating: 9.0},
+            {or: "The Pianist", en: null, pt-br: "O Pianista", rating: 9.0},
         ]
     },
     {
