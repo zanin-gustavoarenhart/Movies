@@ -13,6 +13,7 @@ movies_list = [
             {or: "F1", en: "F1: The Movie", pt-br: "F1: O Filme"},
             {or: "Good Fortune", en: null, pt-br: "Quando o Céu se Engana"},
             {or: "How to Train Your Dragon", en: null, pt-br: "Como Treinar o Seu Dragão"},
+            {or: "Is This Thing On?", en: null, pt-br: "Isso Ainda Está de Pé?"},
             {or: "Karate Kid: Legends", en: null, pt-br: "Karatê Kid: Lendas"},
             {or: "K-Pop Demon Hunters", en: "KPop Demon Hunters", pt-br: "Guerreiras do K-Pop"},
             {or: "Lilo & Stitch", en: null, pt-br: null},
