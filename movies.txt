@@ -292,8 +292,8 @@ movies_list = [
             {or: "The Meg", en: null, pt-br: "Megatubarão", rating: },
             {or: "The Package", en: null, pt-br: "O Pacote", rating: },
             {or: "Tomb Raider", en: null, pt-br: "Tomb Raider: A Origem", rating: },
-            {or: "Uncle Drew", en: null, pt-br: "Tio Drew", rating: },
-            {or: "Venom", en: null, pt-br: null, rating: },
+            {or: "Uncle Drew", en: null, pt-br: "Tio Drew", rating: 5.3},
+            {or: "Venom", en: null, pt-br: null, rating: 6.0},
         ]
     },
     {
