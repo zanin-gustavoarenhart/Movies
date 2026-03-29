@@ -699,59 +699,59 @@ movies_list = [
     {
         year: 2001,
         itens: [
-            {or: "Harry Potter and the Sorcerer's Stone", en: null, pt-br: "Harry Potter e a Pedra Filosofal", rating: 7.5},
-            {or: "Monsters, Inc.", en: null, pt-br: "Monstros S.A.", rating: 8.0},
-            {or: "Moulin Rouge!", en: null, pt-br: "Moulin Rouge: Amor em Vermelho", rating: 8.5},
-            {or: "Rush Hour 2", en: null, pt-br: "A Hora do Rush 2", rating: 7.2},
-            {or: "Shrek", en: null, pt-br: null, rating: 8.2},
-            {or: "The Fast and the Furious", en: null, pt-br: "Velozes & Furiosos", rating: 7.5},
-            {or: "The Lord of the Rings: The Fellowship of the Ring", en: null, pt-br: "O Senhor dos Anéis: A Sociedade do Anel", rating: 9.0},
+            {or: "Harry Potter and the Sorcerer's Stone", en: null, pt-br: "Harry Potter e a Pedra Filosofal", rating: 7.5, oscar: none},
+            {or: "Monsters, Inc.", en: null, pt-br: "Monstros S.A.", rating: 8.0, oscar: "Music (Original Song)"},
+            {or: "Moulin Rouge!", en: null, pt-br: "Moulin Rouge: Amor em Vermelho", rating: 8.5, oscar: ["Art Direction", "Costume Design"]},
+            {or: "Rush Hour 2", en: null, pt-br: "A Hora do Rush 2", rating: 7.2, oscar: none},
+            {or: "Shrek", en: null, pt-br: null, rating: 8.2, oscar: "Animated Feature Film"},
+            {or: "The Fast and the Furious", en: null, pt-br: "Velozes & Furiosos", rating: 7.5, oscar: none},
+            {or: "The Lord of the Rings: The Fellowship of the Ring", en: null, pt-br: "O Senhor dos Anéis: A Sociedade do Anel", rating: 9.0, oscar: ["Cinematography", "Makeup", "Music (Original Score)", "Visual Effects"]},
         ]
     },
     {
         year: 2000,
         itens: [
-            {or: "Big Momma's House", en: null, pt-br: "Vovó... Zona", rating: 4.0},
-            {or: "Cast Away", en: null, pt-br: "Náufrago", rating: 7.9},
-            {or: "Finding Forrester", en: null, pt-br: "Encontrando Forrester", rating: 7.0},
-            {or: "Gladiator", en: null, pt-br: "Gladiador", rating: 8.5},
+            {or: "Big Momma's House", en: null, pt-br: "Vovó... Zona", rating: 4.0, oscar: none},
+            {or: "Cast Away", en: null, pt-br: "Náufrago", rating: 7.9, oscar: none},
+            {or: "Finding Forrester", en: null, pt-br: "Encontrando Forrester", rating: 7.0}, oscar: none,
+            {or: "Gladiator", en: null, pt-br: "Gladiador", rating: 8.5, oscar: ["Actor in a Leading Role", "Costume Design", "Best Picture", "Sound", "Visual Effects"]},
         ]
     },
     {
         year: 1999,
         itens: [
-            {or: "Dogma", en: null, pt-br: null, rating: 7.0},
-            {or: "Fight Club", en: null, pt-br: "Clube da Luta", rating: 9.1},
-            {or: "Stuart Little", en: null, pt-br: "O Pequeno Stuart Little", rating: 4.0},
-            {or: "The Green Mile", en: null, pt-br: "À Espera de um Milagre", rating: 9.0},
-            {or: "Toy Story 2", en: null, pt-br: null, rating: 8.0},
+            {or: "Dogma", en: null, pt-br: null, rating: 7.0, oscar: none},
+            {or: "Fight Club", en: null, pt-br: "Clube da Luta", rating: 9.1, oscar: none},
+            {or: "Stuart Little", en: null, pt-br: "O Pequeno Stuart Little", rating: 4.0, oscar: none},
+            {or: "The Green Mile", en: null, pt-br: "À Espera de um Milagre", rating: 9.0, oscar: none},
+            {or: "Toy Story 2", en: null, pt-br: null, rating: 8.0, oscar: none},
         ]
     },
     {
         year: 1998,
         itens: [
-            {or: "A Bug's Life", en: null, pt-br: "Vida de Inseto", rating: 6.9},
-            {or: "Rush Hour", en: null, pt-br: "A Hora do Rush", rating: 7.5},
-            {or: "Saving Private Ryan", en: null, pt-br: "O Resgate do Soldado Ryan", rating: 9.0},
-            {or: "The Parent Trap", en: null, pt-br: "Operação Cupido", rating: 6.5},
+            {or: "A Bug's Life", en: null, pt-br: "Vida de Inseto", rating: 6.9, oscar: none},
+            {or: "Rush Hour", en: null, pt-br: "A Hora do Rush", rating: 7.5, oscar: none},
+            {or: "Saving Private Ryan", en: null, pt-br: "O Resgate do Soldado Ryan", rating: 9.0, oscar: ["Cinematography", "Directing", "Film Editing", "Sound", "Sound Effects Editing"]},
+            {or: "The Parent Trap", en: null, pt-br: "Operação Cupido", rating: 6.5, oscar: none},
         ]
     },
     {
         year: 1997,
         itens: [
-            {or: "The Devil's Advocate", en: null, pt-br: "Advogado do Diabo", rating: 7.5},
+            {or: "The Devil's Advocate", en: null, pt-br: "Advogado do Diabo", rating: 7.5, oscar: none},
         ]
     },
     {
         year: 1996,
         itens: [
-            {or: "Matilda", en: null, pt-br: null, rating: 6.5},
-            {or: "Space Jam", en: null, pt-br: "Space Jam: O Jogo do Século", rating: 8.2},
+            {or: "Matilda", en: null, pt-br: null, rating: 6.5, oscar: none},
+            {or: "Space Jam", en: null, pt-br: "Space Jam: O Jogo do Século", rating: 8.2, oscar: none},
         ]
     },
     {
         year: 1995,
         itens: [
-            {or: "Toy Story", en: null, pt-br: null, rating: 8.0},
+            {or: "Toy Story", en: null, pt-br: null, rating: 8.0, oscar: "Special Achievement Award"},
         ]
     }
