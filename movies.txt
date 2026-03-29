@@ -19,6 +19,7 @@ movies_list = [
             {or: "Lilo & Stitch", en: null, pt-br: null, rating: 6.0, oscar: none},
             {or: "Marty Supreme", en: null, pt-br: null, rating: 6.1, oscar: none},
             {or: "Now You See Me: Now You Don't", en: null, pt-br: "Truque de Mestre: O 3° Ato", rating: 6.0, oscar: none},
+            {or: "One Battle After Another", en: null, pt-br: "Uma Batalha Após a Outra", rating: 8.2, oscar: ["Actor in a Supporting Role", "Casting", "Directing", "Film Editing", "Best Picture", "Writing (Adapted Screenplay)"]},
             {or: "Regretting You", en: null, pt-br: "Se Não Fosse Você", rating: 6.9, oscar: none},
             {or: "Roofman", en: null, pt-br: "O Bom Bandido", rating: 7.2, oscar: none},
             {or: "Sisu 2", en: "Sisu: Road to Revenge", pt-br: "Sisu: Estrada da Vingança", rating: 6.8, oscar: none},
