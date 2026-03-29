@@ -1,0 +1,212 @@
+:root {
+  --bg: #f4f1e8;
+  --bg-soft: #fffdf8;
+  --surface: #fff;
+  --ink: #1c1c1c;
+  --ink-soft: #5e5e5e;
+  --accent: #d7583f;
+  --accent-soft: #ffe2db;
+  --line: #e8dfcf;
+  --shadow: 0 12px 26px rgba(32, 23, 12, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, #fff2cc 0%, transparent 42%),
+    radial-gradient(circle at 90% 12%, #ffd9cf 0%, transparent 35%), var(--bg);
+}
+
+.page {
+  width: min(1200px, 94vw);
+  margin: 0 auto;
+  padding: 2rem 0 4rem;
+}
+
+/* Header */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.main-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: lowercase;
+  color: var(--ink);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.summary {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+
+.language-picker {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.language-picker button {
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink-soft);
+  font-size: 0.75rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.language-picker button.active {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+
+/* Seções por Ano */
+.year-section {
+  margin-bottom: 4rem;
+}
+
+.year-title {
+  margin: 0 0 1.5rem;
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.year-title::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background: var(--line);
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Movie Card - Estrutura de Borda Inteira */
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  overflow: hidden; /* Importante para cortar a imagem nos cantos arredondados */
+}
+
+.movie-poster {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-bottom: 1px solid var(--line); /* Opcional: separa levemente a imagem do texto */
+}
+
+/* Espaçamento interno apenas para o texto */
+.movie-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  flex-grow: 1;
+}
+
+.movie-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.4;
+}
+
+.movie-meta {
+  margin: 0;
+  display: grid;
+  gap: 0.8rem;
+  flex-grow: 1;
+}
+
+.movie-meta div {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.movie-meta dt {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+
+.movie-meta dd {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--ink);
+}
+
+/* Footer do Card */
+.movie-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.field-oscar {
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.oscar-count {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.rating-box {
+  margin-left: auto;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  background: var(--accent-soft);
+  color: #6e1f12;
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
+.rating-max {
+  font-size: 0.65rem;
+  opacity: 0.6;
+}
+
+@media (max-width: 640px) {
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
