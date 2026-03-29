@@ -33,6 +33,7 @@ movies_list = [
             {or: "The Phoenician Scheme", en: null, pt-br: "O Esquema Fenício", rating: 7.5, oscar: none},
             {or: "The Roses", en: null, pt-br: "Os Roses: Até que a Morte os Separe", rating: 7.0, oscar: none},
             {or: "Thunderbolts*", en: null, pt-br: null, rating: 6.5, oscar: none},
+            {or: "Train Dreams", en: null, pt-br: "Sonhos de Trem", rating: 9.7, oscar: none},
         ]
     },
     {
