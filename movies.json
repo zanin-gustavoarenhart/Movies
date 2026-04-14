@@ -2403,6 +2403,13 @@
         "oscar": null
       },
       {
+        "or": "Até que a Sorte nos Separe 3: A Falência Final",
+        "en": "Till Luck Do Us Part 3",
+        "pt-br": null,
+        "rating": 5.0,
+        "oscar": null
+      },
+      {
         "or": "Avengers: Age of Ultron",
         "en": null,
         "pt-br": "Vingadores: Era de Ultron",
@@ -2653,7 +2660,7 @@
         "poster": "/images/2014_neighbors.jpg"
       },
       {
-        "or": "Night at the Museum: Secret of the Tom",
+        "or": "Night at the Museum: Secret of the Tomb",
         "en": null,
         "pt-br": "Uma Noite no Museu 3: O Segredo da Tumba",
         "rating": 6.0,
@@ -2772,6 +2779,14 @@
         "rating": 8.8,
         "oscar": null,
         "poster": "/images/2013_abouttime.jpg"
+      },
+      {
+        "or": "Até que a Sorte nos Separe 2",
+        "en": "Till Luck Do Us Part 2",
+        "pt-br": null,
+        "rating": 5.0,
+        "oscar": null,
+        "poster": "/images/2012_tillluckdouspart2.jpg"
       },
       {
         "or": "Despicable Me 2",
@@ -2937,6 +2952,14 @@
         "rating": 7.5,
         "oscar": null,
         "poster": "/images/2012_21jumpstreet.jpg"
+      },
+      {
+        "or": "Até que a Sorte nos Separe",
+        "en": "Till Luck Do Us Part",
+        "pt-br": null,
+        "rating": 5.0,
+        "oscar": null,
+        "poster": "/images/2012_tillluckdouspart.jpg"
       },
       {
         "or": "A Thousand Words",
@@ -4472,6 +4495,14 @@
           "Writing (Adapted Screenplay)"
         ],
         "poster": "/images/2003_lotr3.jpg"
+      },
+      {
+        "or": "X2",
+        "en": "X2: X-Men United",
+        "pt-br": "X-Men 2",
+        "rating": 5.5,
+        "oscar": null,
+        "poster": "/images/2003_x2.jpg"
       }
     ]
   },
@@ -4646,6 +4677,14 @@
           "Visual Effects"
         ],
         "poster": "/images/2000_gladiator.jpg"
+      },
+      {
+        "or": "X-Men",
+        "en": null,
+        "pt-br": "X-Men: O Filme",
+        "rating": 5.5,
+        "oscar": null,
+        "poster": "/images/2000_xmen.jpg"
       }
     ]
   },
@@ -4781,6 +4820,19 @@
         "rating": 8.0,
         "oscar": "Special Achievement Award",
         "poster": "/images/1995_toystory.jpg"
+      }
+    ]
+  },
+  {
+    "year": 1994,
+    "itens": [
+      {
+        "or": "Pulp Fiction",
+        "en": null,
+        "pt-br": "Pulp Fiction: Tempo de Violência",
+        "rating": 10,
+        "oscar": "Writing (Screenplay Written Directly for the Screen)",
+        "poster": "/images/1994_pulpfiction.jpg"
       }
     ]
   }
