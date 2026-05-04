@@ -3851,7 +3851,6 @@
         "en": null,
         "pt-br": "Alvin e os Esquilos",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2007_alvin.jpg"
       },
       {
@@ -3859,7 +3858,6 @@
         "en": null,
         "pt-br": "Bee Movie: A História de uma Abelha",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2007_beemovie.jpg"
       },
       {
@@ -3867,7 +3865,6 @@
         "en": null,
         "pt-br": "Ben 10: Corrida Contra o Tempo",
         "rating": 3.5,
-        "oscar": null,
         "poster": "/images/2007_ben10.jpg"
       },
       {
@@ -3875,7 +3872,6 @@
         "en": null,
         "pt-br": "Quarteto Fantástico e o Surfista Prateado",
         "rating": 5.3,
-        "oscar": null,
         "poster": "/images/2007_fantastic4.jpg"
       },
       {
@@ -3883,7 +3879,6 @@
         "en": null,
         "pt-br": "Harry Potter e a Ordem da Fênix",
         "rating": 7.8,
-        "oscar": null,
         "poster": "/images/2007_harrypotter5.jpg"
       },
       {
@@ -3891,7 +3886,6 @@
         "en": null,
         "pt-br": "Eu Sou a Lenda",
         "rating": 4.4,
-        "oscar": null,
         "poster": "/images/2007_iamlegend.jpg"
       },
       {
@@ -3899,12 +3893,6 @@
         "en": null,
         "pt-br": "Onde os Fracos Não Têm Vez",
         "rating": 10,
-        "oscar": [
-          "Actor in a Supporting Role",
-          "Directing",
-          "Best Picture",
-          "Writing (Adapted Screenplay)"
-        ],
         "poster": "/images/2007_nocountry.jpg"
       },
       {
@@ -3912,7 +3900,6 @@
         "en": null,
         "pt-br": "Sem Reservas",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2007_noreservations.jpg"
       },
       {
@@ -3920,7 +3907,6 @@
         "en": null,
         "pt-br": "A Abadia de Northanger",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2007_northanger.jpg"
       },
       {
@@ -3928,7 +3914,6 @@
         "en": null,
         "pt-br": null,
         "rating": 8.5,
-        "oscar": "Animated Feature Film",
         "poster": "/images/2007_ratatouille.jpg"
       },
       {
@@ -3936,7 +3921,6 @@
         "en": null,
         "pt-br": "A Hora do Rush 3",
         "rating": 6.9,
-        "oscar": null,
         "poster": "/images/2007_rushhour3.jpg"
       },
       {
@@ -3944,7 +3928,6 @@
         "en": null,
         "pt-br": "Shrek Terceiro",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2007_shrek3.jpg"
       },
       {
@@ -3952,7 +3935,6 @@
         "en": null,
         "pt-br": "Homem-Aranha 3",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2007_spiderman3.jpg"
       },
       {
@@ -3960,7 +3942,6 @@
         "en": null,
         "pt-br": "Treinando o Papai",
         "rating": 5.1,
-        "oscar": null,
         "poster": "/images/2007_gameplan.jpg"
       },
       {
@@ -3968,7 +3949,6 @@
         "en": null,
         "pt-br": "Os Simpsons: O Filme",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2007_simpsons.jpg"
       },
       {
@@ -3976,7 +3956,6 @@
         "en": null,
         "pt-br": null,
         "rating": 7.8,
-        "oscar": null,
         "poster": "/images/2007_transformers.jpg"
       },
       {
@@ -3984,7 +3963,6 @@
         "en": "Elite Squad",
         "pt-br": null,
         "rating": 7.2,
-        "oscar": null,
         "poster": "/images/2007_elitesquad.jpg"
       }
     ]
@@ -3997,7 +3975,6 @@
         "en": null,
         "pt-br": "O Segredo dos Animais",
         "rating": 5.9,
-        "oscar": null,
         "poster": "/images/2006_barnyard.jpg"
       },
       {
@@ -4005,7 +3982,6 @@
         "en": null,
         "pt-br": "Vovó... Zona 2",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2006_bigmomma2.jpg"
       },
       {
@@ -4013,7 +3989,6 @@
         "en": null,
         "pt-br": "Diamante de Sangue",
         "rating": 8.3,
-        "oscar": null,
         "poster": "/images/2006_blooddiamond.jpg"
       },
       {
@@ -4021,7 +3996,6 @@
         "en": "Borat",
         "pt-br": "Borat: O Segundo Melhor Repórter do Glorioso País Cazaquistão Viaja à América",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2006_borat.jpg"
       },
       {
@@ -4029,7 +4003,6 @@
         "en": null,
         "pt-br": "Carros",
         "rating": 8.2,
-        "oscar": null,
         "poster": "/images/2006_cars.jpg"
       },
       {
@@ -4037,7 +4010,6 @@
         "en": null,
         "pt-br": "Garfield 2",
         "rating": 5.5,
-        "oscar": null,
         "poster": "/images/2006_garfield2.jpg"
       },
       {
@@ -4045,7 +4017,6 @@
         "en": null,
         "pt-br": "Happy Feet - O Pinguim",
         "rating": 6.7,
-        "oscar": "Animated Feature Film",
         "poster": "/images/2006_happyfeet.jpg"
       },
       {
@@ -4053,7 +4024,6 @@
         "en": null,
         "pt-br": "A Era do Gelo 2",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2006_iceage2.jpg"
       },
       {
@@ -4061,7 +4031,6 @@
         "en": null,
         "pt-br": "A Casa Monstro",
         "rating": 4.4,
-        "oscar": null,
         "poster": "/images/2006_monsterhouse.jpg"
       },
       {
@@ -4069,7 +4038,6 @@
         "en": null,
         "pt-br": "Uma Noite no Museu",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2006_nightatthemuseum.jpg"
       },
       {
@@ -4077,7 +4045,6 @@
         "en": null,
         "pt-br": "O Bicho Vai Pegar",
         "rating": 6.6,
-        "oscar": null,
         "poster": "/images/2006_openseason.jpg"
       },
       {
@@ -4085,7 +4052,6 @@
         "en": null,
         "pt-br": "Os Sem-Floresta",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2006_overthehedge.jpg"
       },
       {
@@ -4093,7 +4059,6 @@
         "en": null,
         "pt-br": "Lucas: Um Intruso no Formigueiro",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2006_antbully.jpg"
       },
       {
@@ -4101,7 +4066,6 @@
         "en": null,
         "pt-br": "O Código Da Vinci",
         "rating": 6.4,
-        "oscar": null,
         "poster": "/images/2006_davinci.jpg"
       },
       {
@@ -4109,7 +4073,6 @@
         "en": null,
         "pt-br": "O Diabo Veste Prada",
         "rating": 7.7,
-        "oscar": null,
         "poster": "/images/2006_devilwearprada.jpg"
       },
       {
@@ -4117,7 +4080,6 @@
         "en": null,
         "pt-br": "Velozes & Furiosos: Desafio em Tóquio",
         "rating": 6.7,
-        "oscar": null,
         "poster": "/images/2006_tokyodrift.jpg"
       },
       {
@@ -4125,7 +4087,6 @@
         "en": null,
         "pt-br": "Menores Desacompanhados",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2006_unaccompaniedminors.jpg"
       },
       {
@@ -4133,7 +4094,6 @@
         "en": null,
         "pt-br": "Wendy Wu: A Garota Kung Fu",
         "rating": 3.1,
-        "oscar": null,
         "poster": "/images/2006_wendywu.jpg"
       },
       {
@@ -4141,7 +4101,6 @@
         "en": null,
         "pt-br": "X-Men: O Confronto Final",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2006_xmen.jpg"
       },
       {
@@ -4149,7 +4108,6 @@
         "en": null,
         "pt-br": "Zoom - Academia de Super-Heróis",
         "rating": 5.6,
-        "oscar": null,
         "poster": "/images/2006_zoom.jpg"
       }
     ]
@@ -4162,7 +4120,6 @@
         "en": null,
         "pt-br": "A Fantástica Fábrica de Chocolate",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2005_chocolatefactory.jpg"
       },
       {
@@ -4170,7 +4127,6 @@
         "en": null,
         "pt-br": "O Galinho Chicken Little",
         "rating": 3.7,
-        "oscar": null,
         "poster": "/images/2005_chickenlittle.jpg"
       },
       {
@@ -4178,7 +4134,6 @@
         "en": null,
         "pt-br": "Coach Carter: Treino para a Vida",
         "rating": 7.2,
-        "oscar": null,
         "poster": "/images/2005_coachcarter.jpg"
       },
       {
@@ -4186,7 +4141,6 @@
         "en": null,
         "pt-br": "Quarteto Fantástico",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2005_fantasticfour.jpg"
       },
       {
@@ -4194,7 +4148,6 @@
         "en": null,
         "pt-br": "Harry Potter e o Cálice de Fogo",
         "rating": 7.9,
-        "oscar": null,
         "poster": "/images/2005_harrypotter.jpg"
       },
       {
@@ -4202,7 +4155,6 @@
         "en": null,
         "pt-br": "Herbie, Meu Fusca Turbinado",
         "rating": 5.6,
-        "oscar": null,
         "poster": "/images/2005_herbie.jpg"
       },
       {
@@ -4210,7 +4162,6 @@
         "en": null,
         "pt-br": "Papai Bate um Bolão",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2005_kickingscreaming.jpg"
       },
       {
@@ -4218,7 +4169,6 @@
         "en": null,
         "pt-br": null,
         "rating": 7.0,
-        "oscar": ["Sound Editing", "Sound Mixing", "Visual Effects"],
         "poster": "/images/2005_kingkong.jpg"
       },
       {
@@ -4226,7 +4176,6 @@
         "en": null,
         "pt-br": null,
         "rating": 7.2,
-        "oscar": null,
         "poster": "/images/2005_madagascar.jpg"
       },
       {
@@ -4234,7 +4183,6 @@
         "en": null,
         "pt-br": "Orgulho & Preconceito",
         "rating": 8.2,
-        "oscar": null,
         "poster": "/images/2005_prideprejudice.jpg"
       },
       {
@@ -4242,7 +4190,6 @@
         "en": null,
         "pt-br": "Sky High: Super Escola de Heróis",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2005_skyhigh.jpg"
       },
       {
@@ -4250,7 +4197,6 @@
         "en": null,
         "pt-br": "As Aventuras de Sharkboy e Lavagirl",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2005_sharkboy.jpg"
       },
       {
@@ -4258,7 +4204,6 @@
         "en": null,
         "pt-br": "As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa",
         "rating": 7.4,
-        "oscar": "Makeup",
         "poster": "/images/2005_narnia.jpg"
       },
       {
@@ -4266,7 +4211,6 @@
         "en": null,
         "pt-br": "Operação Babá",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2005_pacifier.jpg"
       },
       {
@@ -4274,7 +4218,6 @@
         "en": null,
         "pt-br": "V de Vingança",
         "rating": 8.5,
-        "oscar": null,
         "poster": "/images/2005_vforvendetta.jpg"
       },
       {
@@ -4282,7 +4225,6 @@
         "en": null,
         "pt-br": "Zathura: Uma Aventura Espacial",
         "rating": 6.6,
-        "oscar": null,
         "poster": "/images/2005_zathura.jpg"
       }
     ]
@@ -4295,7 +4237,6 @@
         "en": null,
         "pt-br": "Clifford, o Gigante Cão Vermelho: O Filme",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2004_clifford.jpg"
       },
       {
@@ -4303,7 +4244,6 @@
         "en": null,
         "pt-br": "Eurotrip: Passaporte para a Confusão",
         "rating": 8.0,
-        "oscar": null,
         "poster": "/images/2004_eurotrip.jpg"
       },
       {
@@ -4311,7 +4251,6 @@
         "en": null,
         "pt-br": "Garfield: O Filme",
         "rating": 5.5,
-        "oscar": null,
         "poster": "/images/2004_garfield.jpg"
       },
       {
@@ -4319,7 +4258,6 @@
         "en": null,
         "pt-br": "Madrugada Muito Louca",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2004_haroldkumar.jpg"
       },
       {
@@ -4327,7 +4265,6 @@
         "en": null,
         "pt-br": "Harry Potter e o Prisioneiro de Azkaban",
         "rating": 7.7,
-        "oscar": null,
         "poster": "/images/2004_azkaban.jpg"
       },
       {
@@ -4335,12 +4272,6 @@
         "en": null,
         "pt-br": "Menina de Ouro",
         "rating": 7.0,
-        "oscar": [
-          "Actor in a Supporting Role",
-          "Actress in a Leading Role",
-          "Directing",
-          "Best Picture"
-        ],
         "poster": "/images/2004_milliondollarbaby.jpg"
       },
       {
@@ -4348,7 +4279,6 @@
         "en": null,
         "pt-br": null,
         "rating": 7.4,
-        "oscar": null,
         "poster": "/images/2004_shrek2.jpg"
       },
       {
@@ -4356,7 +4286,6 @@
         "en": null,
         "pt-br": "Homem-Aranha 2",
         "rating": 7.2,
-        "oscar": "Visual Effects",
         "poster": "/images/2004_spiderman2.jpg"
       },
       {
@@ -4364,7 +4293,6 @@
         "en": null,
         "pt-br": "Os Incríveis",
         "rating": 8.2,
-        "oscar": ["Animated Feature Film", "Sound Editing"],
         "poster": "/images/2004_incredibles.jpg"
       },
       {
@@ -4372,7 +4300,6 @@
         "en": null,
         "pt-br": "O Expresso Polar",
         "rating": 6.9,
-        "oscar": null,
         "poster": "/images/2004_polarexpress.jpg"
       },
       {
@@ -4380,7 +4307,6 @@
         "en": null,
         "pt-br": "Bob Esponja: O Filme",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2004_bobesponja.jpg"
       },
       {
@@ -4388,7 +4314,6 @@
         "en": null,
         "pt-br": "As Branquelas",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2004_whitechicks.jpg"
       }
     ]
@@ -4401,7 +4326,6 @@
         "en": null,
         "pt-br": "+ Velozes + Furiosos",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2003_2fast2furious.jpg"
       },
       {
@@ -4409,7 +4333,6 @@
         "en": null,
         "pt-br": null,
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2003_badboys.jpg"
       },
       {
@@ -4417,7 +4340,6 @@
         "en": null,
         "pt-br": "Irmão Urso",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2003_brotherbear.jpg"
       },
       {
@@ -4425,7 +4347,6 @@
         "en": null,
         "pt-br": "A Creche do Papai",
         "rating": 5.4,
-        "oscar": null,
         "poster": "/images/2003_daddydaycare.jpg"
       },
       {
@@ -4433,7 +4354,6 @@
         "en": null,
         "pt-br": "Procurando Nemo",
         "rating": 8.5,
-        "oscar": "Animated Feature Film",
         "poster": "/images/2003_nemo.jpg"
       },
       {
@@ -4441,7 +4361,6 @@
         "en": null,
         "pt-br": "Como Perder um Homem em 10 Dias",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2003_loseguy.jpg"
       },
       {
@@ -4449,7 +4368,6 @@
         "en": null,
         "pt-br": null,
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2003_hulk.jpg"
       },
       {
@@ -4457,7 +4375,6 @@
         "en": null,
         "pt-br": "Canguru Jack",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2003_kangaroo.jpg"
       },
       {
@@ -4465,7 +4382,6 @@
         "en": null,
         "pt-br": "Meu Nome é Radio",
         "rating": 8.7,
-        "oscar": null,
         "poster": "/images/2003_radio.jpg"
       },
       {
@@ -4473,7 +4389,6 @@
         "en": null,
         "pt-br": "Escola de Rock",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2003_schoolrock.jpg"
       },
       {
@@ -4481,19 +4396,6 @@
         "en": null,
         "pt-br": "O Senhor dos Anéis: O Retorno do Rei",
         "rating": 9.0,
-        "oscar": [
-          "Art Direction",
-          "Costume Design",
-          "Directing",
-          "Film Editing",
-          "Makeup",
-          "Music (Original Score)",
-          "Music (Original Song)",
-          "Best Picture",
-          "Sound Mixing",
-          "Visual Effects",
-          "Writing (Adapted Screenplay)"
-        ],
         "poster": "/images/2003_lotr3.jpg"
       },
       {
@@ -4501,7 +4403,6 @@
         "en": "X2: X-Men United",
         "pt-br": "X-Men 2",
         "rating": 5.5,
-        "oscar": null,
         "poster": "/images/2003_x2.jpg"
       }
     ]
@@ -4514,7 +4415,6 @@
         "en": null,
         "pt-br": "Prenda-me se for Capaz",
         "rating": 8.5,
-        "oscar": null,
         "poster": "/images/2002_catchme.jpg"
       },
       {
@@ -4522,7 +4422,6 @@
         "en": null,
         "pt-br": "Harry Potter e a Câmara Secreta",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2002_harrypotter.jpg"
       },
       {
@@ -4530,7 +4429,6 @@
         "en": null,
         "pt-br": "A Era do Gelo",
         "rating": 8.2,
-        "oscar": null,
         "poster": "/images/2002_iceage.jpg"
       },
       {
@@ -4538,7 +4436,6 @@
         "en": null,
         "pt-br": null,
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2002_scooby.jpg"
       },
       {
@@ -4546,7 +4443,6 @@
         "en": null,
         "pt-br": "Homem-Aranha",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2002_spiderman.jpg"
       },
       {
@@ -4554,7 +4450,6 @@
         "en": null,
         "pt-br": "O Senhor dos Anéis: As Duas Torres",
         "rating": 9.0,
-        "oscar": ["Sound Editing", "Visual Effects"],
         "poster": "/images/2002_lotr2.jpg"
       },
       {
@@ -4562,11 +4457,6 @@
         "en": null,
         "pt-br": "O Pianista",
         "rating": 9.0,
-        "oscar": [
-          "Actor in a Leading Role",
-          "Directing",
-          "Writing (Adapted Screenplay)"
-        ],
         "poster": "/images/2002_pianist.jpg"
       }
     ]
@@ -4579,7 +4469,6 @@
         "en": null,
         "pt-br": "Harry Potter e a Pedra Filosofal",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2001_harrypotter.jpg"
       },
       {
@@ -4587,7 +4476,6 @@
         "en": null,
         "pt-br": "Monstros S.A.",
         "rating": 8.0,
-        "oscar": "Music (Original Song)",
         "poster": "/images/2001_monsters.jpg"
       },
       {
@@ -4595,7 +4483,6 @@
         "en": null,
         "pt-br": "Moulin Rouge: Amor em Vermelho",
         "rating": 8.5,
-        "oscar": ["Art Direction", "Costume Design"],
         "poster": "/images/2001_moulinrouge.jpg"
       },
       {
@@ -4603,7 +4490,6 @@
         "en": null,
         "pt-br": "A Hora do Rush 2",
         "rating": 7.2,
-        "oscar": null,
         "poster": "/images/2001_rushhour2.jpg"
       },
       {
@@ -4611,7 +4497,6 @@
         "en": null,
         "pt-br": null,
         "rating": 8.2,
-        "oscar": "Animated Feature Film",
         "poster": "/images/2001_shrek.jpg"
       },
       {
@@ -4619,7 +4504,6 @@
         "en": null,
         "pt-br": "Velozes & Furiosos",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2001_furious.jpg"
       },
       {
@@ -4627,12 +4511,6 @@
         "en": null,
         "pt-br": "O Senhor dos Anéis: A Sociedade do Anel",
         "rating": 9.0,
-        "oscar": [
-          "Cinematography",
-          "Makeup",
-          "Music (Original Score)",
-          "Visual Effects"
-        ],
         "poster": "/images/2001_lotr1.jpg"
       }
     ]
@@ -4645,7 +4523,6 @@
         "en": null,
         "pt-br": "Vovó... Zona",
         "rating": 4.0,
-        "oscar": null,
         "poster": "/images/2000_bigmomma.jpg"
       },
       {
@@ -4653,7 +4530,6 @@
         "en": null,
         "pt-br": "Náufrago",
         "rating": 7.9,
-        "oscar": null,
         "poster": "/images/2000_castaway.jpg"
       },
       {
@@ -4661,7 +4537,6 @@
         "en": null,
         "pt-br": "Encontrando Forrester",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2000_findingforrester.jpg"
       },
       {
@@ -4669,13 +4544,6 @@
         "en": null,
         "pt-br": "Gladiador",
         "rating": 8.5,
-        "oscar": [
-          "Actor in a Leading Role",
-          "Costume Design",
-          "Best Picture",
-          "Sound",
-          "Visual Effects"
-        ],
         "poster": "/images/2000_gladiator.jpg"
       },
       {
@@ -4683,7 +4551,6 @@
         "en": null,
         "pt-br": "X-Men: O Filme",
         "rating": 5.5,
-        "oscar": null,
         "poster": "/images/2000_xmen.jpg"
       }
     ]
@@ -4696,7 +4563,6 @@
         "en": null,
         "pt-br": null,
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/1999_dogma.jpg"
       },
       {
@@ -4704,7 +4570,6 @@
         "en": null,
         "pt-br": "Clube da Luta",
         "rating": 9.1,
-        "oscar": null,
         "poster": "/images/1999_fightclub.jpg"
       },
       {
@@ -4712,7 +4577,6 @@
         "en": null,
         "pt-br": "O Pequeno Stuart Little",
         "rating": 4.0,
-        "oscar": null,
         "poster": "/images/1999_stuartlittle.jpg"
       },
       {
@@ -4720,7 +4584,6 @@
         "en": null,
         "pt-br": "À Espera de um Milagre",
         "rating": 9.0,
-        "oscar": null,
         "poster": "/images/1999_greenmile.jpg"
       },
       {
@@ -4728,7 +4591,6 @@
         "en": null,
         "pt-br": null,
         "rating": 8.0,
-        "oscar": null,
         "poster": "/images/1999_toystory2.jpg"
       }
     ]
@@ -4741,7 +4603,6 @@
         "en": null,
         "pt-br": "Vida de Inseto",
         "rating": 6.9,
-        "oscar": null,
         "poster": "/images/1998_abugslife.jpg"
       },
       {
@@ -4749,7 +4610,6 @@
         "en": null,
         "pt-br": "A Hora do Rush",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/1998_rushhour.jpg"
       },
       {
@@ -4757,13 +4617,6 @@
         "en": null,
         "pt-br": "O Resgate do Soldado Ryan",
         "rating": 9.0,
-        "oscar": [
-          "Cinematography",
-          "Directing",
-          "Film Editing",
-          "Sound",
-          "Sound Effects Editing"
-        ],
         "poster": "/images/1998_savingprivateryan.jpg"
       },
       {
@@ -4771,7 +4624,6 @@
         "en": null,
         "pt-br": "Operação Cupido",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/1998_parenttrap.jpg"
       }
     ]
@@ -4784,7 +4636,6 @@
         "en": null,
         "pt-br": "Advogado do Diabo",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/1997_devilsadvocate.jpg"
       }
     ]
@@ -4797,7 +4648,6 @@
         "en": null,
         "pt-br": null,
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/1996_matilda.jpg"
       },
       {
@@ -4805,7 +4655,6 @@
         "en": null,
         "pt-br": "Space Jam: O Jogo do Século",
         "rating": 8.2,
-        "oscar": null,
         "poster": "/images/1996_spacejam.jpg"
       }
     ]
@@ -4818,7 +4667,6 @@
         "en": null,
         "pt-br": null,
         "rating": 8.0,
-        "oscar": "Special Achievement Award",
         "poster": "/images/1995_toystory.jpg"
       }
     ]
@@ -4831,7 +4679,6 @@
         "en": null,
         "pt-br": "Pulp Fiction: Tempo de Violência",
         "rating": 10,
-        "oscar": "Writing (Screenplay Written Directly for the Screen)",
         "poster": "/images/1994_pulpfiction.jpg"
       }
     ]
