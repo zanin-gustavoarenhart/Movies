@@ -7,7 +7,6 @@
         "en": "Sentimental Value",
         "pt-br": "Valor Sentimental",
         "rating": 9.0,
-        "oscar": "International Feature Film",
         "poster": "/images/2025_sentimentalvalue.jpg"
       },
       {
@@ -15,7 +14,6 @@
         "en": null,
         "pt-br": "Um Filme Minecraft",
         "rating": 2.7,
-        "oscar": null,
         "poster": "/images/2025_minecraft.jpg"
       },
       {
@@ -23,7 +21,6 @@
         "en": null,
         "pt-br": "Avatar: Fogo e Cinzas",
         "rating": 8.3,
-        "oscar": "Visual Effects",
         "poster": "/images/2025_avatar.jpg"
       },
       {
@@ -31,7 +28,6 @@
         "en": null,
         "pt-br": "Bailarina",
         "rating": 6.7,
-        "oscar": null,
         "poster": "/images/2025_ballerina.jpg"
       },
       {
@@ -39,7 +35,6 @@
         "en": null,
         "pt-br": "Capitão América: Admirável Mundo Novo",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2025_captainamerica.jpg"
       },
       {
@@ -47,7 +42,6 @@
         "en": null,
         "pt-br": "Acompanhante Perfeita",
         "rating": 7.2,
-        "oscar": null,
         "poster": "/images/2025_companion.jpg"
       },
       {
@@ -55,7 +49,6 @@
         "en": null,
         "pt-br": "Nossa Culpa",
         "rating": 1.5,
-        "oscar": null,
         "poster": "/images/2025_culpanuestra.jpg"
       },
       {
@@ -63,7 +56,6 @@
         "en": "No Other Choice",
         "pt-br": "A Única Saída",
         "rating": 7.3,
-        "oscar": null,
         "poster": "/images/2025_nootherchoice.jpg"
       },
       {
@@ -71,7 +63,6 @@
         "en": "F1: The Movie",
         "pt-br": "F1: O Filme",
         "rating": 7.5,
-        "oscar": "Sound",
         "poster": "/images/2025_f1.jpg"
       },
       {
@@ -79,7 +70,6 @@
         "en": null,
         "pt-br": "Quando o Céu se Engana",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2025_goodfortune.jpg"
       },
       {
@@ -87,7 +77,6 @@
         "en": null,
         "pt-br": "Como Treinar o Seu Dragão",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2025_howtotrainyourdragon.jpg"
       },
       {
@@ -95,7 +84,6 @@
         "en": null,
         "pt-br": "Isso Ainda Está de Pé?",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2025_isthisthingon.jpg"
       },
       {
@@ -103,7 +91,6 @@
         "en": null,
         "pt-br": "Karatê Kid: Lendas",
         "rating": 4.0,
-        "oscar": null,
         "poster": "/images/2025_karatekid.jpg"
       },
       {
@@ -111,7 +98,6 @@
         "en": "KPop Demon Hunters",
         "pt-br": "Guerreiras do K-Pop",
         "rating": 7.0,
-        "oscar": ["Animated Feature Film", "Music (Original Song)"],
         "poster": "/images/2025_kpopdemonhunters.jpg"
       },
       {
@@ -119,7 +105,6 @@
         "en": null,
         "pt-br": null,
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2025_lilostitch.jpg"
       },
       {
@@ -127,7 +112,6 @@
         "en": null,
         "pt-br": null,
         "rating": 6.1,
-        "oscar": null,
         "poster": "/images/2025_martysupreme.jpg"
       },
       {
@@ -135,7 +119,6 @@
         "en": null,
         "pt-br": "Truque de Mestre: O 3° Ato",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2025_nowyouseeme.jpg"
       },
       {
@@ -143,14 +126,6 @@
         "en": null,
         "pt-br": "Uma Batalha Após a Outra",
         "rating": 8.2,
-        "oscar": [
-          "Actor in a Supporting Role",
-          "Casting",
-          "Directing",
-          "Film Editing",
-          "Best Picture",
-          "Writing (Adapted Screenplay)"
-        ],
         "poster": "/images/2025_onebattle.jpg"
       },
       {
@@ -158,7 +133,6 @@
         "en": null,
         "pt-br": "Se Não Fosse Você",
         "rating": 6.9,
-        "oscar": null,
         "poster": "/images/2025_regrettingyou.jpg"
       },
       {
@@ -166,7 +140,6 @@
         "en": null,
         "pt-br": "O Bom Bandido",
         "rating": 7.2,
-        "oscar": null,
         "poster": "/images/2025_roofman.jpg"
       },
       {
@@ -174,7 +147,6 @@
         "en": "Sisu: Road to Revenge",
         "pt-br": "Sisu: Estrada da Vingança",
         "rating": 6.8,
-        "oscar": null,
         "poster": "/images/2025_sisu2.jpg"
       },
       {
@@ -182,7 +154,6 @@
         "en": null,
         "pt-br": null,
         "rating": 8.5,
-        "oscar": null,
         "poster": "/images/2025_sorrybaby.jpg"
       },
       {
@@ -190,7 +161,6 @@
         "en": null,
         "pt-br": null,
         "rating": 8.0,
-        "oscar": null,
         "poster": "/images/2025_superman.jpg"
       },
       {
@@ -198,7 +168,6 @@
         "en": null,
         "pt-br": "O Contador 2",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2025_accountant2.jpg"
       },
       {
@@ -206,7 +175,6 @@
         "en": null,
         "pt-br": "Operação Vingança",
         "rating": 6.7,
-        "oscar": null,
         "poster": "/images/2025_theamateur.jpg"
       },
       {
@@ -214,7 +182,6 @@
         "en": null,
         "pt-br": "Quarteto Fantástico: Primeiros Passos",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2025_thefantasticfour.jpg"
       },
       {
@@ -222,7 +189,6 @@
         "en": null,
         "pt-br": "A Empregada",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2025_housemaid.jpg"
       },
       {
@@ -230,7 +196,6 @@
         "en": null,
         "pt-br": "Corra que a Polícia Vem Aí!",
         "rating": 2.3,
-        "oscar": null,
         "poster": "/images/2025_nakedgun.jpg"
       },
       {
@@ -238,7 +203,6 @@
         "en": null,
         "pt-br": "O Esquema Fenício",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2025_phoenicianscheme.jpg"
       },
       {
@@ -246,7 +210,6 @@
         "en": null,
         "pt-br": "Os Roses: Até que a Morte os Separe",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2025_roses.jpg"
       },
       {
@@ -254,7 +217,6 @@
         "en": null,
         "pt-br": null,
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2025_thunderbolts.jpg"
       },
       {
@@ -262,7 +224,6 @@
         "en": null,
         "pt-br": "Sonhos de Trem",
         "rating": 10,
-        "oscar": null,
         "poster": "/images/2025_traindreams.jpg"
       }
     ]
@@ -2143,252 +2104,245 @@
         "en": null,
         "pt-br": "Alice Através do Espelho",
         "rating": 6.0,
-        "oscar": null
+        "poster": "/images/2016_alice.jpg"
       },
       {
         "or": "Assassin's Creed",
         "en": null,
         "pt-br": null,
         "rating": 0,
-        "oscar": null
+        "poster": "/images/2016_assassinscreed.jpg"
       },
       {
         "or": "A Street Cat Named Bob",
         "en": null,
         "pt-br": "Um Gato de Rua Chamado Bob",
         "rating": 7.7,
-        "oscar": null
+        "poster": "/images/2016_a_street_cat_named_bob.jpg"
       },
       {
         "or": "Batman v Superman: Dawn of Justice",
         "en": null,
         "pt-br": "Batman vs Superman: A Origem da Justiça",
         "rating": 5.5,
-        "oscar": null
+        "poster": "/images/2016_batman_v_superman.jpg"
       },
       {
         "or": "Busanhaeng",
         "en": "Train to Busan",
         "pt-br": "Invasão Zumbi",
         "rating": 2.5,
-        "oscar": null
+        "poster": "/images/2016_busanhaeng.jpg"
       },
       {
         "or": "Captain America: Civil War",
         "en": null,
         "pt-br": "Capitão América: Guerra Civil",
         "rating": 7.9,
-        "oscar": null
+        "poster": "/images/2016_captain_america_civil_war.jpg"
       },
       {
         "or": "Central Intelligence",
         "en": null,
         "pt-br": "Um Espião e Meio",
         "rating": 0,
-        "oscar": null
+        "poster": "/images/2016_central_intelligence.jpg"
       },
       {
         "or": "Deadpool",
         "en": null,
         "pt-br": null,
         "rating": 7.7,
-        "oscar": null
+        "poster": "/images/2016_deadpool.jpg"
       },
       {
         "or": "Dirty Grandpa",
         "en": null,
         "pt-br": "Tirando o Atraso",
         "rating": 5.0,
-        "oscar": null
+        "poster": "/images/2016_dirty_grandpa.jpg"
       },
       {
         "or": "Doctor Strange",
         "en": null,
         "pt-br": "Doutor Estranho",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2016_doctor_strange.jpg"
       },
       {
         "or": "Fantastic Beasts and Where to Find Them",
         "en": null,
         "pt-br": "Animais Fantásticos e Onde Habitam",
         "rating": 7.1,
-        "oscar": "Costume Design"
+        "poster": "/images/2016_fantastic_beasts.jpg"
       },
       {
         "or": "Hacksaw Ridge",
         "en": null,
         "pt-br": "Até o Último Homem",
         "rating": 9.0,
-        "oscar": ["Film Editing", "Sound Mixing"]
+        "poster": "/images/2016_hacksaw_ridge.jpg"
       },
       {
         "or": "Ice Age: Collision Course",
         "en": null,
         "pt-br": "A Era do Gelo 5: O Big Bang",
         "rating": 5.5,
-        "oscar": null
+        "poster": "/images/2016_ice_age_collision_course.jpg"
       },
       {
         "or": "Kimi no na wa.",
         "en": "Your Name.",
         "pt-br": "Your Name",
         "rating": 10,
-        "oscar": null
+        "poster": "/images/2016_kimi_no_na_wa.jpg"
       },
       {
         "or": "Kung Fu Panda 3",
         "en": null,
         "pt-br": null,
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2016_kung_fu_panda_3.jpg"
       },
       {
         "or": "La La Land",
         "en": null,
         "pt-br": "La La Land: Cantando Estações",
         "rating": 9.3,
-        "oscar": [
-          "Actress in a Leading Role",
-          "Cinematography",
-          "Directing",
-          "Music (Original Score)",
-          "Music (Original Song)",
-          "Production Design"
-        ]
+        "poster": "/images/2016_la_la_land.jpg"
       },
       {
         "or": "Maverick: Manhunt Brazil",
         "en": null,
         "pt-br": "Maverick: Caçada no Brasil",
         "rating": 0,
-        "oscar": null
+        "poster": "/images/2016_maverick.jpg"
       },
       {
         "or": "Me Before You",
         "en": null,
         "pt-br": "Como Eu Era Antes de Você",
         "rating": 7.5,
-        "oscar": null
+        "poster": "/images/2016_me_before_you.jpg"
       },
       {
         "or": "Mike and Dave Need Wedding Dates",
         "en": null,
         "pt-br": "Os Caça-Noivas",
         "rating": 5.5,
-        "oscar": null
+        "poster": "/images/2016_mike_and_dave_need_wedding_dates.jpg"
       },
       {
         "or": "Neighbors 2: Sorority Rising",
         "en": null,
         "pt-br": "Vizinhos 2",
         "rating": 5.3,
-        "oscar": null
+        "poster": "/images/2016_neighbors_2.jpg"
       },
       {
         "or": "Now You See Me 2",
         "en": null,
         "pt-br": "Truque de Mestre: O 2º Ato",
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2016_now_you_see_me_2.jpg"
       },
       {
         "or": "Ride Along 2",
         "en": null,
         "pt-br": "Policial em Apuros 2",
         "rating": 5.7,
-        "oscar": null
+        "poster": "/images/2016_ride_along_2.jpg"
       },
       {
         "or": "Snowden",
         "en": null,
         "pt-br": "Snowden: Herói ou Traidor",
         "rating": 7.2,
-        "oscar": null
+        "poster": "/images/2016_snowden.jpg"
       },
       {
         "or": "Suicide Squad",
         "en": null,
         "pt-br": "Esquadrão Suicida",
         "rating": 6.0,
-        "oscar": "Makeup and Hairstyling"
+        "poster": "/images/2016_suicide_squad.jpg"
       },
       {
         "or": "The Accountant",
         "en": null,
         "pt-br": "O Contador",
         "rating": 7.5,
-        "oscar": null
+        "poster": "/images/2016_the_accountant.jpg"
       },
       {
         "or": "The Angry Birds Movie",
         "en": null,
         "pt-br": "Angry Birds: O Filme",
         "rating": 6.1,
-        "oscar": null
+        "poster": "/images/2016_the_angry_birds_movie.jpg"
       },
       {
         "or": "The Do-Over",
         "en": null,
         "pt-br": "Zerando a Vida",
         "rating": 5.0,
-        "oscar": null
+        "poster": "/images/2016_the_do_over.jpg"
       },
       {
         "or": "The Founder",
         "en": null,
         "pt-br": "Fome de Poder",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2016_the_founder.jpg"
       },
       {
         "or": "Warcraft",
         "en": null,
         "pt-br": "Warcraft: O Primeiro Encontro de Dois Mundos",
         "rating": 6.0,
-        "oscar": null
+        "poster": "/images/2016_warcraft.jpg"
       },
       {
         "or": "War Dogs",
         "en": null,
         "pt-br": "Cães de Guerra",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2016_war_dogs.jpg"
       },
       {
         "or": "Why Him?",
         "en": null,
         "pt-br": "Tinha Que Ser Ele?",
         "rating": 6.3,
-        "oscar": null
+        "poster": "/images/2016_why_him.jpg"
       },
       {
         "or": "XOXO",
         "en": null,
         "pt-br": "XOXO - A Vida é uma Festa",
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2016_xoxo.jpg"
       },
       {
         "or": "X-Men: Apocalypse",
         "en": null,
         "pt-br": "X-Men: Apocalipse",
         "rating": 6.3,
-        "oscar": null
+        "poster": "/images/2016_x_men_apocalypse.jpg"
       },
       {
         "or": "Zootopia",
         "en": null,
         "pt-br": "Zootopia: Essa Cidade é o Bicho",
         "rating": 8.0,
-        "oscar": "Animated Feature Film"
+        "poster": "/images/2016_zootopia.jpg"
       },
       {
         "or": "Zuttomaekara sukideshita.: Kokuhaku jikkou iinkai",
         "en": "I Want to Let You Know That I Love You",
         "pt-br": "Eu Sempre Amei Você",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2016_zuttomaekara_sukideshita.jpg"
       }
     ]
   },
@@ -2400,147 +2354,147 @@
         "en": null,
         "pt-br": "Homem-Formiga",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2015_antman.jpg"
       },
       {
         "or": "Até que a Sorte nos Separe 3: A Falência Final",
         "en": "Till Luck Do Us Part 3",
         "pt-br": null,
         "rating": 5.0,
-        "oscar": null
+        "poster": "/images/2015_sorte3.jpg"
       },
       {
         "or": "Avengers: Age of Ultron",
         "en": null,
         "pt-br": "Vingadores: Era de Ultron",
         "rating": 7.5,
-        "oscar": null
+        "poster": "/images/2015_avengers.jpg"
       },
       {
         "or": "Creed",
         "en": null,
         "pt-br": "Creed: Nascido para Lutar",
         "rating": 7.7,
-        "oscar": null
+        "poster": "/images/2015_creed.jpg"
       },
       {
         "or": "Fantastic Four",
         "en": null,
         "pt-br": "Quarteto Fantástico",
         "rating": 2.9,
-        "oscar": null
+        "poster": "/images/2015_fantasticfour.jpg"
       },
       {
         "or": "Fast & Furious 7",
         "en": "Furious 7",
         "pt-br": "Velozes & Furiosos 7",
         "rating": 7.7,
-        "oscar": null
+        "poster": "/images/2015_furious7.jpg"
       },
       {
         "or": "Get Hard",
         "en": null,
         "pt-br": "O Durão",
         "rating": 6.0,
-        "oscar": null
+        "poster": "/images/2015_gethard.jpg"
       },
       {
         "or": "Hotel Transylvania 2",
         "en": null,
         "pt-br": "Hotel Transilvânia 2",
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2015_hoteltransylvania2.jpg"
       },
       {
         "or": "Hot Tub Time Machine 2",
         "en": null,
         "pt-br": "A Ressaca 2",
         "rating": 4.2,
-        "oscar": null
+        "poster": "/images/2015_hottub.jpg"
       },
       {
         "or": "Jurassic World",
         "en": null,
         "pt-br": "Jurassic World: O Mundo dos Dinossauros",
         "rating": 7.1,
-        "oscar": null
+        "poster": "/images/2015_jurassicworld.jpg"
       },
       {
         "or": "Max",
         "en": null,
         "pt-br": "Max: O Cão Herói",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2015_max.jpg"
       },
       {
         "or": "Minions",
         "en": null,
         "pt-br": null,
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2015_minions.jpg"
       },
       {
         "or": "San Andreas",
         "en": null,
         "pt-br": "Terremoto: A Falha de San Andreas",
         "rating": 5.0,
-        "oscar": null
+        "poster": "/images/2015_sanandreas.jpg"
       },
       {
         "or": "Star Wars: Episode VII - The Force Awakens",
         "en": null,
         "pt-br": "Star Wars: O Despertar da Força",
         "rating": 7.6,
-        "oscar": null
+        "poster": "/images/2015_starwars.jpg"
       },
       {
         "or": "Steve Jobs",
         "en": null,
         "pt-br": null,
         "rating": 6.9,
-        "oscar": null
+        "poster": "/images/2015_stevejobs.jpg"
       },
       {
         "or": "Superfast!",
         "en": null,
         "pt-br": "Super Velozes, Mega Furiosos",
         "rating": 3.5,
-        "oscar": null
+        "poster": "/images/2015_superfast.jpg"
       },
       {
         "or": "Ted 2",
         "en": null,
         "pt-br": null,
         "rating": 5.8,
-        "oscar": null
+        "poster": "/images/2015_ted2.jpg"
       },
       {
         "or": "The Big Short",
         "en": null,
         "pt-br": "A Grande Aposta",
         "rating": 7.6,
-        "oscar": "Writing (Adapted Screenplay)"
+        "poster": "/images/2015_bigshort.jpg"
       },
       {
         "or": "The Hateful Eight",
         "en": null,
         "pt-br": "Os Oito Odiados",
         "rating": 10,
-        "oscar": "Music (Original Score)"
+        "poster": "/images/2015_hatefuleight.jpg"
       },
       {
         "or": "The Martian",
         "en": null,
         "pt-br": "Perdido em Marte",
         "rating": 8.0,
-        "oscar": null
+        "poster": "/images/2015_martian.jpg"
       },
       {
         "or": "The Walk",
         "en": null,
         "pt-br": "A Travessia",
         "rating": 7.3,
-        "oscar": null
+        "poster": "/images/2015_thewalk.jpg"
       }
     ]
   },
@@ -2552,7 +2506,6 @@
         "en": null,
         "pt-br": "Anjos da Lei 2",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2014_22jumpstreet.jpg"
       },
       {
@@ -2560,7 +2513,6 @@
         "en": null,
         "pt-br": "Operação Big Hero",
         "rating": 8.2,
-        "oscar": "Animated Feature Film",
         "poster": "/images/2014_bighero6.jpg"
       },
       {
@@ -2568,7 +2520,6 @@
         "en": null,
         "pt-br": "Capitão América 2 - O Soldado Invernal",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2014_captainamerica.jpg"
       },
       {
@@ -2576,7 +2527,6 @@
         "en": null,
         "pt-br": "Planeta dos Macacos: O Confronto",
         "rating": 7.3,
-        "oscar": null,
         "poster": "/images/2014_planetofapes.jpg"
       },
       {
@@ -2584,7 +2534,6 @@
         "en": null,
         "pt-br": "Corações de Ferro",
         "rating": 8.1,
-        "oscar": null,
         "poster": "/images/2014_fury.jpg"
       },
       {
@@ -2592,7 +2541,6 @@
         "en": null,
         "pt-br": "Guardiões da Galáxia",
         "rating": 8.3,
-        "oscar": null,
         "poster": "/images/2014_guardians.jpg"
       },
       {
@@ -2600,7 +2548,6 @@
         "en": null,
         "pt-br": "Como Treinar o Seu Dragão 2",
         "rating": 7.6,
-        "oscar": null,
         "poster": "/images/2014_howtotrain.jpg"
       },
       {
@@ -2608,7 +2555,6 @@
         "en": null,
         "pt-br": "Interestelar",
         "rating": 10,
-        "oscar": "Visual Effects",
         "poster": "/images/2014_interstellar.jpg"
       },
       {
@@ -2616,7 +2562,6 @@
         "en": null,
         "pt-br": "De Volta ao Jogo",
         "rating": 7.7,
-        "oscar": null,
         "poster": "/images/2014_johnwick.jpg"
       },
       {
@@ -2624,7 +2569,6 @@
         "en": null,
         "pt-br": "Kingsman: Serviço Secreto",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2014_kingsman.jpg"
       },
       {
@@ -2632,7 +2576,6 @@
         "en": null,
         "pt-br": "Tiras, Só que Não",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2014_letsbecops.jpg"
       },
       {
@@ -2640,7 +2583,6 @@
         "en": null,
         "pt-br": "Malévola",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2014_maleficent.jpg"
       },
       {
@@ -2648,7 +2590,6 @@
         "en": null,
         "pt-br": "Need for Speed: O Filme",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2014_needforspeed.jpg"
       },
       {
@@ -2656,7 +2597,6 @@
         "en": null,
         "pt-br": "Vizinhos",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2014_neighbors.jpg"
       },
       {
@@ -2664,7 +2604,6 @@
         "en": null,
         "pt-br": "Uma Noite no Museu 3: O Segredo da Tumba",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2014_nightatthemuseum.jpg"
       },
       {
@@ -2672,7 +2611,6 @@
         "en": null,
         "pt-br": "Os Pinguins de Madagascar",
         "rating": 6.3,
-        "oscar": null,
         "poster": "/images/2014_penguins.jpg"
       },
       {
@@ -2680,7 +2618,6 @@
         "en": null,
         "pt-br": "Policial em Apuros",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2014_ridealong.jpg"
       },
       {
@@ -2688,7 +2625,6 @@
         "en": null,
         "pt-br": null,
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2014_rio2.jpg"
       },
       {
@@ -2696,7 +2632,6 @@
         "en": "The Raid 2",
         "pt-br": "Operação Invasão 2",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2014_raid2.jpg"
       },
       {
@@ -2704,7 +2639,6 @@
         "en": null,
         "pt-br": "O Espetacular Homem-Aranha 2: A Ameaça de Electro",
         "rating": 7.2,
-        "oscar": null,
         "poster": "/images/2014_spiderman.jpg"
       },
       {
@@ -2712,7 +2646,6 @@
         "en": null,
         "pt-br": "O Apostador",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2014_thegambler.jpg"
       },
       {
@@ -2720,7 +2653,6 @@
         "en": null,
         "pt-br": "O Hobbit: A Batalha dos Cinco Exércitos",
         "rating": 7.7,
-        "oscar": null,
         "poster": "/images/2014_hobbit.jpg"
       },
       {
@@ -2728,7 +2660,6 @@
         "en": null,
         "pt-br": "O Jogo da Imitação",
         "rating": 8.0,
-        "oscar": "Writing (Adapted Screenplay)",
         "poster": "/images/2014_theimitationgame.jpg"
       },
       {
@@ -2736,7 +2667,6 @@
         "en": null,
         "pt-br": "O Juiz",
         "rating": 7.7,
-        "oscar": null,
         "poster": "/images/2014_thejudge.jpg"
       },
       {
@@ -2744,7 +2674,6 @@
         "en": null,
         "pt-br": "Transformers: A Era da Extinção",
         "rating": 5.5,
-        "oscar": null,
         "poster": "/images/2014_transformers.jpg"
       },
       {
@@ -2752,7 +2681,6 @@
         "en": null,
         "pt-br": "X-Men: Dias de um Futuro Esquecido",
         "rating": 7.7,
-        "oscar": null,
         "poster": "/images/2014_xmen.jpg"
       }
     ]
@@ -2765,11 +2693,6 @@
         "en": null,
         "pt-br": "12 Anos de Escravidão",
         "rating": 8.0,
-        "oscar": [
-          "Actress in a Supporting Role",
-          "Best Picture",
-          "Writing (Adapted Screenplay)"
-        ],
         "poster": "/images/2013_12yearsaslave.jpg"
       },
       {
@@ -2777,7 +2700,6 @@
         "en": null,
         "pt-br": "Questão de Tempo",
         "rating": 8.8,
-        "oscar": null,
         "poster": "/images/2013_abouttime.jpg"
       },
       {
@@ -2785,7 +2707,6 @@
         "en": "Till Luck Do Us Part 2",
         "pt-br": null,
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2012_tillluckdouspart2.jpg"
       },
       {
@@ -2793,7 +2714,6 @@
         "en": null,
         "pt-br": "Meu Malvado Favorito 2",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2013_despicableme2.jpg"
       },
       {
@@ -2801,7 +2721,6 @@
         "en": null,
         "pt-br": "Frozen: Uma Aventura Congelante",
         "rating": 7.5,
-        "oscar": ["Animated Feature Film", "Music (Original Song)"],
         "poster": "/images/2013_frozen.jpg"
       },
       {
@@ -2809,7 +2728,6 @@
         "en": "Fast & Furious 6",
         "pt-br": "Velozes & Furiosos 6",
         "rating": 6.4,
-        "oscar": null,
         "poster": "/images/2013_furious6.jpg"
       },
       {
@@ -2817,7 +2735,6 @@
         "en": null,
         "pt-br": "Gente Grande 2",
         "rating": 5.2,
-        "oscar": null,
         "poster": "/images/2013_grownups2.jpg"
       },
       {
@@ -2825,7 +2742,6 @@
         "en": "Iron Man 3",
         "pt-br": "Homem de Ferro 3",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2013_ironman3.jpg"
       },
       {
@@ -2833,7 +2749,6 @@
         "en": null,
         "pt-br": null,
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2013_jobs.jpg"
       },
       {
@@ -2841,7 +2756,6 @@
         "en": null,
         "pt-br": null,
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2013_kickass2.jpg"
       },
       {
@@ -2849,7 +2763,6 @@
         "en": null,
         "pt-br": "Jogada de Rei",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2013_lifeofaking.jpg"
       },
       {
@@ -2857,7 +2770,6 @@
         "en": null,
         "pt-br": "Truque de Mestre",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2013_nowyouseeme.jpg"
       },
       {
@@ -2865,7 +2777,6 @@
         "en": null,
         "pt-br": "Percy Jackson e o Mar de Monstros",
         "rating": 5.5,
-        "oscar": null,
         "poster": "/images/2013_percyjackson.jpg"
       },
       {
@@ -2873,7 +2784,6 @@
         "en": null,
         "pt-br": "Os Suspeitos",
         "rating": 8.8,
-        "oscar": null,
         "poster": "/images/2013_prisoners.jpg"
       },
       {
@@ -2881,7 +2791,6 @@
         "en": null,
         "pt-br": "Rush: No Limite da Emoção",
         "rating": 8.3,
-        "oscar": null,
         "poster": "/images/2013_rush.jpg"
       },
       {
@@ -2889,7 +2798,6 @@
         "en": null,
         "pt-br": "O Grande Gatsby",
         "rating": 9.0,
-        "oscar": ["Costume Design", "Production Design"],
         "poster": "/images/2013_greatgatsby.jpg"
       },
       {
@@ -2897,7 +2805,6 @@
         "en": null,
         "pt-br": "Se Beber, Não Case! Parte III",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2013_hangover3.jpg"
       },
       {
@@ -2905,7 +2812,6 @@
         "en": null,
         "pt-br": "O Hobbit: A Desolação de Smaug",
         "rating": 8.0,
-        "oscar": null,
         "poster": "/images/2013_hobbit2.jpg"
       },
       {
@@ -2913,7 +2819,6 @@
         "en": null,
         "pt-br": "Os Estagiários",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2013_internship.jpg"
       },
       {
@@ -2921,7 +2826,6 @@
         "en": null,
         "pt-br": "O Lobo de Wall Street",
         "rating": 8.5,
-        "oscar": null,
         "poster": "/images/2013_wolfofwallstreet.jpg"
       },
       {
@@ -2929,7 +2833,6 @@
         "en": null,
         "pt-br": "Wolverine: Imortal",
         "rating": 6.7,
-        "oscar": null,
         "poster": "/images/2013_wolverine.jpg"
       },
       {
@@ -2937,7 +2840,6 @@
         "en": null,
         "pt-br": "Thor: O Mundo Sombrio",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2013_thor.jpg"
       }
     ]
@@ -2950,7 +2852,6 @@
         "en": null,
         "pt-br": "Anjos da Lei",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2012_21jumpstreet.jpg"
       },
       {
@@ -2958,7 +2859,6 @@
         "en": "Till Luck Do Us Part",
         "pt-br": null,
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2012_tillluckdouspart.jpg"
       },
       {
@@ -2966,7 +2866,6 @@
         "en": null,
         "pt-br": "As Mil Palavras",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2012_athousandwords.jpg"
       },
       {
@@ -2974,7 +2873,6 @@
         "en": null,
         "pt-br": "Perdido Pra Cachorro 3",
         "rating": 4.0,
-        "oscar": null,
         "poster": "/images/2012_chihuahua3.jpg"
       },
       {
@@ -2982,7 +2880,6 @@
         "en": null,
         "pt-br": "Valente",
         "rating": 7.9,
-        "oscar": "Animated Feature Film",
         "poster": "/images/2012_brave.jpg"
       },
       {
@@ -2990,7 +2887,6 @@
         "en": null,
         "pt-br": "Poder Sem Limites",
         "rating": 6.2,
-        "oscar": null,
         "poster": "/images/2012_chronicle.jpg"
       },
       {
@@ -2998,7 +2894,6 @@
         "en": null,
         "pt-br": "Django Livre",
         "rating": 10,
-        "oscar": ["Actor in a Supporting Role", "Writing (Original Screenplay)"],
         "poster": "/images/2012_django.jpg"
       },
       {
@@ -3006,7 +2901,6 @@
         "en": null,
         "pt-br": "Hotel Transilvânia",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2012_hoteltransylvania.jpg"
       },
       {
@@ -3014,7 +2908,6 @@
         "en": null,
         "pt-br": "A Era do Gelo 4",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2012_iceage4.jpg"
       },
       {
@@ -3022,7 +2915,6 @@
         "en": null,
         "pt-br": "Madagascar 3: Os Procurados",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2012_madagascar3.jpg"
       },
       {
@@ -3030,7 +2922,6 @@
         "en": null,
         "pt-br": "Projeto X: Uma Festa Fora de Controle",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2012_projectx.jpg"
       },
       {
@@ -3038,7 +2929,6 @@
         "en": null,
         "pt-br": "A Origem dos Guardiões",
         "rating": 9.2,
-        "oscar": null,
         "poster": "/images/2012_riseoftheguardians.jpg"
       },
       {
@@ -3046,7 +2936,6 @@
         "en": null,
         "pt-br": null,
         "rating": 6.9,
-        "oscar": null,
         "poster": "/images/2012_ted.jpg"
       },
       {
@@ -3054,7 +2943,6 @@
         "en": null,
         "pt-br": "Este é o Meu Garoto",
         "rating": 5.3,
-        "oscar": null,
         "poster": "/images/2012_thatsmyboy.jpg"
       },
       {
@@ -3062,7 +2950,6 @@
         "en": null,
         "pt-br": "O Espetacular Homem-Aranha",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2012_spiderman.jpg"
       },
       {
@@ -3070,7 +2957,6 @@
         "en": null,
         "pt-br": "The Avengers - Os Vingadores",
         "rating": 8.4,
-        "oscar": null,
         "poster": "/images/2012_avengers.jpg"
       },
       {
@@ -3078,7 +2964,6 @@
         "en": null,
         "pt-br": "Batman - O Cavaleiro das Trevas Ressurge",
         "rating": 8.5,
-        "oscar": null,
         "poster": "/images/2012_darkknightrises.jpg"
       },
       {
@@ -3086,7 +2971,6 @@
         "en": null,
         "pt-br": "O Ditador",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2012_dictator.jpg"
       },
       {
@@ -3094,7 +2978,6 @@
         "en": null,
         "pt-br": "O Hobbit: Uma Jornada Inesperada",
         "rating": 8.3,
-        "oscar": null,
         "poster": "/images/2012_hobbit.jpg"
       },
       {
@@ -3102,7 +2985,6 @@
         "en": null,
         "pt-br": "Um Homem de Sorte",
         "rating": 6.7,
-        "oscar": null,
         "poster": "/images/2012_luckyone.jpg"
       },
       {
@@ -3110,7 +2992,6 @@
         "en": null,
         "pt-br": "Curvas da Vida",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2012_troublewiththecurve.jpg"
       },
       {
@@ -3118,7 +2999,6 @@
         "en": null,
         "pt-br": "Detona Ralph",
         "rating": 8.0,
-        "oscar": null,
         "poster": "/images/2012_wreckitralph.jpg"
       }
     ]
@@ -3131,7 +3011,6 @@
         "en": null,
         "pt-br": "Os Padrinhos Mágicos: O Filme - Cresça, Timmy Turner!",
         "rating": 0,
-        "oscar": null,
         "poster": "/images/2011_fairlyoddmovie.jpg"
       },
       {
@@ -3139,7 +3018,6 @@
         "en": null,
         "pt-br": "Perdido Pra Cachorro 2",
         "rating": 3.7,
-        "oscar": null,
         "poster": "/images/2011_beverlyhillschihuahua2.jpg"
       },
       {
@@ -3147,7 +3025,6 @@
         "en": null,
         "pt-br": "Vovó... Zona 3: Tal Pai, Tal Filho",
         "rating": 4.2,
-        "oscar": null,
         "poster": "/images/2011_bigmommas.jpg"
       },
       {
@@ -3155,7 +3032,6 @@
         "en": null,
         "pt-br": "Capitão América: O Primeiro Vingador",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2011_captainamerica.jpg"
       },
       {
@@ -3163,7 +3039,6 @@
         "en": null,
         "pt-br": "Carros 2",
         "rating": 0,
-        "oscar": null,
         "poster": "/images/2011_cars2.jpg"
       },
       {
@@ -3171,7 +3046,6 @@
         "en": null,
         "pt-br": "Corajosos",
         "rating": 7.3,
-        "oscar": null,
         "poster": "/images/2011_courageous.jpg"
       },
       {
@@ -3179,7 +3053,6 @@
         "en": null,
         "pt-br": "Amor a Toda Prova",
         "rating": 7.7,
-        "oscar": null,
         "poster": "/images/2011_crazystupidlove.jpg"
       },
       {
@@ -3187,7 +3060,6 @@
         "en": null,
         "pt-br": "Diário de um Banana 2: Rodrick é o Cara",
         "rating": 5.5,
-        "oscar": null,
         "poster": "/images/2011_diaryofawimpykid.jpg"
       },
       {
@@ -3195,7 +3067,6 @@
         "en": null,
         "pt-br": "Velozes & Furiosos 5: Operação Rio",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2011_fastfive.jpg"
       },
       {
@@ -3203,7 +3074,6 @@
         "en": null,
         "pt-br": "Harry Potter e as Relíquias da Morte - Parte 2",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2011_harrypotter.jpg"
       },
       {
@@ -3211,7 +3081,6 @@
         "en": null,
         "pt-br": "O Preço do Amanhã",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2011_intime.jpg"
       },
       {
@@ -3219,7 +3088,6 @@
         "en": null,
         "pt-br": "Intocáveis",
         "rating": 8.8,
-        "oscar": null,
         "poster": "/images/2011_intouchables.jpg"
       },
       {
@@ -3227,7 +3095,6 @@
         "en": null,
         "pt-br": "O Retorno de Johnny English",
         "rating": 6.3,
-        "oscar": null,
         "poster": "/images/2011_johnnyenglish.jpg"
       },
       {
@@ -3235,7 +3102,6 @@
         "en": null,
         "pt-br": null,
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2011_kungfupanda2.jpg"
       },
       {
@@ -3243,7 +3109,6 @@
         "en": null,
         "pt-br": "Gato de Botas",
         "rating": 7.2,
-        "oscar": null,
         "poster": "/images/2011_pussinboots.jpg"
       },
       {
@@ -3251,7 +3116,6 @@
         "en": null,
         "pt-br": "Gigantes de Aço",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2011_realsteel.jpg"
       },
       {
@@ -3259,7 +3123,6 @@
         "en": null,
         "pt-br": null,
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2011_rio.jpg"
       },
       {
@@ -3267,7 +3130,6 @@
         "en": null,
         "pt-br": "Planeta dos Macacos: A Origem",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2011_planetofapes.jpg"
       },
       {
@@ -3275,7 +3137,6 @@
         "en": "The Raid: Redemption",
         "pt-br": "Operação Invasão",
         "rating": 6.6,
-        "oscar": null,
         "poster": "/images/2011_raid.jpg"
       },
       {
@@ -3283,7 +3144,6 @@
         "en": null,
         "pt-br": "Sherlock Holmes: O Jogo de Sombras",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2011_sherlock.jpg"
       },
       {
@@ -3291,7 +3151,6 @@
         "en": null,
         "pt-br": "Se Beber, Não Case! Parte II",
         "rating": 5.9,
-        "oscar": null,
         "poster": "/images/2011_hangover2.jpg"
       },
       {
@@ -3299,7 +3158,6 @@
         "en": null,
         "pt-br": null,
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2011_thor.jpg"
       },
       {
@@ -3307,7 +3165,6 @@
         "en": null,
         "pt-br": "Transformers: O Lado Oculto da Lua",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2011_transformers.jpg"
       },
       {
@@ -3315,7 +3172,6 @@
         "en": null,
         "pt-br": "O Morro dos Ventos Uivantes",
         "rating": 7.3,
-        "oscar": null,
         "poster": "/images/2011_wutheringheights.jpg"
       },
       {
@@ -3323,7 +3179,6 @@
         "en": "X-Men: First Class",
         "pt-br": "X-Men: Primeira Classe",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2011_xmen.jpg"
       }
     ]
@@ -3336,7 +3191,6 @@
         "en": null,
         "pt-br": "Alice no País das Maravilhas",
         "rating": 6.2,
-        "oscar": ["Art Direction", "Costume Design"],
         "poster": "/images/2010_alice.jpg"
       },
       {
@@ -3344,7 +3198,6 @@
         "en": null,
         "pt-br": "Meu Malvado Favorito",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2010_despicableme.jpg"
       },
       {
@@ -3352,7 +3205,6 @@
         "en": null,
         "pt-br": "Diário de um Banana",
         "rating": 5.5,
-        "oscar": null,
         "poster": "/images/2010_diaryofawimpykid.jpg"
       },
       {
@@ -3360,7 +3212,6 @@
         "en": null,
         "pt-br": "O Primeiro Amor",
         "rating": 7.9,
-        "oscar": null,
         "poster": "/images/2010_flipped.jpg"
       },
       {
@@ -3368,7 +3219,6 @@
         "en": null,
         "pt-br": "Gente Grande",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2010_grownups.jpg"
       },
       {
@@ -3376,7 +3226,6 @@
         "en": null,
         "pt-br": "Harry Potter e as Relíquias da Morte - Parte 1",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2010_harrypotter.jpg"
       },
       {
@@ -3384,7 +3233,6 @@
         "en": null,
         "pt-br": "A Ressaca",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2010_hottub.jpg"
       },
       {
@@ -3392,7 +3240,6 @@
         "en": null,
         "pt-br": "Como Treinar o Seu Dragão",
         "rating": 8.5,
-        "oscar": null,
         "poster": "/images/2010_howtotrain.jpg"
       },
       {
@@ -3400,7 +3247,6 @@
         "en": null,
         "pt-br": "Homem de Ferro 2",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2010_ironman2.jpg"
       },
       {
@@ -3408,7 +3254,6 @@
         "en": null,
         "pt-br": "Kick-Ass - Quebrando Tudo",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2010_kickass.jpg"
       },
       {
@@ -3416,7 +3261,6 @@
         "en": null,
         "pt-br": "Amor e Outras Drogas",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2010_loveandotherdrugs.jpg"
       },
       {
@@ -3424,7 +3268,6 @@
         "en": null,
         "pt-br": null,
         "rating": 4.0,
-        "oscar": null,
         "poster": "/images/2010_marmaduke.jpg"
       },
       {
@@ -3432,7 +3275,6 @@
         "en": null,
         "pt-br": "Megamente",
         "rating": 7.7,
-        "oscar": null,
         "poster": "/images/2010_megamind.jpg"
       },
       {
@@ -3440,7 +3282,6 @@
         "en": null,
         "pt-br": "Minha Babá é Uma Vampira - O Filme",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2010_mybabysitter.jpg"
       },
       {
@@ -3448,7 +3289,6 @@
         "en": null,
         "pt-br": "Percy Jackson e o Ladrão de Raios",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2010_percy.jpg"
       },
       {
@@ -3456,7 +3296,6 @@
         "en": null,
         "pt-br": "Scott Pilgrim Contra o Mundo",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2010_scottpilgrim.jpg"
       },
       {
@@ -3464,7 +3303,6 @@
         "en": null,
         "pt-br": "Shrek Para Sempre",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2010_shrek.jpg"
       },
       {
@@ -3472,7 +3310,6 @@
         "en": null,
         "pt-br": "Enrolados",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2010_tangled.jpg"
       },
       {
@@ -3480,7 +3317,6 @@
         "en": null,
         "pt-br": "As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada",
         "rating": 6.7,
-        "oscar": null,
         "poster": "/images/2010_narnia.jpg"
       },
       {
@@ -3488,7 +3324,6 @@
         "en": null,
         "pt-br": "Karatê Kid",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2010_karatekid.jpg"
       },
       {
@@ -3496,11 +3331,6 @@
         "en": null,
         "pt-br": "A Rede Social",
         "rating": 7.7,
-        "oscar": [
-          "Film Editing",
-          "Music (Original Score)",
-          "Writing (Adapted Screenplay)"
-        ],
         "poster": "/images/2010_socialnetwork.jpg"
       },
       {
@@ -3508,7 +3338,6 @@
         "en": null,
         "pt-br": "O Fada do Dente",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2010_toothfairy.jpg"
       },
       {
@@ -3516,7 +3345,6 @@
         "en": null,
         "pt-br": null,
         "rating": 7.5,
-        "oscar": ["Animated Feature Film", "Music (Original Song)"],
         "poster": "/images/2010_toystory3.jpg"
       },
       {
@@ -3524,7 +3352,6 @@
         "en": "Elite Squad 2: The Enemy Within",
         "pt-br": null,
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2010_tropa2.jpg"
       }
     ]
@@ -3537,7 +3364,6 @@
         "en": null,
         "pt-br": null,
         "rating": 3.6,
-        "oscar": null,
         "poster": "/images/2009_2012.jpg"
       },
       {
@@ -3545,7 +3371,6 @@
         "en": null,
         "pt-br": "Alvin e os Esquilos 2",
         "rating": 4.0,
-        "oscar": null,
         "poster": "/images/2009_alvin.jpg"
       },
       {
@@ -3553,7 +3378,6 @@
         "en": null,
         "pt-br": null,
         "rating": 9.5,
-        "oscar": ["Art Direction", "Cinematography", "Visual Effects"],
         "poster": "/images/2009_avatar.jpg"
       },
       {
@@ -3561,7 +3385,6 @@
         "en": null,
         "pt-br": "Ben 10: Invasão Alienígena",
         "rating": 4.0,
-        "oscar": null,
         "poster": "/images/2009_ben10.jpg"
       },
       {
@@ -3569,7 +3392,6 @@
         "en": null,
         "pt-br": "Entre Irmãos",
         "rating": 8.0,
-        "oscar": null,
         "poster": "/images/2009_brothers.jpg"
       },
       {
@@ -3577,7 +3399,6 @@
         "en": null,
         "pt-br": "Coraline e o Mundo Secreto",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2009_coraline.jpg"
       },
       {
@@ -3585,7 +3406,6 @@
         "en": null,
         "pt-br": "Velozes & Furiosos 4",
         "rating": 6.8,
-        "oscar": null,
         "poster": "/images/2009_fastfurious.jpg"
       },
       {
@@ -3593,7 +3413,6 @@
         "en": null,
         "pt-br": "Força-G",
         "rating": 4.0,
-        "oscar": null,
         "poster": "/images/2009_gforce.jpg"
       },
       {
@@ -3601,7 +3420,6 @@
         "en": null,
         "pt-br": "Sempre ao Seu Lado",
         "rating": 9.0,
-        "oscar": null,
         "poster": "/images/2009_hachi.jpg"
       },
       {
@@ -3609,7 +3427,6 @@
         "en": null,
         "pt-br": "Harry Potter e o Enigma do Príncipe",
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2009_harrypotter.jpg"
       },
       {
@@ -3617,7 +3434,6 @@
         "en": null,
         "pt-br": "A Era do Gelo 3",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2009_iceage.jpg"
       },
       {
@@ -3625,7 +3441,6 @@
         "en": null,
         "pt-br": "Bastardos Inglórios",
         "rating": 9.2,
-        "oscar": "Actor in a Supporting Role",
         "poster": "/images/2009_basterds.jpg"
       },
       {
@@ -3633,7 +3448,6 @@
         "en": null,
         "pt-br": "Uma Noite no Museu 2",
         "rating": 5.7,
-        "oscar": null,
         "poster": "/images/2009_museum.jpg"
       },
       {
@@ -3641,7 +3455,6 @@
         "en": null,
         "pt-br": "Segurança de Shopping",
         "rating": 4.7,
-        "oscar": null,
         "poster": "/images/2009_paulblart.jpg"
       },
       {
@@ -3649,7 +3462,6 @@
         "en": null,
         "pt-br": null,
         "rating": 7.5,
-        "oscar": null,
         "poster": "/images/2009_sherlock.jpg"
       },
       {
@@ -3657,7 +3469,6 @@
         "en": null,
         "pt-br": "Se Beber, Não Case!",
         "rating": 8.0,
-        "oscar": null,
         "poster": "/images/2009_hangover.jpg"
       },
       {
@@ -3665,7 +3476,6 @@
         "en": null,
         "pt-br": "Transformers: A Vingança dos Derrotados",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2009_transformers.jpg"
       },
       {
@@ -3673,7 +3483,6 @@
         "en": null,
         "pt-br": "Up: Altas Aventuras",
         "rating": 8.0,
-        "oscar": ["Animated Feature Film", "Music (Original Score)"],
         "poster": "/images/2009_up.jpg"
       },
       {
@@ -3681,7 +3490,6 @@
         "en": null,
         "pt-br": "Watchmen: O Filme",
         "rating": 7.8,
-        "oscar": null,
         "poster": "/images/2009_watchmen.jpg"
       },
       {
@@ -3689,7 +3497,6 @@
         "en": null,
         "pt-br": "X-Men Origens: Wolverine",
         "rating": 6.8,
-        "oscar": null,
         "poster": "/images/2009_wolverine.jpg"
       },
       {
@@ -3697,7 +3504,6 @@
         "en": null,
         "pt-br": "Zumbilândia",
         "rating": 4.5,
-        "oscar": null,
         "poster": "/images/2009_zombieland.jpg"
       }
     ]
@@ -3710,7 +3516,6 @@
         "en": null,
         "pt-br": "Quebrando a Banca",
         "rating": 7.2,
-        "oscar": null,
         "poster": "/images/2008_21.jpg"
       },
       {
@@ -3718,7 +3523,6 @@
         "en": null,
         "pt-br": "Perdido pra Cachorro",
         "rating": 3.5,
-        "oscar": null,
         "poster": "/images/2008_chihuahua.jpg"
       },
       {
@@ -3726,7 +3530,6 @@
         "en": null,
         "pt-br": "Bolt: Supercão",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2008_bolt.jpg"
       },
       {
@@ -3734,7 +3537,6 @@
         "en": null,
         "pt-br": null,
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2008_hancock.jpg"
       },
       {
@@ -3742,7 +3544,6 @@
         "en": null,
         "pt-br": "Madrugada Muito Louca 2",
         "rating": 5.0,
-        "oscar": null,
         "poster": "/images/2008_haroldkumar.jpg"
       },
       {
@@ -3750,7 +3551,6 @@
         "en": null,
         "pt-br": "Homem de Ferro",
         "rating": 8.0,
-        "oscar": null,
         "poster": "/images/2008_ironman.jpg"
       },
       {
@@ -3758,7 +3558,6 @@
         "en": null,
         "pt-br": null,
         "rating": 8.0,
-        "oscar": null,
         "poster": "/images/2008_kungfupanda.jpg"
       },
       {
@@ -3766,7 +3565,6 @@
         "en": null,
         "pt-br": "Madagascar 2: A Grande Escapada",
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2008_madagascar.jpg"
       },
       {
@@ -3774,7 +3572,6 @@
         "en": null,
         "pt-br": null,
         "rating": 6.5,
-        "oscar": null,
         "poster": "/images/2008_mammamia.jpg"
       },
       {
@@ -3782,7 +3579,6 @@
         "en": null,
         "pt-br": null,
         "rating": 5.8,
-        "oscar": null,
         "poster": "/images/2008_speedracer.jpg"
       },
       {
@@ -3790,7 +3586,6 @@
         "en": null,
         "pt-br": "Super-Herói: O Filme",
         "rating": 4.0,
-        "oscar": null,
         "poster": "/images/2008_superhero.jpg"
       },
       {
@@ -3798,7 +3593,6 @@
         "en": null,
         "pt-br": "O Menino do Pijama Listrado",
         "rating": 8.5,
-        "oscar": null,
         "poster": "/images/2008_boystripedpajamas.jpg"
       },
       {
@@ -3806,7 +3600,6 @@
         "en": null,
         "pt-br": "As Crônicas de Nárnia: Príncipe Caspian",
         "rating": 6.7,
-        "oscar": null,
         "poster": "/images/2008_narnia.jpg"
       },
       {
@@ -3814,7 +3607,6 @@
         "en": null,
         "pt-br": "Batman - O Cavaleiro das Trevas",
         "rating": 9.3,
-        "oscar": ["Actor in a Supporting Role", "Sound Editing"],
         "poster": "/images/2008_darkknight.jpg"
       },
       {
@@ -3822,7 +3614,6 @@
         "en": null,
         "pt-br": "O Incrível Hulk",
         "rating": 6.0,
-        "oscar": null,
         "poster": "/images/2008_hulk.jpg"
       },
       {
@@ -3830,7 +3621,6 @@
         "en": null,
         "pt-br": null,
         "rating": 8.8,
-        "oscar": "Animated Feature Film",
         "poster": "/images/2008_walle.jpg"
       },
       {
@@ -3838,7 +3628,6 @@
         "en": null,
         "pt-br": "Sim Senhor",
         "rating": 7.0,
-        "oscar": null,
         "poster": "/images/2008_yesman.jpg"
       }
     ]
