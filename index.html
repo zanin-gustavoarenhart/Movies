@@ -48,9 +48,6 @@
                 </dl>
 
                 <footer class="movie-footer">
-                    <div class="field-oscar">
-                        <span class="oscar-label"></span> <strong class="oscar-count"></strong>
-                    </div>
                     <div class="rating-box">
                         <span class="rating-value"></span><span class="rating-max">/10</span>
                     </div>
@@ -97,27 +94,6 @@
             const ratingValue = movie.rating;
             const rating = Number.isInteger(ratingValue) ? ratingValue.toString() : ratingValue.toFixed(1);
             card.querySelector(".rating-value").textContent = rating || "N/A";
-
-            const oscarField = card.querySelector(".field-oscar");
-            const labelElement = card.querySelector(".oscar-label");
-            const countElement = card.querySelector(".oscar-count");
-
-            let count = 0;
-            if (Array.isArray(movie.oscar)) {
-                count = movie.oscar.length;
-            } else if (typeof movie.oscar === "string") {
-                count = movie.oscar.trim() ? 1 : 0;
-            } else if (typeof movie.oscar === "number" && Number.isFinite(movie.oscar)) {
-                count = Math.max(0, Math.floor(movie.oscar));
-            }
-
-            if (count > 0) {
-                labelElement.textContent = "Oscars:";
-                countElement.textContent = count;
-                oscarField.style.display = "block";
-            } else {
-                oscarField.style.display = "none";
-            }
 
             if (currentLanguage === 'en') {
                 card.querySelector("#label-or").textContent = "Original Title";
