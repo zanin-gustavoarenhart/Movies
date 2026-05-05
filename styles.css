@@ -177,17 +177,6 @@ body {
   align-items: center;
 }
 
-.field-oscar {
-  font-size: 0.75rem;
-  color: var(--ink-soft);
-  font-weight: 600;
-}
-
-.oscar-count {
-  color: var(--accent);
-  font-weight: 800;
-}
-
 .rating-box {
   margin-left: auto;
   padding: 0.3rem 0.6rem;
