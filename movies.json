@@ -80,6 +80,13 @@
         "poster": "/images/2025_howtotrainyourdragon.jpg"
       },
       {
+        "or": "I Swear",
+        "en": null,
+        "pt-br": null,
+        "rating": 10,
+        "poster": "/images/2025_iswear.jpg"
+      },
+      {
         "or": "Is This Thing On?",
         "en": null,
         "pt-br": "Isso Ainda Está de Pé?",
@@ -141,6 +148,20 @@
         "pt-br": "O Bom Bandido",
         "rating": 7.2,
         "poster": "/images/2025_roofman.jpg"
+      },
+      {
+        "or": "Sinners",
+        "en": null,
+        "pt-br": "Pecadores",
+        "rating": 9.7,
+        "poster": "/images/2025_sinners.jpg"
+      },
+      {
+        "or": "Sirât",
+        "en": "Sirat",
+        "pt-br": null,
+        "rating": 7.7,
+        "poster": "/images/2025_sirat.jpg"
       },
       {
         "or": "Sisu 2",
