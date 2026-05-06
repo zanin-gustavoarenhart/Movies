@@ -225,6 +225,13 @@
         "pt-br": "Sonhos de Trem",
         "rating": 10,
         "poster": "/images/2025_traindreams.jpg"
+      },
+      {
+        "or": "Wake Up Dead Man",
+        "en": null,
+        "pt-br": "Vivo ou Morto: Um Mistério Knives Out",
+        "rating": 7.0,
+        "poster": "/images/2025_wakeup_deadman.jpg"
       }
     ]
   },
@@ -859,6 +866,13 @@
         "en": null,
         "pt-br": "Animais Fantásticos: Os Segredos de Dumbledore",
         "rating": 6.5,
+        "oscar": null
+      },
+      {
+        "or": "Glass Onion",
+        "en": null,
+        "pt-br": "Glass Onion: Um Mistério Knives Out",
+        "rating": 7.0,
         "oscar": null
       },
       {
@@ -1502,6 +1516,13 @@
         "en": null,
         "pt-br": "Jumanji: Próxima Fase",
         "rating": 6.5,
+        "oscar": null
+      },
+      {
+        "or": "Knives Out",
+        "en": null,
+        "pt-br": "Entre Facas e Segredos",
+        "rating": 8.0,
         "oscar": null
       },
       {
