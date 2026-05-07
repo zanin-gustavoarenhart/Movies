@@ -73,6 +73,13 @@
         "poster": "/images/2025_goodfortune.jpg"
       },
       {
+        "or": "Hamnet",
+        "en": null,
+        "pt-br": "Hamnet: A Vida Antes de Hamlet",
+        "rating": 8.5,
+        "poster": "/images/2025_hamnet.jpg"
+      },
+      {
         "or": "How to Train Your Dragon",
         "en": null,
         "pt-br": "Como Treinar o Seu Dragão",
@@ -120,6 +127,13 @@
         "pt-br": null,
         "rating": 6.1,
         "poster": "/images/2025_martysupreme.jpg"
+      },
+      {
+        "or": "Materialists",
+        "en": null,
+        "pt-br": "Amores Materialistas",
+        "rating": 6.0,
+        "poster": "/images/2025_materialists.jpg"
       },
       {
         "or": "Now You See Me: Now You Don't",
@@ -253,6 +267,13 @@
         "pt-br": "Vivo ou Morto: Um Mistério Knives Out",
         "rating": 7.0,
         "poster": "/images/2025_wakeup_deadman.jpg"
+      },
+      {
+        "or": "Zuo pie zi nü hai",
+        "en": "Left-Handed Girl",
+        "pt-br": "A Garota Canhota",
+        "rating": 7.3,
+        "poster": "/images/2025_lefthanded_girl.jpg"
       }
     ]
   },
