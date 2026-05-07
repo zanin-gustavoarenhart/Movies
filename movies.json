@@ -101,6 +101,13 @@
         "poster": "/images/2025_isthisthingon.jpg"
       },
       {
+        "or": "Jurassic World: Rebirth",
+        "en": null,
+        "pt-br": "Jurassic World: Recomeço",
+        "rating": 5.0,
+        "poster": "/images/2025_jurassic_rebirth.jpg"
+      },
+      {
         "or": "Karate Kid: Legends",
         "en": null,
         "pt-br": "Karatê Kid: Lendas",
@@ -141,6 +148,13 @@
         "pt-br": "Truque de Mestre: O 3° Ato",
         "rating": 6.0,
         "poster": "/images/2025_nowyouseeme.jpg"
+      },
+      {
+        "or": "O Agente Secreto",
+        "en": "The Secret Agent",
+        "pt-br": null,
+        "rating": 7.0,
+        "poster": "/images/2025_secret_agent.jpg"
       },
       {
         "or": "One Battle After Another",
@@ -190,6 +204,13 @@
         "pt-br": null,
         "rating": 8.5,
         "poster": "/images/2025_sorrybaby.jpg"
+      },
+      {
+        "or": "Springsteen: Deliver Me from Nowher",
+        "en": null,
+        "pt-br": "Springsteen: Salve-me do Desconhecido",
+        "rating": 6.9,
+        "poster": "/images/2025_springsteen.jpg"
       },
       {
         "or": "Superman",
@@ -267,6 +288,13 @@
         "pt-br": "Vivo ou Morto: Um Mistério Knives Out",
         "rating": 7.0,
         "poster": "/images/2025_wakeup_deadman.jpg"
+      },
+      {
+        "or": "Zootopia 2",
+        "en": null,
+        "pt-br": null,
+        "rating": 7.5,
+        "poster": "/images/2025_zootopia2.jpg"
       },
       {
         "or": "Zuo pie zi nü hai",
