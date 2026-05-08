@@ -1,5 +1,30 @@
 [
   {
+    "year": 2026,
+    "itens": [
+      {
+        "or": "Mortal Kombat II",
+        "en": null,
+        "pt-br": "Mortal Kombat 2",
+        "rating": 7.0,
+        "poster": "/images/2026_mortal_kombat2.jpg"
+      },
+      {
+        "or": "Project Hail Mary",
+        "en": null,
+        "pt-br": "Devoradores de Estrelas",
+        "rating": 10,
+        "poster": "/images/2026_project_hailmary.jpg"
+      },
+      {
+        "or": "The Super Mario Galaxy Movie",
+        "en": null,
+        "pt-br": "Super Mario Galaxy: O Filme",
+        "rating": 8.0,
+        "poster": "/images/2026_mariogalaxy.jpg"
+      }
+  },
+  {
     "year": 2025,
     "itens": [
       {
