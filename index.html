@@ -25,43 +25,81 @@
         <div id="content" class="content"></div>
     </main>
 
-    <template id="movie-card-template">
-        <article class="movie-card">
-            <img src="" alt="" class="movie-poster" />
+    <div class="modal-backdrop" id="movie-modal" aria-hidden="true">
+        <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button class="modal-close" type="button" aria-label="Fechar modal">&times;</button>
+            <img src="" alt="" class="modal-poster" />
 
-            <div class="movie-content">
-                <h3 class="movie-title"></h3>
-
-                <dl class="movie-meta">
-                    <div class="field-or">
-                        <dt id="label-or">Título original</dt>
-                        <dd class="title-original"></dd>
-                    </div>
-                    <div class="field-en">
-                        <dt id="label-en">Título em inglês</dt>
-                        <dd class="title-en"></dd>
-                    </div>
-                    <div class="field-pt">
-                        <dt id="label-pt">Título em português</dt>
-                        <dd class="title-ptbr"></dd>
-                    </div>
-                </dl>
-
-                <footer class="movie-footer">
-                    <div class="rating-box">
-                        <span class="rating-value"></span><span class="rating-max">/10</span>
-                    </div>
-                </footer>
+            <div class="modal-content">
+                <div class="modal-rating">
+                    <span class="modal-rating-value"></span><span class="modal-rating-max">/10</span>
+                </div>
+                <h2 class="modal-title" id="modal-title"></h2>
+                <dl class="modal-meta"></dl>
             </div>
+        </div>
+    </div>
+
+    <template id="movie-card-template">
+        <article class="movie-card" role="button" tabindex="0">
+            <div class="poster-frame">
+                <img src="" alt="" class="movie-poster" />
+                <div class="rating-box">
+                    <span class="rating-value"></span><span class="rating-max">/10</span>
+                </div>
+            </div>
+
         </article>
     </template>
 
     <script>
         let movieData = [];
         let currentLanguage = 'pt-br';
+        let lastFocusedElement = null;
+
+        const movieModal = document.querySelector("#movie-modal");
+        const modalCloseButton = movieModal.querySelector(".modal-close");
+        const modalPoster = movieModal.querySelector(".modal-poster");
+        const modalTitle = movieModal.querySelector(".modal-title");
+        const modalMeta = movieModal.querySelector(".modal-meta");
+        const modalRatingValue = movieModal.querySelector(".modal-rating-value");
 
         function formatText(value) {
             return (value === null || value === undefined || String(value).trim() === "") ? null : String(value);
+        }
+
+        function formatRating(value) {
+            return typeof value === "number"
+                ? (Number.isInteger(value) ? value.toString() : value.toFixed(1))
+                : formatText(value) || "N/A";
+        }
+
+        function getMovieTitle(movie) {
+            if (currentLanguage === "en") {
+                return formatText(movie.en) || formatText(movie.or) || formatText(movie["pt-br"]) || "Untitled";
+            }
+
+            return formatText(movie["pt-br"]) || formatText(movie.or) || formatText(movie.en) || "Sem t\u00edtulo";
+        }
+
+        function getLabels() {
+            if (currentLanguage === "en") {
+                return {
+                    year: "Year",
+                    original: "Original title",
+                    english: "English title",
+                    portuguese: "Portuguese title",
+                    oscar: "Oscar"
+                };
+            }
+
+            return {
+                year: "Ano",
+                original: "T\u00edtulo original",
+                english: "T\u00edtulo em ingl\u00eas",
+                portuguese: "T\u00edtulo em portugu\u00eas",
+                oscar: "Oscar"
+            };
         }
 
         function changeLanguage(lang) {
@@ -71,53 +109,90 @@
             renderMovies(movieData);
         }
 
-        function createCard(movie) {
+        function renderModalDetails(details) {
+            modalMeta.textContent = "";
+
+            details.forEach(item => {
+                const row = document.createElement("div");
+                const term = document.createElement("dt");
+                const description = document.createElement("dd");
+
+                term.textContent = item.label;
+                description.textContent = item.value;
+                row.append(term, description);
+                modalMeta.appendChild(row);
+            });
+        }
+
+        function openMovieModal(movie, year) {
+            const titleValue = getMovieTitle(movie);
+            const posterSrc = formatText(movie.poster);
+            const labels = getLabels();
+
+            lastFocusedElement = document.activeElement;
+
+            modalTitle.textContent = titleValue;
+            modalRatingValue.textContent = formatRating(movie.rating);
+
+            if (posterSrc) {
+                modalPoster.src = posterSrc;
+                modalPoster.alt = titleValue;
+                modalPoster.style.display = "block";
+            } else {
+                modalPoster.removeAttribute("src");
+                modalPoster.alt = "";
+                modalPoster.style.display = "none";
+            }
+
+            const details = [
+                { label: labels.year, value: year },
+                { label: labels.original, value: formatText(movie.or) },
+                { label: labels.english, value: formatText(movie.en) },
+                { label: labels.portuguese, value: formatText(movie["pt-br"]) },
+                { label: labels.oscar, value: Array.isArray(movie.oscar) ? movie.oscar.join(", ") : formatText(movie.oscar) }
+            ].filter(item => item.value && String(item.value) !== titleValue);
+
+            renderModalDetails(details);
+            movieModal.classList.add("is-open");
+            movieModal.setAttribute("aria-hidden", "false");
+            document.body.classList.add("modal-open");
+            modalCloseButton.focus();
+        }
+
+        function closeMovieModal() {
+            movieModal.classList.remove("is-open");
+            movieModal.setAttribute("aria-hidden", "true");
+            document.body.classList.remove("modal-open");
+
+            if (lastFocusedElement) {
+                lastFocusedElement.focus();
+            }
+        }
+
+        function createCard(movie, year) {
             const template = document.querySelector("#movie-card-template");
             const card = template.content.firstElementChild.cloneNode(true);
 
             const imgElement = card.querySelector(".movie-poster");
             const posterSrc = formatText(movie.poster);
+            const titleValue = getMovieTitle(movie);
 
             if (posterSrc) {
                 imgElement.src = posterSrc;
-                imgElement.alt = formatText(movie[currentLanguage]) || formatText(movie.or) || "Poster";
+                imgElement.alt = titleValue;
                 imgElement.style.display = "block";
             } else {
                 imgElement.style.display = "none";
             }
 
-            const selectedTitle = formatText(movie[currentLanguage]);
-            const originalTitle = formatText(movie.or);
-            const titleValue = selectedTitle || originalTitle;
-            card.querySelector(".movie-title").textContent = titleValue;
+            card.querySelector(".rating-value").textContent = formatRating(movie.rating);
+            card.setAttribute("aria-label", titleValue);
 
-            const ratingValue = movie.rating;
-            const rating = Number.isInteger(ratingValue) ? ratingValue.toString() : ratingValue.toFixed(1);
-            card.querySelector(".rating-value").textContent = rating || "N/A";
-
-            if (currentLanguage === 'en') {
-                card.querySelector("#label-or").textContent = "Original Title";
-                card.querySelector("#label-en").textContent = "English Title";
-                card.querySelector("#label-pt").textContent = "Portuguese Title";
-            } else {
-                card.querySelector("#label-or").textContent = "Título original";
-                card.querySelector("#label-en").textContent = "Título em inglês";
-                card.querySelector("#label-pt").textContent = "Título em português";
-            }
-
-            const fields = [
-                { class: ".field-or", val: originalTitle },
-                { class: ".field-en", val: formatText(movie.en) },
-                { class: ".field-pt", val: formatText(movie["pt-br"]) }
-            ];
-
-            fields.forEach(field => {
-                const element = card.querySelector(field.class);
-                if (!field.val || field.val === titleValue) {
-                    element.style.display = "none";
-                } else {
-                    element.style.display = "grid";
-                    element.querySelector("dd").textContent = field.val;
+            card.addEventListener("click", () => openMovieModal(movie, year));
+            card.addEventListener("keydown", event => {
+                if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    openMovieModal(movie, year);
                 }
             });
 
@@ -129,7 +204,7 @@
             const summary = document.querySelector("#summary");
 
             const allMovies = data.flatMap(g => g.itens || []);
-            summary.textContent = allMovies.length + (currentLanguage === 'pt-br' ? " títulos" : " titles");
+            summary.textContent = allMovies.length + (currentLanguage === 'pt-br' ? " t\u00edtulos" : " titles");
 
             content.innerHTML = "";
 
@@ -140,12 +215,12 @@
                 const grid = section.querySelector(".movie-grid");
 
                 const sortedItems = [...(group.itens || [])].sort((a, b) => {
-                    const titleA = (formatText(a[currentLanguage]) || formatText(a.or) || "").toLowerCase();
-                    const titleB = (formatText(b[currentLanguage]) || formatText(b.or) || "").toLowerCase();
+                    const titleA = getMovieTitle(a).toLowerCase();
+                    const titleB = getMovieTitle(b).toLowerCase();
                     return titleA.localeCompare(titleB, currentLanguage);
                 });
 
-                sortedItems.forEach(m => grid.appendChild(createCard(m)));
+                sortedItems.forEach(m => grid.appendChild(createCard(m, group.year)));
                 content.appendChild(section);
             });
         }
@@ -159,8 +234,20 @@
                 document.querySelector("#summary").textContent = "Error loading movies.";
             }
         }
+
+        modalCloseButton.addEventListener("click", closeMovieModal);
+        movieModal.addEventListener("click", event => {
+            if (event.target === movieModal) {
+                closeMovieModal();
+            }
+        });
+        document.addEventListener("keydown", event => {
+            if (event.key === "Escape" && movieModal.classList.contains("is-open")) {
+                closeMovieModal();
+            }
+        });
+
         init();
     </script>
 </body>
-
 </html>
