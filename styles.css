@@ -75,7 +75,7 @@ body.modal-open {
   width: 100%;
   height: 2.5rem;
   border: 1px solid var(--line);
-  border-radius: 6px;
+  border-radius: 25px;
   background: var(--bg-soft);
   color: var(--ink);
   font: inherit;
@@ -114,7 +114,7 @@ body.modal-open {
   height: 2.5rem;
   padding: 0 1.7rem 0 0.65rem;
   border: 1px solid var(--line);
-  border-radius: 6px;
+  border-radius: 25px;
   background: var(--bg-soft);
   color: var(--ink);
   cursor: pointer;
@@ -156,7 +156,7 @@ body.modal-open {
   overflow-y: auto;
   list-style: none;
   border: 1px solid var(--line);
-  border-radius: 6px;
+  border-radius: 25px;
   background: var(--bg-soft);
   box-shadow: 0 16px 34px rgba(32, 23, 12, 0.14);
   scrollbar-width: none;
@@ -173,7 +173,7 @@ body.modal-open {
 
 .year-option {
   padding: 0.48rem 0.6rem;
-  border-radius: 4px;
+  border-radius: 25px;
   color: var(--ink);
   cursor: pointer;
   font-size: 0.84rem;
@@ -195,8 +195,6 @@ body.modal-open {
   width: 100%;
   height: 2.5rem;
   padding: 0 0.75rem;
-  border: 1px solid var(--line);
-  border-radius: 6px;
   background: var(--bg-soft);
   transition:
     border-color 0.2s ease,
@@ -347,8 +345,8 @@ body.modal-open {
 .language-picker button {
   cursor: pointer;
   padding: 0.4rem 0.8rem;
-  border-radius: 6px;
-  border: 1px solid var(--line);
+  border-radius: 25px;
+  border: 0px;
   background: transparent;
   color: var(--ink);
   font-size: 0.75rem;
@@ -359,7 +357,6 @@ body.modal-open {
 .language-picker button.active {
   background: var(--accent);
   color: var(--bg);
-  border-color: var(--ink);
 }
 
 /* Seções por Ano */
