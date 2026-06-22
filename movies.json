@@ -1138,35 +1138,35 @@
         "en": null,
         "pt-br": "O Peso do Talento",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2022_unbearable_weight_of_massive_talent.jpg"
       },
       {
         "or": "Thor: Love and Thunder",
         "en": null,
         "pt-br": "Thor: Amor e Trovão",
         "rating": 5.0,
-        "oscar": null
+        "poster": "/images/2022_thor_love_and_thunder.jpg"
       },
       {
         "or": "Top Gun: Maverick",
         "en": null,
         "pt-br": null,
         "rating": 8.5,
-        "oscar": "Sound"
+        "poster": "/images/2022_top_gun_maverick.jpg"
       },
       {
         "or": "Where the Crawdads Sing",
         "en": null,
         "pt-br": "Um Lugar Bem Longe Daqui",
         "rating": 8.5,
-        "oscar": null
+        "poster": "/images/2022_where_the_crawdads_sing.jpg"
       },
       {
         "or": "Wildflower",
         "en": null,
         "pt-br": "Uma Família Extraordinária",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2022_wildflower.jpg"
       }
     ]
   },
