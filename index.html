@@ -11,7 +11,31 @@
 <body>
     <main class="page">
         <header class="main-header">
-            <h1 id="page-title">Movies List</h1>
+            <form class="movie-filters" role="search">
+                <label class="sr-only" for="year-filter">Filtrar por ano</label>
+                <div class="year-select">
+                    <select id="year-filter" class="filter-select native-year-select" tabindex="-1"></select>
+                    <button id="year-select-button" class="year-select-button" type="button" aria-haspopup="listbox" aria-expanded="false"></button>
+                    <ul id="year-options" class="year-options" role="listbox"></ul>
+                </div>
+
+                <label class="sr-only" for="movie-search">Pesquisar filmes</label>
+                <input id="movie-search" class="movie-search" type="search" autocomplete="off" />
+
+                <label class="sr-only" for="rating-min-filter">Nota mínima</label>
+                <label class="sr-only" for="rating-max-filter">Nota máxima</label>
+                <div class="rating-range-filter">
+                    <div class="rating-slider">
+                        <input id="rating-min-filter" class="rating-range rating-range-min" type="range" min="0" max="10" step="0.1" value="0" />
+                        <input id="rating-max-filter" class="rating-range rating-range-max" type="range" min="0" max="10" step="0.1" value="10" />
+                    </div>
+                    <output class="rating-range-value" for="rating-min-filter rating-max-filter">
+                        <span class="rating-range-number rating-range-min-value" role="textbox" tabindex="0" contenteditable="true" spellcheck="false">0.0</span>
+                        <span aria-hidden="true"> - </span>
+                        <span class="rating-range-number rating-range-max-value" role="textbox" tabindex="0" contenteditable="true" spellcheck="false">10.0</span>
+                    </output>
+                </div>
+            </form>
 
             <div class="header-actions">
                 <p id="summary" class="summary">Carregando...</p>
@@ -63,6 +87,22 @@
         const modalTitle = movieModal.querySelector(".modal-title");
         const modalMeta = movieModal.querySelector(".modal-meta");
         const modalRatingValue = movieModal.querySelector(".modal-rating-value");
+        const searchForm = document.querySelector(".movie-filters");
+        const searchInput = document.querySelector("#movie-search");
+        const yearFilter = document.querySelector("#year-filter");
+        const yearSelect = document.querySelector(".year-select");
+        const yearSelectButton = document.querySelector("#year-select-button");
+        const yearOptions = document.querySelector("#year-options");
+        const ratingMinFilter = document.querySelector("#rating-min-filter");
+        const ratingMaxFilter = document.querySelector("#rating-max-filter");
+        const ratingSlider = document.querySelector(".rating-slider");
+        const ratingFilterValue = document.querySelector(".rating-range-value");
+        const ratingMinValue = document.querySelector(".rating-range-min-value");
+        const ratingMaxValue = document.querySelector(".rating-range-max-value");
+        let lastRatingRange = {
+            min: Number(ratingMinFilter.value),
+            max: Number(ratingMaxFilter.value)
+        };
 
         function formatText(value) {
             return (value === null || value === undefined || String(value).trim() === "") ? null : String(value);
@@ -89,7 +129,15 @@
                     original: "Original title",
                     english: "English title",
                     portuguese: "Portuguese title",
-                    oscar: "Oscar"
+                    oscar: "Oscar",
+                    searchLabel: "Search movies",
+                    searchPlaceholder: "Search movies",
+                    yearFilter: "Filter by year",
+                    allYears: "All years",
+                    ratingMinFilter: "Minimum rating",
+                    ratingMaxFilter: "Maximum rating",
+                    ratingRangeValue: "Type rating range",
+                    noResults: "No movies found."
                 };
             }
 
@@ -98,14 +146,270 @@
                 original: "T\u00edtulo original",
                 english: "T\u00edtulo em ingl\u00eas",
                 portuguese: "T\u00edtulo em portugu\u00eas",
-                oscar: "Oscar"
+                oscar: "Oscar",
+                searchLabel: "Pesquisar filmes",
+                searchPlaceholder: "Pesquisar filmes",
+                yearFilter: "Filtrar por ano",
+                allYears: "Todos os anos",
+                ratingMinFilter: "Nota m\u00ednima",
+                ratingMaxFilter: "Nota m\u00e1xima",
+                ratingRangeValue: "Digitar intervalo de nota",
+                noResults: "Nenhum filme encontrado."
             };
+        }
+
+        function normalizeText(value) {
+            return (formatText(value) || "")
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .toLowerCase();
+        }
+
+        function getMovieCount(data) {
+            return data.reduce((total, group) => total + ((group.itens || []).length), 0);
+        }
+
+        function clampRating(value) {
+            const rating = Math.round(Number(value) * 10) / 10;
+
+            if (!Number.isFinite(rating)) {
+                return null;
+            }
+
+            return Math.min(10, Math.max(0, rating));
+        }
+
+        function parseTypedRatingValue(value) {
+            const match = String(value).replace(/,/g, ".").match(/\d+(?:\.\d+)?/);
+
+            return match ? clampRating(match[0]) : null;
+        }
+
+        function sanitizeRatingNumberText(value) {
+            const cleanValue = String(value).replace(/[^\d.,]/g, "");
+            const separatorIndex = cleanValue.search(/[.,]/);
+
+            if (separatorIndex === -1) {
+                return cleanValue;
+            }
+
+            return cleanValue.slice(0, separatorIndex + 1)
+                + cleanValue.slice(separatorIndex + 1).replace(/[.,]/g, "");
+        }
+
+        function insertTextAtSelection(target, text) {
+            const selection = window.getSelection();
+
+            if (!selection.rangeCount) {
+                target.textContent += text;
+                return;
+            }
+
+            const range = selection.getRangeAt(0);
+            range.deleteContents();
+            range.insertNode(document.createTextNode(text));
+            range.collapse(false);
+            selection.removeAllRanges();
+            selection.addRange(range);
+        }
+
+        function sanitizeRatingNumberInput(event) {
+            const target = event.currentTarget;
+            const sanitizedText = sanitizeRatingNumberText(target.textContent);
+
+            if (target.textContent !== sanitizedText) {
+                target.textContent = sanitizedText;
+            }
+        }
+
+        function closeYearSelect() {
+            yearSelect.classList.remove("is-open");
+            yearSelectButton.setAttribute("aria-expanded", "false");
+        }
+
+        function openYearSelect() {
+            yearSelect.classList.add("is-open");
+            yearSelectButton.setAttribute("aria-expanded", "true");
+
+            const selectedOption = yearOptions.querySelector('[aria-selected="true"]') || yearOptions.firstElementChild;
+
+            if (selectedOption) {
+                selectedOption.focus();
+            }
+        }
+
+        function syncYearSelect() {
+            const selectedOption = yearFilter.selectedOptions[0];
+            yearSelectButton.textContent = selectedOption ? selectedOption.textContent : getLabels().allYears;
+
+            yearOptions.querySelectorAll(".year-option").forEach(option => {
+                option.setAttribute("aria-selected", option.dataset.value === yearFilter.value);
+            });
+        }
+
+        function selectYearOption(value) {
+            yearFilter.value = value;
+            yearFilter.dispatchEvent(new Event("change", { bubbles: true }));
+            closeYearSelect();
+            yearSelectButton.focus();
+        }
+
+        function focusYearOption(step) {
+            const options = [...yearOptions.querySelectorAll(".year-option")];
+            const currentIndex = options.indexOf(document.activeElement);
+            const fallbackIndex = Math.max(0, options.findIndex(option => option.dataset.value === yearFilter.value));
+            const nextIndex = currentIndex === -1
+                ? fallbackIndex
+                : Math.min(options.length - 1, Math.max(0, currentIndex + step));
+
+            if (options[nextIndex]) {
+                options[nextIndex].focus();
+            }
+        }
+
+        function renderYearOptions() {
+            yearOptions.textContent = "";
+
+            [...yearFilter.options].forEach(option => {
+                const item = document.createElement("li");
+                item.className = "year-option";
+                item.dataset.value = option.value;
+                item.textContent = option.textContent;
+                item.setAttribute("role", "option");
+                item.setAttribute("tabindex", "-1");
+                item.setAttribute("aria-selected", option.value === yearFilter.value);
+                item.addEventListener("click", () => selectYearOption(option.value));
+                yearOptions.appendChild(item);
+            });
+
+            syncYearSelect();
+        }
+
+        function populateYearFilter(data) {
+            const selectedValue = yearFilter.value;
+            const labels = getLabels();
+            const years = [...new Set(data.map(group => group.year))]
+                .filter(year => year !== null && year !== undefined)
+                .sort((a, b) => Number(b) - Number(a));
+
+            yearFilter.textContent = "";
+            yearFilter.appendChild(new Option(labels.allYears, ""));
+
+            years.forEach(year => {
+                yearFilter.appendChild(new Option(String(year), String(year)));
+            });
+
+            if (years.some(year => String(year) === selectedValue)) {
+                yearFilter.value = selectedValue;
+            }
+
+            renderYearOptions();
+        }
+
+        function updateRatingFilterValue(changedInput = null) {
+            let minRating = Number(ratingMinFilter.value);
+            let maxRating = Number(ratingMaxFilter.value);
+
+            if (minRating > maxRating) {
+                if (changedInput === ratingMinFilter) {
+                    minRating = maxRating;
+                    ratingMinFilter.value = String(minRating);
+                } else {
+                    maxRating = minRating;
+                    ratingMaxFilter.value = String(maxRating);
+                }
+            }
+
+            const minPercent = minRating * 10;
+            const maxPercent = maxRating * 10;
+            const valueText = `${minRating.toFixed(1)} - ${maxRating.toFixed(1)}`;
+
+            ratingSlider.style.setProperty("--range-start", `${minPercent}%`);
+            ratingSlider.style.setProperty("--range-end", `${maxPercent}%`);
+            ratingSlider.classList.toggle("is-collapsed", minRating === maxRating);
+            ratingMinValue.textContent = minRating.toFixed(1);
+            ratingMaxValue.textContent = maxRating.toFixed(1);
+            ratingFilterValue.setAttribute("aria-label", valueText);
+            ratingMinFilter.setAttribute("aria-valuetext", valueText);
+            ratingMaxFilter.setAttribute("aria-valuetext", valueText);
+            lastRatingRange = {
+                min: minRating,
+                max: maxRating
+            };
+        }
+
+        function updateFilterLabels() {
+            const labels = getLabels();
+
+            searchInput.placeholder = labels.searchPlaceholder;
+            searchInput.setAttribute("aria-label", labels.searchLabel);
+            yearFilter.setAttribute("aria-label", labels.yearFilter);
+            ratingMinFilter.setAttribute("aria-label", labels.ratingMinFilter);
+            ratingMaxFilter.setAttribute("aria-label", labels.ratingMaxFilter);
+            ratingMinValue.setAttribute("aria-label", labels.ratingMinFilter);
+            ratingMaxValue.setAttribute("aria-label", labels.ratingMaxFilter);
+            populateYearFilter(movieData);
+            updateRatingFilterValue();
+        }
+
+        function applyTypedRatingValue(target) {
+            const typedValue = parseTypedRatingValue(target.textContent);
+
+            if (typedValue === null) {
+                updateRatingFilterValue();
+                return;
+            }
+
+            if (target === ratingMinValue) {
+                ratingMinFilter.value = Math.min(typedValue, Number(ratingMaxFilter.value)).toFixed(1);
+            } else {
+                ratingMaxFilter.value = Math.max(typedValue, Number(ratingMinFilter.value)).toFixed(1);
+            }
+
+            updateRatingFilterValue();
+            renderMovies(movieData);
+        }
+
+        function getFilteredMovieGroups(data) {
+            const query = normalizeText(searchInput.value);
+            const selectedYear = yearFilter.value;
+            const minRating = Number(ratingMinFilter.value);
+            const maxRating = Number(ratingMaxFilter.value);
+
+            return data.reduce((groups, group) => {
+                if (selectedYear && String(group.year) !== selectedYear) {
+                    return groups;
+                }
+
+                const filteredItems = (group.itens || []).filter(movie => {
+                    const title = normalizeText(getMovieTitle(movie));
+                    const rating = Number(movie.rating);
+                    const matchesSearch = !query || title.includes(query);
+                    const matchesRating = Number.isFinite(rating) && rating >= minRating && rating <= maxRating;
+
+                    return matchesSearch && matchesRating;
+                });
+
+                if (filteredItems.length > 0) {
+                    groups.push({ ...group, itens: filteredItems });
+                }
+
+                return groups;
+            }, []);
+        }
+
+        function hasActiveFilters() {
+            return Boolean(searchInput.value.trim() || yearFilter.value || Number(ratingMinFilter.value) > 0 || Number(ratingMaxFilter.value) < 10);
         }
 
         function changeLanguage(lang) {
             currentLanguage = lang;
+            document.documentElement.lang = lang === "en" ? "en" : "pt-BR";
             document.getElementById('btn-pt').className = lang === 'pt-br' ? 'active' : '';
             document.getElementById('btn-en').className = lang === 'en' ? 'active' : '';
+            document.getElementById('btn-pt').setAttribute("aria-pressed", lang === 'pt-br');
+            document.getElementById('btn-en').setAttribute("aria-pressed", lang === 'en');
+            updateFilterLabels();
             renderMovies(movieData);
         }
 
@@ -202,13 +506,30 @@
         function renderMovies(data) {
             const content = document.querySelector("#content");
             const summary = document.querySelector("#summary");
+            const labels = getLabels();
+            const filteredData = getFilteredMovieGroups(data);
+            const totalMovies = getMovieCount(data);
+            const filteredMovies = getMovieCount(filteredData);
 
-            const allMovies = data.flatMap(g => g.itens || []);
-            summary.textContent = allMovies.length + (currentLanguage === 'pt-br' ? " t\u00edtulos" : " titles");
+            if (hasActiveFilters()) {
+                summary.textContent = currentLanguage === 'pt-br'
+                    ? `${filteredMovies} de ${totalMovies} t\u00edtulos`
+                    : `${filteredMovies} of ${totalMovies} titles`;
+            } else {
+                summary.textContent = filteredMovies + (currentLanguage === 'pt-br' ? " t\u00edtulos" : " titles");
+            }
 
             content.innerHTML = "";
 
-            data.forEach(group => {
+            if (filteredMovies === 0) {
+                const emptyState = document.createElement("p");
+                emptyState.className = "empty-state";
+                emptyState.textContent = labels.noResults;
+                content.appendChild(emptyState);
+                return;
+            }
+
+            filteredData.forEach(group => {
                 const section = document.createElement("section");
                 section.className = "year-section";
                 section.innerHTML = `<h2 class="year-title">${group.year}</h2><div class="movie-grid"></div>`;
@@ -236,14 +557,110 @@
         }
 
         modalCloseButton.addEventListener("click", closeMovieModal);
+        searchForm.addEventListener("submit", event => event.preventDefault());
+        searchInput.addEventListener("input", () => renderMovies(movieData));
+        yearFilter.addEventListener("change", () => {
+            syncYearSelect();
+            renderMovies(movieData);
+        });
+        yearSelectButton.addEventListener("click", () => {
+            if (yearSelect.classList.contains("is-open")) {
+                closeYearSelect();
+            } else {
+                openYearSelect();
+            }
+        });
+        yearSelectButton.addEventListener("keydown", event => {
+            if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+                event.preventDefault();
+                openYearSelect();
+            }
+        });
+        yearOptions.addEventListener("keydown", event => {
+            if (event.key === "ArrowDown") {
+                event.preventDefault();
+                focusYearOption(1);
+            }
+
+            if (event.key === "ArrowUp") {
+                event.preventDefault();
+                focusYearOption(-1);
+            }
+
+            if (event.key === "Home") {
+                event.preventDefault();
+                yearOptions.firstElementChild?.focus();
+            }
+
+            if (event.key === "End") {
+                event.preventDefault();
+                yearOptions.lastElementChild?.focus();
+            }
+
+            if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                selectYearOption(document.activeElement.dataset.value || "");
+            }
+
+            if (event.key === "Escape") {
+                event.preventDefault();
+                closeYearSelect();
+                yearSelectButton.focus();
+            }
+        });
+        [ratingMinFilter, ratingMaxFilter].forEach(input => {
+            input.addEventListener("input", () => {
+                updateRatingFilterValue(input);
+                renderMovies(movieData);
+            });
+        });
+        [ratingMinValue, ratingMaxValue].forEach(valueElement => {
+            valueElement.addEventListener("keydown", event => {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    valueElement.blur();
+                }
+
+                if (event.key === "Escape") {
+                    event.preventDefault();
+                    updateRatingFilterValue();
+                    valueElement.blur();
+                }
+            });
+            valueElement.addEventListener("beforeinput", event => {
+                if (event.data && sanitizeRatingNumberText(event.data) !== event.data) {
+                    event.preventDefault();
+                }
+            });
+            valueElement.addEventListener("input", sanitizeRatingNumberInput);
+            valueElement.addEventListener("paste", event => {
+                const pastedText = event.clipboardData?.getData("text") || "";
+                const sanitizedText = sanitizeRatingNumberText(pastedText);
+
+                event.preventDefault();
+                insertTextAtSelection(valueElement, sanitizedText);
+                sanitizeRatingNumberInput({ currentTarget: valueElement });
+            });
+            valueElement.addEventListener("blur", () => applyTypedRatingValue(valueElement));
+        });
         movieModal.addEventListener("click", event => {
             if (event.target === movieModal) {
                 closeMovieModal();
             }
         });
+        document.addEventListener("click", event => {
+            if (!yearSelect.contains(event.target)) {
+                closeYearSelect();
+            }
+        });
         document.addEventListener("keydown", event => {
             if (event.key === "Escape" && movieModal.classList.contains("is-open")) {
                 closeMovieModal();
+            }
+
+            if (event.key === "Escape" && yearSelect.classList.contains("is-open")) {
+                closeYearSelect();
+                yearSelectButton.focus();
             }
         });
 
