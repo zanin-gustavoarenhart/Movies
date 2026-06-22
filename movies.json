@@ -1178,186 +1178,175 @@
         "en": null,
         "pt-br": "After: Depois do Desencontro",
         "rating": 0,
-        "oscar": null
+        "poster": "/images/2021_after_we_fell.jpg"
       },
       {
         "or": "Black Widow",
         "en": null,
         "pt-br": "Viúva Negra",
         "rating": 6.8,
-        "oscar": null
+        "poster": "/images/2021_black_widow.jpg"
       },
       {
         "or": "CODA",
         "en": null,
         "pt-br": "No Ritmo do Coração",
         "rating": 9.5,
-        "oscar": [
-          "Actor in a Supporting Role",
-          "Best Picture",
-          "Writing (Adapted Screenplay)"
-        ]
+        "poster": "/images/2021_coda.jpg"
       },
       {
         "or": "Cruella",
         "en": null,
         "pt-br": null,
         "rating": 7.0,
-        "oscar": "Costume Design"
+        "poster": "/images/2021_cruella.jpg"
       },
       {
         "or": "Dune: Part One",
         "en": null,
         "pt-br": "Duna",
         "rating": 8.3,
-        "oscar": [
-          "Cinematography",
-          "Film Editing",
-          "Music (Original Score)",
-          "Production Design",
-          "Sound",
-          "Visual Effects"
-        ]
+        "poster": "/images/2021_dune_part_one.jpg"
       },
       {
         "or": "Eternals",
         "en": null,
         "pt-br": "Eternos",
         "rating": 6.0,
-        "oscar": null
+        "poster": "/images/2021_eternals.jpg"
       },
       {
         "or": "F9",
         "en": "F9: The Fast Saga",
         "pt-br": "Velozes & Furiosos 9",
         "rating": 4.5,
-        "oscar": null
+        "poster": "/images/2021_f9.jpg"
       },
       {
         "or": "Fear Street: Part One - 1994",
         "en": null,
         "pt-br": "Rua do Medo: 1994 - Parte 1",
         "rating": 6.0,
-        "oscar": null
+        "poster": "/images/2021_fear_street_part_one_1994.jpg"
       },
       {
         "or": "Fear Street: Part Three - 1666",
         "en": null,
         "pt-br": "Rua do Medo: 1666 - Parte 3",
         "rating": 6.0,
-        "oscar": null
+        "poster": "/images/2021_fear_street_part_three_1666.jpg"
       },
       {
         "or": "Fear Street: Part Two - 1978",
         "en": null,
         "pt-br": "Rua do Medo: 1978 - Parte 2",
         "rating": 6.0,
-        "oscar": null
+        "poster": "/images/2021_fear_street_part_two_1978.jpg"
       },
       {
         "or": "Free Guy",
         "en": null,
         "pt-br": "Free Guy: Assumindo o Controle",
         "rating": 7.3,
-        "oscar": null
+        "poster": "/images/2021_free_guy.jpg"
       },
       {
         "or": "Godzilla vs. Kong",
         "en": null,
         "pt-br": null,
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2021_godzilla_vs_kong.jpg"
       },
       {
         "or": "House of Gucci",
         "en": null,
         "pt-br": "Casa Gucci",
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2021_house_of_gucci.jpg"
       },
       {
         "or": "King Richard",
         "en": null,
         "pt-br": "King Richard: Criando Campeãs",
         "rating": 7.5,
-        "oscar": "Actor in a Leading Role"
+        "poster": "/images/2021_king_richard.jpg"
       },
       {
         "or": "Mortal Kombat",
         "en": null,
         "pt-br": null,
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2021_mortal_kombat.jpg"
       },
       {
         "or": "Shang-Chi and the Legend of the Ten Rings",
         "en": null,
         "pt-br": "Shang-Chi e a Lenda dos Dez Anéis",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2021_shang_chi_and_the_legend_of_the_ten_rings.jpg"
       },
       {
         "or": "Space Jam: A New Legacy",
         "en": null,
         "pt-br": "Space Jam: Um Novo Legado",
         "rating": 4.0,
-        "oscar": null
+        "poster": "/images/2021_space_jam_a_new_legacy.jpg"
       },
       {
         "or": "Spider-Man: No Way Home",
         "en": null,
         "pt-br": "Homem-Aranha: Sem Volta para Casa",
         "rating": 8.9,
-        "oscar": null
+        "poster": "/images/2021_spider_man_no_way_home.jpg"
       },
       {
         "or": "The Boss Baby: Family Business",
         "en": null,
         "pt-br": "O Poderoso Chefinho 2: De Volta aos Negócios",
         "rating": 5.5,
-        "oscar": null
+        "poster": "/images/2021_boss_baby_family_business.jpg"
       },
       {
         "or": "The King's Man",
         "en": null,
         "pt-br": "King's Man: A Origem",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2021_the_kings_man.jpg"
       },
       {
         "or": "The Suicide Squad",
         "en": null,
         "pt-br": "O Esquadrão Suicida",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2021_the_suicide_squad.jpg"
       },
       {
         "or": "The Tomorrow War",
         "en": null,
         "pt-br": "A Guerra do Amanhã",
         "rating": 6.0,
-        "oscar": null
+        "poster": "/images/2021_the_tomorrow_war.jpg"
       },
       {
         "or": "tick, tick...BOOM!",
         "en": null,
         "pt-br": null,
         "rating": 8.7,
-        "oscar": null
+        "poster": "/images/2021_tick_tick_boom.jpg"
       },
       {
         "or": "Venom: Let There Be Carnage",
         "en": null,
         "pt-br": "Venom: Tempo de Carnificina",
         "rating": 5.5,
-        "oscar": null
+        "poster": "/images/2021_venom_let_there_be_carnage.jpg"
       },
       {
         "or": "Zack Snyder's Justice League",
         "en": null,
         "pt-br": "Liga da Justiça de Zack Snyder",
         "rating": 0,
-        "oscar": null
+        "poster": "/images/2021_zack_snyder_justice_league.jpg"
       }
     ]
   },
