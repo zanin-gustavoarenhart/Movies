@@ -353,221 +353,215 @@
         "en": "I'm Still Here",
         "pt-br": null,
         "rating": 8.0,
-        "oscar": "International Feature Film"
+        "poster": "/images/2024_ainda_estou_aqui.jpg"
       },
       {
         "or": "Anora",
         "en": null,
         "pt-br": null,
         "rating": 8.0,
-        "oscar": [
-          "Actress in a Leading Role",
-          "Directing",
-          "Film Editing",
-          "Best Picture",
-          "Writing (Original Screenplay)"
-        ]
+        "poster": "/images/2024_anora.jpg"
       },
       {
         "or": "Bad Boys: Ride or Die",
         "en": null,
         "pt-br": "Bad Boys: Até o Fim",
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2024_bad_boys_ride_or_die.jpg"
       },
       {
         "or": "Beautiful Wedding",
         "en": null,
         "pt-br": "Belo Desastre - O Casamento",
         "rating": 2.7,
-        "oscar": null
+        "poster": "/images/2024_beautiful_wedding.jpg"
       },
       {
         "or": "Borderlands",
         "en": null,
         "pt-br": "Borderlands: O Destino do Universo Está em Jogo",
         "rating": 4.5,
-        "oscar": null
+        "poster": "/images/2024_borderlands.jpg"
       },
       {
         "or": "Carry-On",
         "en": null,
         "pt-br": "Bagagem de Risco",
         "rating": 6.3,
-        "oscar": null
+        "poster": "/images/2024_carry_on.jpg"
       },
       {
         "or": "Challengers",
         "en": null,
         "pt-br": "Rivais",
         "rating": 7.2,
-        "oscar": null
+        "poster": "/images/2024_challengers.jpg"
       },
       {
         "or": "Civil War",
         "en": null,
         "pt-br": "Guerra Civil",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2024_civil_war.jpg"
       },
       {
         "or": "Culpa tuya",
         "en": null,
         "pt-br": "Sua Culpa",
         "rating": 1.0,
-        "oscar": null
+        "poster": "/images/2024_culpa_tuya.jpg"
       },
       {
         "or": "Deadpool & Wolverine",
         "en": null,
         "pt-br": null,
         "rating": 7.2,
-        "oscar": null
+        "poster": "/images/2024_deadpool_and_wolverine.jpg"
       },
       {
         "or": "Despicable Me 4",
         "en": null,
         "pt-br": "Meu Malvado Favorito 4",
         "rating": 6.0,
-        "oscar": null
+        "poster": "/images/2024_despicable_me_4.jpg"
       },
       {
         "or": "Dune: Part Two",
         "en": null,
         "pt-br": "Duna: Parte 2",
         "rating": 8.5,
-        "oscar": ["Sound", "Visual Effects"]
+        "poster": "/images/2024_dune_part_two.jpg"
       },
       {
         "or": "Gladiator II",
         "en": null,
         "pt-br": "Gladiador II",
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2024_gladiator_ii.jpg"
       },
       {
         "or": "Godzilla x Kong: The New Empire",
         "en": null,
         "pt-br": "Godzilla e Kong: O Novo Império",
         "rating": 6.4,
-        "oscar": null
+        "poster": "/images/2024_godzilla_x_kong_the_new_empire.jpg"
       },
       {
         "or": "It Ends with Us",
         "en": null,
         "pt-br": "É Assim que Acaba",
         "rating": 6.3,
-        "oscar": null
+        "poster": "/images/2024_it_ends_with_us.jpg"
       },
       {
         "or": "Joker: Folie à Deux",
         "en": null,
         "pt-br": "Coringa: Delírio a Dois",
         "rating": 2.5,
-        "oscar": null
+        "poster": "/images/2024_joker_folie_a_deux.jpg"
       },
       {
         "or": "Juror #2",
         "en": null,
         "pt-br": "Jurado Nº 2",
         "rating": 7.1,
-        "oscar": null
+        "poster": "/images/2024_juror_2.jpg"
       },
       {
         "or": "Kraven the Hunter",
         "en": null,
         "pt-br": "Kraven, o Caçador",
         "rating": 3.2,
-        "oscar": null
+        "poster": "/images/2024_kraven_the_hunter.jpg"
       },
       {
         "or": "Kung Fu Panda 4",
         "en": null,
         "pt-br": null,
         "rating": 6.1,
-        "oscar": null
+        "poster": "/images/2024_kung_fu_panda_4.jpg"
       },
       {
         "or": "Le Comte de Monte-Cristo",
         "en": "The Count of Monte Cristo",
         "pt-br": "O Conde de Monte Cristo",
         "rating": 9.0,
-        "oscar": null
+        "poster": "/images/2024_le_comte_de_monte_cristo.jpg"
       },
       {
         "or": "L'histoire de Souleymane",
         "en": "Souleymane's Story",
         "pt-br": "A História de Souleymane",
         "rating": 7.3,
-        "oscar": null
+        "poster": "/images/2024_l_histoire_de_souleymane.jpg"
       },
       {
         "or": "Madame Web",
         "pt-br": "Madame Teia",
         "rating": 3.5,
-        "oscar": null
+        "poster": "/images/2024_madame_web.jpg"
       },
       {
         "or": "Rebel Moon - Part Two: The Scargiver",
         "pt-br": "Rebel Moon - Parte 2: A Marcadora de Cicatrizes",
         "rating": 6.0,
-        "oscar": null
+        "poster": "/images/2024_rebel_moon_part_two_the_scargiver.jpg"
       },
       {
         "or": "Red One",
         "en": null,
         "pt-br": "Operação Natal",
         "rating": 6.0,
-        "oscar": null
+        "poster": "/images/2024_red_one.jpg"
       },
       {
         "or": "Sonic the Hedgehog 3",
         "en": null,
         "pt-br": "Sonic 3: O Filme",
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2024_sonic_the_hedgehog_3.jpg"
       },
       {
         "or": "Straume",
         "en": "Flow",
         "pt-br": "Flow",
         "rating": 10,
-        "oscar": "Animated Feature Film"
+        "poster": "/images/2024_straume.jpg"
       },
       {
         "or": "The Lord of the Rings: The War of the Rohirrim",
         "en": null,
         "pt-br": "O Senhor dos Anéis: A Guerra dos Rohirrim",
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2024_the_lord_of_the_rings_the_war_of_the_rohirrim.jpg"
       },
       {
         "or": "The Wild Robot",
         "en": null,
         "pt-br": "Robô Selvagem",
         "rating": 8.5,
-        "oscar": null
+        "poster": "/images/2024_the_wild_robot.jpg"
       },
       {
         "or": "Transformers One",
         "en": null,
         "pt-br": "Transformers: O Início",
         "rating": 7.2,
-        "oscar": null
+        "poster": "/images/2024_transformers_one.jpg"
       },
       {
         "or": "Venom: The Last Dance",
         "en": null,
         "pt-br": "Venom: A Última Rodada",
         "rating": 5.0,
-        "oscar": null
+        "poster": "/images/2024_venom_the_last_dance.jpg"
       },
       {
         "or": "We Live in Time",
         "en": null,
         "pt-br": "Todo Tempo que Temos",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2024_we_live_in_time.jpg"
       }
     ]
   },
