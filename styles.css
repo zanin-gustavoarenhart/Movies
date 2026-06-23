@@ -96,6 +96,17 @@ body.modal-open {
   padding: 0 0.65rem;
 }
 
+.year-select,
+.year-select *,
+.rating-range-filter,
+.rating-range-filter *,
+.language-picker,
+.language-picker * {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .year-select {
   position: relative;
   width: 100%;
@@ -306,11 +317,6 @@ body.modal-open {
   display: inline-block;
   min-width: 1.55rem;
   outline: 0;
-  transition: font-size 0.15s ease;
-}
-
-.rating-range-number:focus {
-  font-size: 0.92rem;
 }
 
 .movie-search::placeholder {
