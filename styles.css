@@ -24,6 +24,13 @@ body.modal-open {
   overflow: hidden;
 }
 
+img {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .page {
   width: min(1200px, 94vw);
   margin: 0 auto;
@@ -447,6 +454,9 @@ body.modal-open {
   font-weight: 800;
   font-size: 0.85rem;
   box-shadow: 0 6px 14px rgba(28, 28, 28, 0.18);
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .rating-max {
