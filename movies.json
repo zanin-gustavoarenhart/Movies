@@ -898,150 +898,137 @@
         "en": null,
         "pt-br": "365 Dias: Hoje",
         "rating": 0,
-        "oscar": null
+        "poster": "/images/2022_365_days_this_day.jpg"
       },
       {
         "or": "A Filha do Palhaço",
         "en": null,
         "pt-br": null,
         "rating": 7.5,
-        "oscar": null
+        "poster": "/images/2022_a_filha_do_palhaco.jpg"
       },
       {
         "or": "After Ever Happy",
         "en": null,
         "pt-br": "After: Depois da Promessa",
         "rating": 0,
-        "oscar": null
+        "poster": "/images/2022_after_ever_happy.jpg"
       },
       {
         "or": "Avatar: The Way of Water",
         "en": null,
         "pt-br": "Avatar: O Caminho da Água",
         "rating": 9.5,
-        "oscar": "Visual Effects"
+        "poster": "/images/2022_avatar_the_way_of_water.jpg"
       },
       {
         "or": "Black Adam",
         "en": null,
         "pt-br": "Adão Negro",
         "rating": 5.7,
-        "oscar": null
+        "poster": "/images/2022_black_adam.jpg"
       },
       {
         "or": "Black Panther: Wakanda Forever",
         "en": null,
         "pt-br": "Pantera Negra: Wakanda para Sempre",
         "rating": 6.0,
-        "oscar": "Costume Design"
+        "poster": "/images/2022_black_panther_wakanda_forever.jpg"
       },
       {
         "or": "Chip 'n Dale: Rescue Rangers",
         "en": null,
         "pt-br": "Tico e Teco: Defensores da Lei",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2022_chip_n_dale_rescue_rangers.jpg"
       },
       {
         "or": "DC League of Super-Pets",
         "en": null,
         "pt-br": "DC Liga dos Superpets",
         "rating": 7.3,
-        "oscar": null
+        "poster": "/images/2022_dc_league_of_super_pets.jpg"
       },
       {
         "or": "Doctor Strange in the Multiverse of Madness",
         "en": null,
         "pt-br": "Doutor Estranho no Multiverso da Loucura",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2022_doctor_strange_in_the_multiverse_of_madness.jpg"
       },
       {
         "or": "Everything Everywhere All at Once",
         "en": null,
         "pt-br": "Tudo em Todo o Lugar ao Mesmo Tempo",
         "rating": 9.0,
-        "oscar": [
-          "Actor in a Supporting Role",
-          "Actress in a Leading Role",
-          "Actress in a Supporting Role",
-          "Directing",
-          "Film Editing",
-          "Best Picture",
-          "Writing (Original Screenplay)"
-        ]
+        "poster": "/images/2022_everything_everywhere_all_at_once.jpg"
       },
       {
         "or": "Fantastic Beasts: The Secrets of Dumbledore",
         "en": null,
         "pt-br": "Animais Fantásticos: Os Segredos de Dumbledore",
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2022_fantastic_beasts_the_secrets_of_dumbledore.jpg"
       },
       {
         "or": "Glass Onion",
         "en": null,
         "pt-br": "Glass Onion: Um Mistério Knives Out",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2022_glass_onion.jpg"
       },
       {
         "or": "Hotel Transylvania: Transformania",
         "en": "Hotel Transylvania 4: Transformania",
         "pt-br": "Hotel Transilvânia 4: Transformonstrão",
         "rating": 6.0,
-        "oscar": null
+        "poster": "/images/2022_hotel_transylvania_transformania.jpg"
       },
       {
         "or": "Hustle",
         "en": null,
         "pt-br": "Arremessando Alto",
         "rating": 7.0,
-        "oscar": null
+        "poster": "/images/2022_hustle.jpg"
       },
       {
         "or": "Im Westen nichts Neues",
         "en": "All Quiet on the Western Front",
         "pt-br": "Nada de Novo no Front",
         "rating": 10,
-        "oscar": [
-          "Cinematography",
-          "International Feature Film",
-          "Music (Original Score)",
-          "Production Design"
-        ]
+        "poster": "/images/2022_im_westen_nichts_neues.jpg"
       },
       {
         "or": "Jerry & Marge Go Large",
         "en": "Jerry and Marge Go Large",
         "pt-br": "Jerry e Marge Tiram a Sorte Grande",
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2022_jerry_and_marge_go_large.jpg"
       },
       {
         "or": "Jurassic World: Dominion",
         "pt-br": "Jurassic World Domínio",
         "rating": 5.5,
-        "oscar": null
+        "poster": "/images/2022_jurassic_world_dominion.jpg"
       },
       {
         "or": "Lamborghini: The Man Behind the Legend",
         "pt-br": "Lamborghini: O Homem Por Trás da Lenda",
         "rating": 5.5,
-        "oscar": null
+        "poster": "/images/2022_lamborghini_the_man_behind_the_legend.jpg"
       },
       {
         "or": "Luck",
         "pt-br": "Sorte",
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2022_luck.jpg"
       },
       {
         "or": "Minions: The Rise of Gru",
         "en": null,
         "pt-br": "Minions 2: A Origem de Gru",
         "rating": 6.5,
-        "oscar": null
+        "poster": "/images/2022_minions_rise_of_gru.jpg"
       },
       {
         "or": "Morbius",
