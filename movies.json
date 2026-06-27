@@ -46,7 +46,7 @@
         "or": "Affeksjonsverdi",
         "en": "Sentimental Value",
         "pt-br": "Valor Sentimental",
-        "rating": 9.0,
+        "rating": 10,
         "poster": "/images/2025_sentimentalvalue.jpg"
       },
       {
@@ -712,7 +712,7 @@
         "or": "Kimi-tachi wa dô ikiru ka",
         "en": "The Boy and the Heron",
         "pt-br": "O Menino e a Garça",
-        "rating": 8.5,
+        "rating": 9.5,
         "poster": "/images/2023_kimi_tachi_wa_do_ikiru_ka.jpg"
       },
       {
@@ -1159,7 +1159,7 @@
         "or": "CODA",
         "en": null,
         "pt-br": "No Ritmo do Coração",
-        "rating": 9.5,
+        "rating": 10,
         "poster": "/images/2021_coda.jpg"
       },
       {
@@ -2283,7 +2283,7 @@
         "or": "La La Land",
         "en": null,
         "pt-br": "La La Land: Cantando Estações",
-        "rating": 9.3,
+        "rating": 10,
         "poster": "/images/2016_la_la_land.jpg"
       },
       {
@@ -2872,7 +2872,7 @@
         "or": "The Great Gatsby",
         "en": null,
         "pt-br": "O Grande Gatsby",
-        "rating": 9.0,
+        "rating": 10,
         "poster": "/images/2013_greatgatsby.jpg"
       },
       {
@@ -3466,7 +3466,7 @@
         "or": "Brothers",
         "en": null,
         "pt-br": "Entre Irmãos",
-        "rating": 8.0,
+        "rating": 8.7,
         "poster": "/images/2009_brothers.jpg"
       },
       {
@@ -4081,7 +4081,7 @@
         "or": "V for Vendetta",
         "en": null,
         "pt-br": "V de Vingança",
-        "rating": 8.5,
+        "rating": 10,
         "poster": "/images/2005_vforvendetta.jpg"
       },
       {
@@ -4107,7 +4107,7 @@
         "or": "EuroTrip",
         "en": null,
         "pt-br": "Eurotrip: Passaporte para a Confusão",
-        "rating": 8.0,
+        "rating": 8.5,
         "poster": "/images/2004_eurotrip.jpg"
       },
       {
@@ -4189,7 +4189,7 @@
         "or": "2 Fast 2 Furious",
         "en": null,
         "pt-br": "+ Velozes + Furiosos",
-        "rating": 7.0,
+        "rating": 7.7,
         "poster": "/images/2003_2fast2furious.jpg"
       },
       {
@@ -4245,7 +4245,7 @@
         "or": "Radio",
         "en": null,
         "pt-br": "Meu Nome é Radio",
-        "rating": 8.7,
+        "rating": 9.0,
         "poster": "/images/2003_radio.jpg"
       },
       {
@@ -4320,7 +4320,7 @@
         "or": "The Pianist",
         "en": null,
         "pt-br": "O Pianista",
-        "rating": 9.0,
+        "rating": 10,
         "poster": "/images/2002_pianist.jpg"
       }
     ]
@@ -4447,7 +4447,7 @@
         "or": "The Green Mile",
         "en": null,
         "pt-br": "À Espera de um Milagre",
-        "rating": 9.0,
+        "rating": 10,
         "poster": "/images/1999_greenmile.jpg"
       },
       {
@@ -4480,7 +4480,7 @@
         "or": "Saving Private Ryan",
         "en": null,
         "pt-br": "O Resgate do Soldado Ryan",
-        "rating": 9.0,
+        "rating": 10,
         "poster": "/images/1998_savingprivateryan.jpg"
       },
       {
