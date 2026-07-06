@@ -46,6 +46,74 @@
         "poster": "/images/series/golden_time.jpg"
       },
       {
+        "or": "Hawkeye",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 6
+          }
+        ],
+        "poster": "/images/series/hawkeye.jpg"
+      },
+      {
+        "or": "Jury Duty Presents",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/jury_duty_presents.jpg"
+      },
+      {
+        "or": "Loki",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 6
+          },
+          {
+            "season": 2,
+            "episodes": 6
+          }
+        ],
+        "poster": "/images/series/loki.jpg"
+      },
+      {
+        "or": "Moon Knight",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 6
+          }
+        ],
+        "poster": "/images/series/moon_knight.jpg"
+      },
+      {
+        "or": "Ms. Marvel",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 6
+          }
+        ],
+        "poster": "/images/series/ms_marvel.jpg"
+      },
+      {
+        "or": "My Adventures with Superman",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 10
+          },
+          {
+            "season": 2,
+            "episodes": 10
+          }
+        ],
+        "poster": "/images/series/my_adventures_with_superman.jpg"
+      },
+      {
         "or": "Naruto",
         "seasons": [
           {
@@ -146,6 +214,34 @@
         "poster": "/images/series/naruto_shippuden.jpg"
       },
       {
+        "or": "She-Hulk: Attorney at Law",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 9
+          }
+        ],
+        "poster": "/images/series/she_hulk.jpg"
+      },
+      {
+        "or": "Sky Rojo",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          },
+          {
+            "season": 2,
+            "episodes": 8
+          },
+          {
+            "season": 3,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/sky_rojo.jpg"
+      },
+      {
         "or": "Spy x Family",
         "seasons": [
           {
@@ -190,6 +286,16 @@
         "poster": "/images/series/the_boys.jpg"
       },
       {
+        "or": "The Falcon and the Winter Soldier",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 6
+          }
+        ],
+        "poster": "/images/series/falcon_and_winter_soldier.jpg"
+      },
+      {
         "or": "TONIKAWA: Over the Moon for You",
         "seasons": [
           {
@@ -212,6 +318,34 @@
           }
         ],
         "poster": "/images/series/tsukimichi.jpg"
+      },
+      {
+        "or": "WandaVision",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 9
+          }
+        ],
+        "poster": "/images/series/wanda_vision.jpg"
+      },
+      {
+        "or": "Who Killed Sara?",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 10
+          },
+          {
+            "season": 2,
+            "episodes": 8
+          },
+          {
+            "season": 3,
+            "episodes": 7
+          }
+        ],
+        "poster": "/images/series/who_killed_sara.jpg"
       },
       {
         "or": "Wise Man's Grandchild",
