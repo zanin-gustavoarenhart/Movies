@@ -3,11 +3,25 @@
     "year": 2026,
     "itens": [
       {
+        "or": "Finding Emily",
+        "en": null,
+        "pt-br": "Procurando Emily",
+        "rating": 6.9,
+        "poster": "/images/2026_finding_emily.jpg"
+      },
+      {
         "or": "Michael",
         "en": null,
         "pt-br": null,
         "rating": 7.5,
         "poster": "/images/2026_michael.jpg"
+      },
+      {
+        "or": "Minions & Monsters",
+        "en": null,
+        "pt-br": "Minions & Monstros",
+        "rating": 6.0,
+        "poster": "/images/2026_minions_and_monsters.jpg"
       },
       {
         "or": "Mortal Kombat II",
@@ -24,11 +38,32 @@
         "poster": "/images/2026_project_hailmary.jpg"
       },
       {
+        "or": "Supergirl",
+        "en": null,
+        "pt-br": null,
+        "rating": 7.0,
+        "poster": "/images/2026_supergirl.jpg"
+      },
+      {
+        "or": "The Devil Wears Prada 2",
+        "en": null,
+        "pt-br": "O Diabo Veste Prada 2",
+        "rating": 6.5,
+        "poster": "/images/2026_the_devil_wears_prada_2.jpg"
+      },
+      {
         "or": "The Mandalorian and Grogu",
         "en": "Star Wars: The Mandalorian and Grogu",
         "pt-br": "Star Wars: O Mandaloriano e Grogu",
         "rating": 7.5,
         "poster": "/images/2026_mandalorian.jpg"
+      },
+      {
+        "or": "The Sheep Detectives",
+        "en": null,
+        "pt-br": "As Ovelhas Detetives",
+        "rating": 7.4,
+        "poster": "/images/2026_the_sheep_detectives.jpg"
       },
       {
         "or": "The Super Mario Galaxy Movie",
