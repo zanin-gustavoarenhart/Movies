@@ -69,12 +69,42 @@ img {
 }
 
 .movie-filters {
+  position: relative;
   display: grid;
   grid-column: 2;
   grid-template-columns: minmax(112px, 132px) minmax(220px, 1fr) minmax(190px, 220px);
   gap: 0.5rem;
   justify-self: center;
   width: 100%;
+}
+
+.media-toggle {
+  position: absolute;
+  right: calc(100% + 0.5rem);
+  width: 5.5rem;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 25px;
+  background: var(--accent);
+  color: var(--bg);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.media-toggle:hover,
+.media-toggle:focus-visible,
+.media-toggle[aria-pressed="true"] {
+  background: var(--accent);
+  color: var(--bg);
+  outline: 0;
+}
+
+.movie-filters.is-series .year-select,
+.movie-filters.is-series .rating-range-filter {
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .movie-search,
@@ -382,6 +412,10 @@ img {
   margin-bottom: 4rem;
 }
 
+.series-section {
+  margin-top: 0;
+}
+
 .year-title {
   margin: 0 0 1.5rem;
   font-size: 1.5rem;
@@ -636,6 +670,12 @@ img {
     grid-row: 2;
   }
 
+  .media-toggle {
+    position: static;
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
+
   .header-actions {
     grid-column: 2;
   }
@@ -652,6 +692,11 @@ img {
     grid-column: auto;
     grid-row: auto;
     grid-template-columns: 1fr;
+  }
+
+
+  .media-toggle {
+    width: 100%;
   }
 
   .header-actions {
