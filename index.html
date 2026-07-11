@@ -12,6 +12,7 @@
     <main class="page">
         <header class="main-header">
             <form class="movie-filters" role="search">
+                <button id="media-toggle" class="media-toggle" type="button" aria-pressed="false">Séries</button>
                 <label class="sr-only" for="year-filter">Filtrar por ano</label>
                 <div class="year-select">
                     <select id="year-filter" class="filter-select native-year-select" tabindex="-1"></select>
@@ -78,6 +79,8 @@
 
     <script>
         let movieData = [];
+        let seriesData = [];
+        let currentView = "movies";
         let currentLanguage = 'pt-br';
         let lastFocusedElement = null;
 
@@ -86,9 +89,11 @@
         const modalPoster = movieModal.querySelector(".modal-poster");
         const modalTitle = movieModal.querySelector(".modal-title");
         const modalMeta = movieModal.querySelector(".modal-meta");
+        const modalRating = movieModal.querySelector(".modal-rating");
         const modalRatingValue = movieModal.querySelector(".modal-rating-value");
         const searchForm = document.querySelector(".movie-filters");
         const searchInput = document.querySelector("#movie-search");
+        const mediaToggle = document.querySelector("#media-toggle");
         const yearFilter = document.querySelector("#year-filter");
         const yearSelect = document.querySelector(".year-select");
         const yearSelectButton = document.querySelector("#year-select-button");
@@ -136,7 +141,11 @@
                     allYears: "All years",
                     ratingMinFilter: "Minimum rating",
                     ratingMaxFilter: "Maximum rating",
-                    noResults: "No movies found."
+                    noResults: "No movies found.",
+                    series: "Series",
+                    movies: "Movies",
+                    seasons: "Seasons",
+                    episodes: "Episodes"
                 };
             }
 
@@ -152,7 +161,11 @@
                 allYears: "Todos os anos",
                 ratingMinFilter: "Nota m\u00ednima",
                 ratingMaxFilter: "Nota m\u00e1xima",
-                noResults: "Nenhum filme encontrado."
+                noResults: "Nenhum filme encontrado.",
+                series: "S\u00e9ries",
+                movies: "Filmes",
+                seasons: "Temporadas",
+                episodes: "Epis\u00f3dios"
             };
         }
 
@@ -339,8 +352,10 @@
         function updateFilterLabels() {
             const labels = getLabels();
 
-            searchInput.placeholder = labels.searchPlaceholder;
-            searchInput.setAttribute("aria-label", labels.searchLabel);
+            const searchKind = currentView === "series" ? labels.series.toLowerCase() : (currentLanguage === "en" ? "movies" : "filmes");
+            searchInput.placeholder = currentLanguage === "en" ? `Search ${searchKind}` : `Pesquisar ${searchKind}`;
+            searchInput.setAttribute("aria-label", searchInput.placeholder);
+            mediaToggle.textContent = currentView === "series" ? labels.movies : labels.series;
             yearFilter.setAttribute("aria-label", labels.yearFilter);
             ratingMinFilter.setAttribute("aria-label", labels.ratingMinFilter);
             ratingMaxFilter.setAttribute("aria-label", labels.ratingMaxFilter);
@@ -383,7 +398,7 @@
                     const title = normalizeText(getMovieTitle(movie));
                     const rating = Number(movie.rating);
                     const matchesSearch = !query || title.includes(query);
-                    const matchesRating = Number.isFinite(rating) && rating >= minRating && rating <= maxRating;
+                    const matchesRating = currentView === "series" || (Number.isFinite(rating) && rating >= minRating && rating <= maxRating);
 
                     return matchesSearch && matchesRating;
                 });
@@ -397,7 +412,9 @@
         }
 
         function hasActiveFilters() {
-            return Boolean(searchInput.value.trim() || yearFilter.value || Number(ratingMinFilter.value) > 0 || Number(ratingMaxFilter.value) < 10);
+            return currentView === "series"
+                ? Boolean(searchInput.value.trim())
+                : Boolean(searchInput.value.trim() || yearFilter.value || Number(ratingMinFilter.value) > 0 || Number(ratingMaxFilter.value) < 10);
         }
 
         function changeLanguage(lang) {
@@ -408,7 +425,7 @@
             document.getElementById('btn-pt').setAttribute("aria-pressed", lang === 'pt-br');
             document.getElementById('btn-en').setAttribute("aria-pressed", lang === 'en');
             updateFilterLabels();
-            renderMovies(movieData);
+            renderMovies(currentView === "series" ? seriesData : movieData);
         }
 
         function renderModalDetails(details) {
@@ -435,6 +452,7 @@
 
             modalTitle.textContent = titleValue;
             modalRatingValue.textContent = formatRating(movie.rating);
+            modalRating.hidden = currentView === "series";
 
             if (posterSrc) {
                 modalPoster.src = posterSrc;
@@ -448,6 +466,8 @@
 
             const details = [
                 { label: labels.year, value: year },
+                { label: labels.seasons, value: Array.isArray(movie.seasons) ? String(movie.seasons.length) : null },
+                { label: labels.episodes, value: Array.isArray(movie.seasons) ? String(movie.seasons.reduce((total, season) => total + (Number(season.episodes) || 0), 0)) : null },
                 { label: labels.original, value: formatText(movie.or) },
                 { label: labels.english, value: formatText(movie.en) },
                 { label: labels.portuguese, value: formatText(movie["pt-br"]) },
@@ -488,6 +508,7 @@
             }
 
             card.querySelector(".rating-value").textContent = formatRating(movie.rating);
+            card.querySelector(".rating-box").hidden = currentView === "series";
             card.setAttribute("aria-label", titleValue);
 
             card.addEventListener("click", () => openMovieModal(movie, year));
@@ -530,7 +551,10 @@
             filteredData.forEach(group => {
                 const section = document.createElement("section");
                 section.className = "year-section";
-                section.innerHTML = `<h2 class="year-title">${group.year}</h2><div class="movie-grid"></div>`;
+                section.classList.toggle("series-section", currentView === "series");
+                section.innerHTML = currentView === "series"
+                    ? `<div class="movie-grid"></div>`
+                    : `<h2 class="year-title">${group.year}</h2><div class="movie-grid"></div>`;
                 const grid = section.querySelector(".movie-grid");
 
                 const sortedItems = [...(group.itens || [])].sort((a, b) => {
@@ -546,8 +570,12 @@
 
         async function init() {
             try {
-                const response = await fetch("./movies.json");
-                movieData = await response.json();
+                const [moviesResponse, seriesResponse] = await Promise.all([
+                    fetch("./movies.json"),
+                    fetch("./series.json")
+                ]);
+                if (!moviesResponse.ok || !seriesResponse.ok) throw new Error("Unable to load catalog");
+                [movieData, seriesData] = await Promise.all([moviesResponse.json(), seriesResponse.json()]);
                 changeLanguage('pt-br');
             } catch (e) {
                 document.querySelector("#summary").textContent = "Error loading movies.";
@@ -556,7 +584,17 @@
 
         modalCloseButton.addEventListener("click", closeMovieModal);
         searchForm.addEventListener("submit", event => event.preventDefault());
-        searchInput.addEventListener("input", () => renderMovies(movieData));
+        searchInput.addEventListener("input", () => renderMovies(currentView === "series" ? seriesData : movieData));
+        mediaToggle.addEventListener("click", () => {
+            currentView = currentView === "movies" ? "series" : "movies";
+            searchForm.classList.toggle("is-series", currentView === "series");
+            mediaToggle.setAttribute("aria-pressed", currentView === "series");
+            yearFilter.value = "";
+            searchInput.value = "";
+            closeYearSelect();
+            updateFilterLabels();
+            renderMovies(currentView === "series" ? seriesData : movieData);
+        });
         yearFilter.addEventListener("change", () => {
             syncYearSelect();
             renderMovies(movieData);
