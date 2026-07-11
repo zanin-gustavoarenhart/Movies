@@ -529,13 +529,16 @@
             const filteredData = getFilteredMovieGroups(data);
             const totalMovies = getMovieCount(data);
             const filteredMovies = getMovieCount(filteredData);
+            const mediaCountLabel = currentView === "series"
+                ? labels.series.toLowerCase()
+                : labels.movies.toLowerCase();
 
             if (hasActiveFilters()) {
                 summary.textContent = currentLanguage === 'pt-br'
-                    ? `${filteredMovies} de ${totalMovies} t\u00edtulos`
-                    : `${filteredMovies} of ${totalMovies} titles`;
+                    ? `${filteredMovies} de ${totalMovies} ${mediaCountLabel}`
+                    : `${filteredMovies} of ${totalMovies} ${mediaCountLabel}`;
             } else {
-                summary.textContent = filteredMovies + (currentLanguage === 'pt-br' ? " t\u00edtulos" : " titles");
+                summary.textContent = `${filteredMovies} ${mediaCountLabel}`;
             }
 
             content.innerHTML = "";
