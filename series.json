@@ -22,6 +22,20 @@
         "poster": "/images/series/darling_in_the_franxx.jpg"
       },
       {
+        "or": "Dating Naked: UK",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 10
+          },
+          {
+            "season": 2.
+            "episodes": 10
+          }
+        ],
+        "poster": "/images/series/darling_in_the_franxx.jpg"
+      },
+      {
         "or": "Gen V",
         "seasons": [
           {
