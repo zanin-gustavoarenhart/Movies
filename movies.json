@@ -3505,6 +3505,13 @@
         "poster": "/images/2009_brothers.jpg"
       },
       {
+        "or": "Brüno",
+        "en": null,
+        "pt-br": null,
+        "rating": 5.5,
+        "poster": "/images/2009_bruno.jpg"
+      },
+      {
         "or": "Coraline",
         "en": null,
         "pt-br": "Coraline e o Mundo Secreto",
