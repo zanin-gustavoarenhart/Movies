@@ -370,6 +370,20 @@
         "poster": "/images/series/tulsa_king.jpg"
       },
       {
+        "or": "Twisted Metal",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 10
+          },
+          {
+            "season": 2,
+            "episodes": 12
+          }
+        ],
+        "poster": "/images/series/twisted_metal.jpg"
+      },
+      {
         "or": "WandaVision",
         "seasons": [
           {
