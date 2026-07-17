@@ -2,6 +2,16 @@
   {
     "itens": [
       {
+        "or": "Avatar: The Last Airbender",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/avatar_netflix.jpg"
+      },
+      {
         "or": "Boruto: Naruto Next Generations",
         "seasons": [
           {
