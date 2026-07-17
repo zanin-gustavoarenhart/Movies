@@ -356,6 +356,20 @@
         "poster": "/images/series/tsukimichi.jpg"
       },
       {
+        "or": "Tulsa King",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 9
+          },
+          {
+            "season": 2,
+            "episodes": 10
+          }
+        ],
+        "poster": "/images/series/tulsa_king.jpg"
+      },
+      {
         "or": "WandaVision",
         "seasons": [
           {
