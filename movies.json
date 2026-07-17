@@ -59,6 +59,13 @@
         "poster": "/images/2026_mandalorian.jpg"
       },
       {
+        "or": "The Odyssey",
+        "en": null,
+        "pt-br": "A Odisseia",
+        "rating": 10,
+        "poster": "/images/2026_the_odyssey.jpg"
+      },
+      {
         "or": "The Sheep Detectives",
         "en": null,
         "pt-br": "As Ovelhas Detetives",
