@@ -7,6 +7,10 @@
           {
             "season": 1,
             "episodes": 8
+          }.
+          {
+            "season": 2,
+            "episodes": 7
           }
         ],
         "poster": "/images/series/avatar_netflix.jpg"
