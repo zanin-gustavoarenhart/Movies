@@ -2,6 +2,16 @@
   {
     "itens": [
       {
+        "or": "Andor",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 12
+          }
+        ],
+        "poster": "/images/series/andor.jpg"
+      },
+      {
         "or": "Avatar: The Last Airbender",
         "seasons": [
           {
