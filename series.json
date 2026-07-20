@@ -356,6 +356,24 @@
         "poster": "/images/series/falcon_and_winter_soldier.jpg"
       },
       {
+        "or": "The Mandalorian",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          },
+          {
+            "season": 2,
+            "episodes": 8
+          },
+          {
+            "season": 3,
+            "episodes": 8
+          },
+        ],
+        "poster": "/images/series/mandalorian.jpg"
+      },
+      {
         "or": "TONIKAWA: Over the Moon for You",
         "seasons": [
           {
