@@ -310,6 +310,16 @@
         "poster": "/images/series/spy_x_family.jpg"
       },
       {
+        "or": "The Book of Boba Fett",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 7
+          }
+        ],
+        "poster": "/images/series/boba_fett.jpg"
+      },
+      {
         "or": "The Boys",
         "seasons": [
           {
