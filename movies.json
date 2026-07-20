@@ -73,13 +73,6 @@
         "poster": "/images/2026_the_sheep_detectives.jpg"
       },
       {
-        "or": "The SpongeBob Movie: Search for SquarePants",
-        "en": null,
-        "pt-br": "Bob Esponja: Em Busca da Calça Quadrada",
-        "rating": 3.5,
-        "poster": "/images/2026_spongebob_search_for_squarepants.jpg"
-      },
-      {
         "or": "The Super Mario Galaxy Movie",
         "en": null,
         "pt-br": "Super Mario Galaxy: O Filme",
@@ -356,6 +349,13 @@
         "pt-br": "Os Roses: Até que a Morte os Separe",
         "rating": 7.0,
         "poster": "/images/2025_roses.jpg"
+      },
+      {
+        "or": "The SpongeBob Movie: Search for SquarePants",
+        "en": null,
+        "pt-br": "Bob Esponja: Em Busca da Calça Quadrada",
+        "rating": 3.5,
+        "poster": "/images/2026_spongebob_search_for_squarepants.jpg"
       },
       {
         "or": "Thunderbolts*",
