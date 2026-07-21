@@ -1733,6 +1733,13 @@
         "poster": "/images/2019_lion_king.jpg"
       },
       {
+        "or": "Toy Story 4",
+        "en": null,
+        "pt-br": null,
+        "rating": 7.5,
+        "poster": "/images/2019_toy_story_4.jpg"
+      },
+      {
         "or": "Uncut Gems",
         "en": null,
         "pt-br": "Joias Brutas",
