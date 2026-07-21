@@ -380,6 +380,16 @@
         "poster": "/images/series/falcon_and_winter_soldier.jpg"
       },
       {
+        "or": "The Lord of the Rings: The Rings of Power",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/rings_of_power.jpg"
+      },
+      {
         "or": "The Mandalorian",
         "seasons": [
           {
