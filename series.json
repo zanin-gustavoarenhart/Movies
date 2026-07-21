@@ -398,6 +398,16 @@
         "poster": "/images/series/the_boys.jpg"
       },
       {
+        "or": "The Defenders",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/the_defenders.jpg"
+      },
+      {
         "or": "The Falcon and the Winter Soldier",
         "seasons": [
           {
