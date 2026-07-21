@@ -2911,6 +2911,13 @@
         "poster": "/images/2013_nowyouseeme.jpg"
       },
       {
+        "or": "Pacific Rim",
+        "en": null,
+        "pt-br": "Círculo de Fogo",
+        "rating": 7.5,
+        "poster": "/images/2013_pacific_rim.jpg"
+      },
+      {
         "or": "Percy Jackson: Sea of Monsters",
         "en": null,
         "pt-br": "Percy Jackson e o Mar de Monstros",
