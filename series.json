@@ -84,6 +84,20 @@
         "poster": "/images/series/golden_time.jpg"
       },
       {
+        "or": "Halo",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 9
+          },
+          {
+            "season": 2,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/halo.jpg"
+      },
+      {
         "or": "Hawkeye",
         "seasons": [
           {
