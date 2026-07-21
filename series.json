@@ -12,6 +12,20 @@
         "poster": "/images/series/andor.jpg"
       },
       {
+        "or": "Arcane",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 9
+          },
+          {
+            "season": 2,
+            "episodes": 9
+          }
+        ],
+        "poster": "/images/series/arcane.jpg"
+      },
+      {
         "or": "Avatar: The Last Airbender",
         "seasons": [
           {
