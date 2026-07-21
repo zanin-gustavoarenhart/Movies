@@ -362,6 +362,40 @@
         "poster": "/images/series/spy_x_family.jpg"
       },
       {
+        "or": "Suits",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 12
+          },
+          {
+            "season": 2,
+            "episodes": 16
+          },
+          {
+            "season": 3,
+            "episodes": 16
+          },
+          {
+            "season": 4,
+            "episodes": 16
+          },
+          {
+            "season": 5,
+            "episodes": 16
+          },
+          {
+            "season": 6,
+            "episodes": 16
+          },
+          {
+            "season": 7,
+            "episodes": 16
+          }
+        ],
+        "poster": "/images/series/suits.jpg"
+      },
+      {
         "or": "The Book of Boba Fett",
         "seasons": [
           {
