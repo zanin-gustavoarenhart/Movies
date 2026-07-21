@@ -270,6 +270,20 @@
         "poster": "/images/series/naruto_shippuden.jpg"
       },
       {
+        "or": "One Piece",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          },
+          {
+            "season": 2,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/one_piece_netflix.jpg"
+      },
+      {
         "or": "One Punch Man",
         "seasons": [
           {
