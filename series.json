@@ -316,6 +316,16 @@
         "poster": "/images/series/one_punch_man.jpg"
       },
       {
+        "or": "Runaways",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 10
+          }
+        ],
+        "poster": "/images/series/runaways_marvel.jpg"
+      },
+      {
         "or": "She-Hulk: Attorney at Law",
         "seasons": [
           {
