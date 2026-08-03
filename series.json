@@ -406,6 +406,16 @@
         "poster": "/images/series/suits.jpg"
       },
       {
+        "or": "Swamp Thing",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 10
+          }
+        ],
+        "poster": "/images/series/swamp_thing.jpg"
+      },
+      {
         "or": "The Book of Boba Fett",
         "seasons": [
           {
