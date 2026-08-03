@@ -546,6 +546,24 @@
         "poster": "/images/series/twisted_metal.jpg"
       },
       {
+        "or": "Video Game High School",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 9
+          },
+          {
+            "season": 2,
+            "episodes": 6
+          },
+          {
+            "season": 3,
+            "episodes": 6
+          }
+        ],
+        "poster": "/images/series/vghs.jpg"
+      },
+      {
         "or": "WandaVision",
         "seasons": [
           {
