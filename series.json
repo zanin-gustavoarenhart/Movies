@@ -50,6 +50,16 @@
         "poster": "/images/series/boruto.jpg"
       },
       {
+        "or": "Cyberpunk: Edgerunners",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 10
+          }
+        ],
+        "poster": "/images/series/cyberpunk_edgerunners.jpg"
+      },
+      {
         "or": "Darling in the Franxx",
         "seasons": [
           {
