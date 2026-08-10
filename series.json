@@ -354,6 +354,16 @@
         "poster": "/images/series/sky_rojo.jpg"
       },
       {
+        "or": "Spider-Noir",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/spider_noir.jpg"
+      },
+      {
         "or": "Spy x Family",
         "seasons": [
           {
