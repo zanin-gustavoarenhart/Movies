@@ -560,9 +560,17 @@
       },
       {
         "or": "Madame Web",
+        "en": null,
         "pt-br": "Madame Teia",
         "rating": 3.5,
         "poster": "/images/2024_madame_web.jpg"
+      },
+      {
+        "or": "Moana 2",
+        "en": null,
+        "pt-br": null,
+        "rating": 6.5,
+        "poster": "/images/2024_moana.jpg"
       },
       {
         "or": "Rebel Moon - Part Two: The Scargiver",
