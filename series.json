@@ -391,6 +391,24 @@
         ],
         "poster": "/images/series/spy_x_family.jpg"
       },
+            {
+        "or": "Squid Game",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 9
+          },
+          {
+            "season": 2,
+            "episodes": 7
+          },
+          {
+            "season": 3,
+            "episodes": 6
+          }
+        ],
+        "poster": "/images/series/squid_game.jpg"
+      },
       {
         "or": "Suits",
         "seasons": [
