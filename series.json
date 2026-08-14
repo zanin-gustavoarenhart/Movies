@@ -142,6 +142,16 @@
         "poster": "/images/series/hawkeye.jpg"
       },
       {
+        "or": "Here We Meet Again",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 32
+          }
+        ],
+        "poster": "/images/series/here_we_meet_again.jpg"
+      },
+      {
         "or": "Jury Duty Presents",
         "seasons": [
           {
