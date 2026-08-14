@@ -84,6 +84,16 @@
         "poster": "/images/series/dating_naked_uk.jpg"
       },
       {
+        "or": "Gaus Electronics",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 12
+          }
+        ],
+        "poster": "/images/series/gaus_electronics.jpg"
+      },
+      {
         "or": "Gen V",
         "seasons": [
           {
