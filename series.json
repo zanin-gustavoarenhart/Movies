@@ -84,6 +84,20 @@
         "poster": "/images/series/dating_naked_uk.jpg"
       },
       {
+        "or": "Fallout",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          },
+          {
+            "season": 2,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/fallout.jpg"
+      },
+      {
         "or": "Gaus Electronics",
         "seasons": [
           {
