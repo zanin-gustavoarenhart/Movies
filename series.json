@@ -223,6 +223,10 @@
           {
             "season": 2,
             "episodes": 10
+          },
+          {
+            "season": 3,
+            "episodes": 10
           }
         ],
         "poster": "/images/series/my_adventures_with_superman.jpg"
