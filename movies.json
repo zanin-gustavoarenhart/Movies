@@ -4736,5 +4736,17 @@
         "poster": "/images/1994_pulpfiction.jpg"
       }
     ]
+  },
+  {
+    "year": 1976,
+    "itens": [
+      {
+        "or": "Taxi Driver",
+        "en": null,
+        "pt-br": null,
+        "rating": 7.0,
+        "poster": "/images/1976_taxi_driver.jpg"
+      }
+    ]
   }
 ]
