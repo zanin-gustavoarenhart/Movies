@@ -4759,6 +4759,18 @@
     ]
   },
   {
+    "year": 1977,
+    "itens": [
+      {
+        "or": "Star Wars",
+        "en": "Star Wars: Episode IV - A New Hope",
+        "pt-br": "Star Wars: Episódio IV - Uma Nova Esperança",
+        "rating": 8.2,
+        "poster": "/images/1977_star_war_ep_iv.jpg"
+      }
+    ]
+  },
+  {
     "year": 1976,
     "itens": [
       {
