@@ -2463,6 +2463,13 @@
         "poster": "/images/2016_ride_along_2.jpg"
       },
       {
+        "or": "Rogue One",
+        "en": "Rogue One: A Star Wars Story",
+        "pt-br": "Rogue One: Uma História Star Wars",
+        "rating": 7.0,
+        "poster": "/images/2016_rogue_one.jpg"
+      },
+      {
         "or": "Snowden",
         "en": null,
         "pt-br": "Snowden: Herói ou Traidor",
