@@ -2760,11 +2760,18 @@
         "poster": "/images/2014_guardians.jpg"
       },
       {
-        "or": "How to Train Your Dragon 2",
+        "or": "22 Jump Street",
         "en": null,
-        "pt-br": "Como Treinar o Seu Dragão 2",
-        "rating": 7.6,
-        "poster": "/images/2014_howtotrain.jpg"
+        "pt-br": "Anjos da Lei 2",
+        "rating": 7.0,
+        "poster": "/images/2014_22jumpstreet.jpg"
+      },
+      {
+        "or": "Horrible Bosses 2",
+        "en": null,
+        "pt-br": "Quero Matar Meu Chefe 2",
+        "rating": 6.5,
+        "poster": "/images/2014_horrible_bosses.jpg"
       },
       {
         "or": "Interstellar",
