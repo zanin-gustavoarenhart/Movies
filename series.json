@@ -40,6 +40,28 @@
         "poster": "/images/series/avatar_netflix.jpg"
       },
       {
+        "or": "Bel-Air",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 10
+          },
+          {
+            "season": 2,
+            "episodes": 10
+          },
+          {
+            "season": 3,
+            "episodes": 10
+          },
+          {
+            "season": 4,
+            "episodes": 8
+          },
+        ],
+        "poster": "/images/series/bel_air.jpg"
+      },
+      {
         "or": "Boruto: Naruto Next Generations",
         "seasons": [
           {
