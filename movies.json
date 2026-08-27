@@ -4766,6 +4766,18 @@
     ]
   },
   {
+    "year": 1980,
+    "itens": [
+      {
+        "or": "Star Wars: Episode V - The Empire Strikes Back",
+        "en": null,
+        "pt-br": "Star Wars: Episódio V - O Império Contra-Ataca",
+        "rating": 8.0,
+        "poster": "/images/1980_star_wars_ep_v.jpg"
+      }
+    ]
+  },
+  {
     "year": 1977,
     "itens": [
       {
