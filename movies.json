@@ -4655,6 +4655,13 @@
         "poster": "/images/1999_fightclub.jpg"
       },
       {
+        "or": "Star Wars: Episode I - The Phantom Menace",
+        "en": null,
+        "pt-br": "Star Wars: Episódio I - A Ameaça Fantasma",
+        "rating": 7.2,
+        "poster": "/images/1999_star_war_ep_i.jpg"
+      },
+      {
         "or": "Stuart Little",
         "en": null,
         "pt-br": "O Pequeno Stuart Little",
