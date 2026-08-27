@@ -4766,6 +4766,18 @@
     ]
   },
   {
+    "year": 1983,
+    "itens": [
+      {
+        "or": "Star Wars: Episode VI - Return of the Jedi",
+        "en": null,
+        "pt-br": "Star Wars: Episódio VI - O Retorno de Jedi",
+        "rating": 7.7,
+        "poster": "/images/1983_star_wars_ep_vi.jpg"
+      }
+    ]
+  },
+  {
     "year": 1980,
     "itens": [
       {
