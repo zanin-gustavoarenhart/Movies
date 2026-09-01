@@ -41,8 +41,11 @@
             <div class="header-actions">
                 <p id="summary" class="summary">Carregando...</p>
                 <div class="language-picker">
-                    <button onclick="changeLanguage('pt-br')" id="btn-pt" class="active">PT</button>
-                    <button onclick="changeLanguage('en')" id="btn-en">EN</button>
+                    <button id="language-button" class="language-button" type="button" aria-haspopup="listbox" aria-expanded="false">PT</button>
+                    <div id="language-options" class="language-options" role="listbox">
+                        <button type="button" role="option" data-language="pt-br" aria-selected="true">Português (Brasil)</button>
+                        <button type="button" role="option" data-language="en" aria-selected="false">Inglês (EUA)</button>
+                    </div>
                 </div>
             </div>
         </header>
@@ -91,6 +94,7 @@
         const modalMeta = movieModal.querySelector(".modal-meta");
         const modalRating = movieModal.querySelector(".modal-rating");
         const modalRatingValue = movieModal.querySelector(".modal-rating-value");
+        const mainHeader = document.querySelector(".main-header");
         const searchForm = document.querySelector(".movie-filters");
         const searchInput = document.querySelector("#movie-search");
         const mediaToggle = document.querySelector("#media-toggle");
@@ -98,6 +102,9 @@
         const yearSelect = document.querySelector(".year-select");
         const yearSelectButton = document.querySelector("#year-select-button");
         const yearOptions = document.querySelector("#year-options");
+        const languagePicker = document.querySelector(".language-picker");
+        const languageButton = document.querySelector("#language-button");
+        const languageOptions = document.querySelector("#language-options");
         const ratingMinFilter = document.querySelector("#rating-min-filter");
         const ratingMaxFilter = document.querySelector("#rating-max-filter");
         const ratingSlider = document.querySelector(".rating-slider");
@@ -143,6 +150,7 @@
                     ratingMaxFilter: "Maximum rating",
                     noResults: "No movies found.",
                     series: "Series",
+                    movie: "Movie",
                     movies: "Movies",
                     seasons: "Seasons",
                     episodes: "Episodes"
@@ -163,6 +171,7 @@
                 ratingMaxFilter: "Nota m\u00e1xima",
                 noResults: "Nenhum filme encontrado.",
                 series: "S\u00e9ries",
+                movie: "Filme",
                 movies: "Filmes",
                 seasons: "Temporadas",
                 episodes: "Epis\u00f3dios"
@@ -238,7 +247,14 @@
             yearSelectButton.setAttribute("aria-expanded", "false");
         }
 
+        function alignDropdownToHeader(container, dropdown) {
+            const headerBottom = mainHeader.getBoundingClientRect().bottom;
+            const containerTop = container.getBoundingClientRect().top;
+            dropdown.style.top = `${Math.round(headerBottom - containerTop - 1)}px`;
+        }
+
         function openYearSelect() {
+            alignDropdownToHeader(yearSelect, yearOptions);
             yearSelect.classList.add("is-open");
             yearSelectButton.setAttribute("aria-expanded", "true");
 
@@ -252,6 +268,7 @@
         function syncYearSelect() {
             const selectedOption = yearFilter.selectedOptions[0];
             yearSelectButton.textContent = selectedOption ? selectedOption.textContent : getLabels().allYears;
+            yearSelectButton.classList.toggle("has-specific-year", Boolean(yearFilter.value));
 
             yearOptions.querySelectorAll(".year-option").forEach(option => {
                 option.setAttribute("aria-selected", option.dataset.value === yearFilter.value);
@@ -471,10 +488,18 @@
         function changeLanguage(lang) {
             currentLanguage = lang;
             document.documentElement.lang = lang === "en" ? "en" : "pt-BR";
-            document.getElementById('btn-pt').className = lang === 'pt-br' ? 'active' : '';
-            document.getElementById('btn-en').className = lang === 'en' ? 'active' : '';
-            document.getElementById('btn-pt').setAttribute("aria-pressed", lang === 'pt-br');
-            document.getElementById('btn-en').setAttribute("aria-pressed", lang === 'en');
+            languageButton.textContent = lang === "en" ? "EN" : "PT";
+            languageOptions.querySelector('[data-language="pt-br"]').textContent = lang === "en"
+                ? "Portuguese (Brazil)"
+                : "Português (Brasil)";
+            languageOptions.querySelector('[data-language="en"]').textContent = lang === "en"
+                ? "English (EUA)"
+                : "Inglês (EUA)";
+            languageOptions.querySelectorAll('[data-language]').forEach(option => {
+                option.setAttribute("aria-selected", option.dataset.language === lang);
+            });
+            languagePicker.classList.remove("is-open");
+            languageButton.setAttribute("aria-expanded", "false");
             updateFilterLabels();
             renderMovies(currentView === "series" ? seriesData : movieData);
         }
@@ -603,12 +628,16 @@
             }
 
             filteredData.forEach(group => {
+                const groupItemCount = (group.itens || []).length;
+                const groupMediaLabel = groupItemCount === 1
+                    ? labels.movie.toLowerCase()
+                    : mediaCountLabel;
                 const section = document.createElement("section");
                 section.className = "year-section";
                 section.classList.toggle("series-section", currentView === "series");
                 section.innerHTML = currentView === "series"
                     ? `<div class="movie-grid"></div>`
-                    : `<h2 class="year-title">${group.year}</h2><div class="movie-grid"></div>`;
+                    : `<h2 class="year-title"><span>${group.year}</span><span class="year-count">${groupItemCount} ${groupMediaLabel}</span></h2><div class="movie-grid"></div>`;
                 const grid = section.querySelector(".movie-grid");
 
                 const sortedItems = [...(group.itens || [])].sort((a, b) => {
@@ -642,6 +671,7 @@
         mediaToggle.addEventListener("click", () => {
             currentView = currentView === "movies" ? "series" : "movies";
             searchForm.classList.toggle("is-series", currentView === "series");
+            mainHeader.classList.toggle("is-series", currentView === "series");
             mediaToggle.setAttribute("aria-pressed", currentView === "series");
             yearFilter.value = "";
             searchInput.value = "";
@@ -664,6 +694,18 @@
             if (event.key === "ArrowDown" || event.key === "ArrowUp") {
                 event.preventDefault();
                 openYearSelect();
+            }
+        });
+        languageButton.addEventListener("click", () => {
+            alignDropdownToHeader(languagePicker, languageOptions);
+            const isOpen = languagePicker.classList.toggle("is-open");
+            languageButton.setAttribute("aria-expanded", isOpen);
+        });
+        languageOptions.addEventListener("click", event => {
+            const option = event.target.closest("[data-language]");
+            if (option) {
+                changeLanguage(option.dataset.language);
+                languageButton.focus();
             }
         });
         yearOptions.addEventListener("keydown", event => {
@@ -745,6 +787,10 @@
             if (!yearSelect.contains(event.target)) {
                 closeYearSelect();
             }
+            if (!languagePicker.contains(event.target)) {
+                languagePicker.classList.remove("is-open");
+                languageButton.setAttribute("aria-expanded", "false");
+            }
         });
         document.addEventListener("keydown", event => {
             if (event.key === "Escape" && movieModal.classList.contains("is-open")) {
@@ -754,6 +800,20 @@
             if (event.key === "Escape" && yearSelect.classList.contains("is-open")) {
                 closeYearSelect();
                 yearSelectButton.focus();
+            }
+
+            if (event.key === "Escape" && languagePicker.classList.contains("is-open")) {
+                languagePicker.classList.remove("is-open");
+                languageButton.setAttribute("aria-expanded", "false");
+                languageButton.focus();
+            }
+        });
+        window.addEventListener("resize", () => {
+            if (yearSelect.classList.contains("is-open")) {
+                alignDropdownToHeader(yearSelect, yearOptions);
+            }
+            if (languagePicker.classList.contains("is-open")) {
+                alignDropdownToHeader(languagePicker, languageOptions);
             }
         });
 
