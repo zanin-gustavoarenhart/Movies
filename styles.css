@@ -1,5 +1,5 @@
 :root {
-  --bg: #f2f2f2;
+  --bg: #e2e1eb;
   --bg-soft: #f2f2f2;
   --ink: #000000;
   --accent: #4b0082;
@@ -34,17 +34,32 @@ img {
 .page {
   width: min(1200px, 94vw);
   margin: 0 auto;
-  padding: 2rem 0 4rem;
+  padding: 0 0 4rem;
 }
 
 /* Header */
 .main-header {
+  position: relative;
+  z-index: 50;
+  isolation: isolate;
   display: grid;
   grid-template-columns: minmax(130px, 1fr) minmax(380px, 640px) minmax(190px, 1fr);
   align-items: center;
   gap: 1.25rem;
   margin-bottom: 3rem;
-  padding-bottom: 1rem;
+  padding: 0.5rem 0;
+}
+
+.main-header::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  background: #322D27;
   border-bottom: 1px solid var(--line);
 }
 
@@ -85,18 +100,18 @@ img {
   height: 2.5rem;
   border: 0;
   border-radius: 25px;
-  background: var(--accent);
+  background: #7F7265;
   color: var(--bg);
   cursor: pointer;
   font: inherit;
   font-size: 0.88rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .media-toggle:hover,
 .media-toggle:focus-visible,
 .media-toggle[aria-pressed="true"] {
-  background: var(--accent);
+  background: #7F7265;
   color: var(--bg);
   outline: 0;
 }
@@ -126,6 +141,22 @@ img {
 
 .movie-search {
   padding: 0 0.85rem;
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+  border-radius: 0;
+  background: transparent;
+}
+
+.main-header .movie-search,
+.main-header .movie-search::placeholder,
+.main-header .year-select-button,
+.main-header .rating-range-value,
+.main-header .summary {
+  color: #ffffff;
+}
+
+.main-header .year-select-button::after {
+  border-color: #ffffff;
 }
 
 .filter-select {
@@ -161,9 +192,9 @@ img {
   width: 100%;
   height: 2.5rem;
   padding: 0 1.7rem 0 0.65rem;
-  border: 1px solid var(--line);
+  border: 0;
   border-radius: 25px;
-  background: var(--bg-soft);
+  background: #7F7265;
   color: var(--ink);
   cursor: pointer;
   font: inherit;
@@ -186,16 +217,22 @@ img {
   transform: translateY(-65%) rotate(45deg);
 }
 
+.year-select-button.has-specific-year {
+  padding-right: 1.7rem;
+  padding-left: 1.7rem;
+  text-align: center;
+}
+
 .year-select-button:focus {
-  border-color: var(--accent);
+  border: 0;
   outline: 0;
 }
 
 .year-options {
   position: absolute;
-  top: calc(100% + 0.35rem);
+  top: calc(100% + 0.5rem - 1px);
   left: 0;
-  z-index: 15;
+  z-index: 100;
   display: none;
   width: 100%;
   max-height: 18rem;
@@ -203,9 +240,9 @@ img {
   padding: 0.35rem;
   overflow-y: auto;
   list-style: none;
-  border: 1px solid var(--line);
-  border-radius: 25px;
-  background: var(--bg-soft);
+  border: 0;
+  border-radius: 0 0 25px 25px;
+  background: #322d27;
   box-shadow: 0 16px 34px rgba(32, 23, 12, 0.14);
   scrollbar-width: none;
 }
@@ -222,28 +259,34 @@ img {
 .year-option {
   padding: 0.48rem 0.6rem;
   border-radius: 25px;
-  color: var(--ink);
+  color: #ffffff;
   cursor: pointer;
   font-size: 0.84rem;
   font-weight: 700;
 }
 
 .year-option:hover,
-.year-option:focus,
-.year-option[aria-selected="true"] {
-  background: var(--accent);
-  color: var(--bg);
+.year-option:focus {
+  background: #7f7265;
+  color: #ffffff;
   outline: 0;
+}
+
+.year-option[aria-selected="true"] {
+  background: #7f7265;
+  color: #ffffff;
 }
 
 .rating-range-filter {
   display: flex;
   align-items: center;
-  gap: 0.65rem;
+  gap: 0.35rem;
   width: 100%;
   height: 2.5rem;
   padding: 0 0.75rem;
-  background: var(--bg-soft);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   transition:
     border-color 0.2s ease,
     box-shadow 0.2s ease,
@@ -251,8 +294,7 @@ img {
 }
 
 .rating-range-filter:focus-within {
-  border-color: var(--accent);
-  background: var(--bg-soft);
+  background: transparent;
 }
 
 .rating-slider {
@@ -277,13 +319,13 @@ img {
 .rating-slider::before {
   left: 0;
   right: 0;
-  background: var(--line);
+  background: #ffffff;
 }
 
 .rating-slider::after {
   left: var(--range-start);
   right: calc(100% - var(--range-end));
-  background: var(--accent);
+  background: #7f7265;
 }
 
 .rating-range {
@@ -317,7 +359,7 @@ img {
   height: 1rem;
   border: 2px solid var(--bg-soft);
   border-radius: 50%;
-  background: var(--accent);
+  background: #7f7265;
   box-shadow: 0 2px 6px rgba(28, 28, 28, 0.2);
   pointer-events: auto;
   appearance: none;
@@ -333,7 +375,7 @@ img {
   height: 1rem;
   border: 2px solid var(--bg-soft);
   border-radius: 50%;
-  background: var(--accent);
+  background: #7f7265;
   box-shadow: 0 2px 6px rgba(28, 28, 28, 0.2);
   pointer-events: auto;
 }
@@ -365,10 +407,26 @@ img {
   color: var(--ink);
 }
 
+.movie-search::-webkit-search-cancel-button,
+.movie-search::-webkit-search-decoration {
+  display: none;
+  appearance: none;
+}
+
+.movie-search::-ms-clear {
+  display: none;
+}
+
 .movie-search:focus,
 .filter-select:focus {
   border-color: var(--accent);
   background: var(--bg-soft);
+}
+
+.movie-search:focus {
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+  background: transparent;
 }
 
 .header-actions {
@@ -386,25 +444,70 @@ img {
 }
 
 .language-picker {
-  display: flex;
-  gap: 0.25rem;
+  position: relative;
 }
 
-.language-picker button {
+.language-button {
+  height: 2.5rem;
+  min-width: 3.25rem;
   cursor: pointer;
   padding: 0.4rem 0.8rem;
   border-radius: 25px;
-  border: 0px;
-  background: transparent;
-  color: var(--ink);
+  border: 0;
+  background: #7F7265;
+  color: var(--bg);
   font-size: 0.75rem;
   font-weight: 700;
   transition: all 0.2s ease;
 }
 
-.language-picker button.active {
-  background: var(--accent);
-  color: var(--bg);
+.language-options {
+  position: absolute;
+  top: calc(100% + 0.5rem - 1px);
+  right: 0;
+  z-index: 100;
+  display: none;
+  min-width: 11rem;
+  padding: 0.35rem;
+  border: 0;
+  border-radius: 0 0 18px 18px;
+  background: #322d27;
+  box-shadow: 0 16px 34px rgba(32, 23, 12, 0.14);
+}
+
+.language-picker.is-open .language-options {
+  display: grid;
+  gap: 0.12rem;
+}
+
+.language-options button {
+  padding: 0.55rem 0.7rem;
+  border: 0;
+  border-radius: 14px;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.language-options button:hover {
+  background: #7f7265;
+  color: #ffffff;
+}
+
+.language-options button[aria-selected="true"] {
+  background: #7f7265;
+  color: #ffffff;
+}
+
+.media-toggle:hover,
+.media-toggle:focus-visible:hover,
+.media-toggle[aria-pressed="true"]:hover,
+.year-select-button:hover,
+.language-button:hover {
+  background: #322d27;
 }
 
 /* Seções por Ano */
@@ -417,18 +520,36 @@ img {
 }
 
 .year-title {
+  position: relative;
   margin: 0 0 1.5rem;
   font-size: 1.5rem;
   color: var(--ink);
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
+}
+
+.year-title > span {
+  position: relative;
+  z-index: 1;
+  padding: 0 0.75rem;
+  background: var(--bg);
+}
+
+.year-title > .year-count {
+  position: absolute;
+  right: 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--ink);
 }
 
 .year-title::after {
   content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
   height: 1px;
-  flex-grow: 1;
   background: var(--line);
 }
 
@@ -683,26 +804,62 @@ img {
 
 @media (max-width: 640px) {
   .main-header {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(112px, 132px) minmax(0, 1fr);
     align-items: stretch;
-    gap: 1rem;
+    gap: 0.75rem;
   }
 
   .movie-filters {
-    grid-column: auto;
-    grid-row: auto;
-    grid-template-columns: 1fr;
+    display: contents;
   }
 
+  .year-select {
+    grid-column: 1;
+    grid-row: 2;
+    min-width: 0;
+  }
 
   .media-toggle {
+    grid-column: 1;
+    grid-row: 1;
     width: 100%;
   }
 
+  .movie-search {
+    grid-column: 1 / -1;
+    grid-row: 3;
+  }
+
+  .rating-range-filter {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
   .header-actions {
-    grid-column: auto;
-    justify-self: stretch;
-    justify-content: space-between;
-    gap: 1rem;
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+    justify-content: flex-end;
+    gap: 0.75rem;
+  }
+
+  .main-header.is-series .media-toggle {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .main-header.is-series .header-actions {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .main-header.is-series .movie-search {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .main-header.is-series .year-select,
+  .main-header.is-series .rating-range-filter {
+    display: none;
   }
 }
