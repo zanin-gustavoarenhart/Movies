@@ -3,6 +3,13 @@
     "year": 2026,
     "itens": [
       {
+        "or": "Coyote vs. Acme",
+        "en": null,
+        "pt-br": null,
+        "rating": 7.7,
+        "poster": "/images/2026_coyote_vs_acme.jpg"
+      },
+      {
         "or": "Finding Emily",
         "en": null,
         "pt-br": "Procurando Emily",
