@@ -4528,6 +4528,13 @@
         "poster": "/images/2002_spiderman.jpg"
       },
       {
+        "or": "Star Wars: Episode II - Attack of the Clones",
+        "en": null,
+        "pt-br": "Star Wars: Episódio II - Ataque dos Clones",
+        "rating": 6.5,
+        "poster": "/images/2002_star_wars_ep_ii.jpg"
+      },
+      {
         "or": "The Lord of the Rings: The Two Towers",
         "en": null,
         "pt-br": "O Senhor dos Anéis: As Duas Torres",
