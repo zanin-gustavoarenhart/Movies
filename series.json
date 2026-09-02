@@ -386,6 +386,20 @@
         "poster": "/images/series/one_punch_man.jpg"
       },
       {
+        "or": "Percy Jackson and the Olympians",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          },
+          {
+            "season": 2,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/percy_jackson_and_the_olympians.jpg"
+      },
+      {
         "or": "Runaways",
         "seasons": [
           {
