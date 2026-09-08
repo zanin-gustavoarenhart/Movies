@@ -2,6 +2,16 @@
   {
     "itens": [
       {
+        "or": "Ahsoka",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/ahsoka.jpg"
+      },
+      {
         "or": "Andor",
         "seasons": [
           {
