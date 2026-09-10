@@ -86,6 +86,20 @@
         "poster": "/images/series/boruto.jpg"
       },
       {
+        "or": "Cidade Invisível",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 7
+          },
+          {
+            "season": 2,
+            "episodes": 5
+          }
+        ],
+        "poster": "/images/series/cidade_invisivel.jpg"
+      },
+      {
         "or": "Cyberpunk: Edgerunners",
         "seasons": [
           {
