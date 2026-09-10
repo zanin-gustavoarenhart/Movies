@@ -458,6 +458,16 @@
         "poster": "/images/series/she_hulk.jpg"
       },
       {
+        "or": "Skeleton Crew",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/skeleton_crew.jpg"
+      },
+      {
         "or": "Sky Rojo",
         "seasons": [
           {
