@@ -566,6 +566,16 @@
         "poster": "/images/series/swamp_thing.jpg"
       },
       {
+        "or": "The Acolyte",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/the_acolyte.jpg"
+      },
+      {
         "or": "The Book of Boba Fett",
         "seasons": [
           {
