@@ -31,6 +31,13 @@
         "poster": "/images/2026_michael.jpg"
       },
       {
+        "or": "Minha Melhor Amiga",
+        "en": "My Best Friend",
+        "pt-br": null,
+        "rating": 7.0,
+        "poster": "/images/2026_minha_melhor_amiga.jpg"
+      },
+      {
         "or": "Minions & Monsters",
         "en": null,
         "pt-br": "Minions & Monstros",
