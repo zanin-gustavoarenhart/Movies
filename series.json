@@ -424,6 +424,20 @@
         "poster": "/images/series/one_punch_man.jpg"
       },
       {
+        "or": "Peacemaker",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          },
+          {
+            "season": 2,
+            "episodes": 8
+          },
+        ],
+        "poster": "/images/series/peacemaker.jpg"
+      },
+      {
         "or": "Percy Jackson and the Olympians",
         "seasons": [
           {
