@@ -4787,6 +4787,13 @@
     "year": 1995,
     "itens": [
       {
+        "or": "Bad Boys",
+        "en": null,
+        "pt-br": "Os Bad Boys",
+        "rating": 6.7,
+        "poster": "/images/1995_bad_boys.jpg"
+      },
+      {
         "or": "Toy Story",
         "en": null,
         "pt-br": null,
