@@ -739,6 +739,11 @@ img {
   border-bottom: 1px solid var(--line);
 }
 
+.modal-meta div:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
 .modal-meta dt {
   color: var(--ink);
   font-size: 0.68rem;
@@ -752,6 +757,62 @@ img {
   color: var(--ink);
   font-size: 0.95rem;
   line-height: 1.45;
+}
+
+.modal-seasons {
+  display: grid;
+  gap: 1rem;
+}
+
+.modal-seasons[hidden] {
+  display: none;
+}
+
+.modal-seasons-title {
+  margin: 0;
+  color: var(--ink);
+}
+
+.modal-seasons-title {
+  font-size: 1.1rem;
+}
+
+.season-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.season-selector button {
+  min-height: 2.4rem;
+  padding: 0.5rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--bg-soft);
+  color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.season-selector button:hover,
+.season-selector button:focus-visible,
+.season-selector button.is-selected {
+  background: var(--accent);
+  color: #fff;
+}
+
+.season-selector button:focus-visible {
+  outline: 3px solid rgba(75, 0, 130, 0.25);
+  outline-offset: 2px;
+}
+
+.season-episode-count {
+  margin: 0;
+  color: var(--ink);
+  font-size: 0.95rem;
+  font-weight: 700;
 }
 
 @media (max-width: 760px) {
@@ -803,6 +864,14 @@ img {
 }
 
 @media (max-width: 640px) {
+  body.modal-open .main-header {
+    display: none;
+  }
+
+  .movie-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .main-header {
     grid-template-columns: minmax(112px, 132px) minmax(0, 1fr);
     align-items: stretch;
