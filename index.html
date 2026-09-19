@@ -64,6 +64,11 @@
                 </div>
                 <h2 class="modal-title" id="modal-title"></h2>
                 <dl class="modal-meta"></dl>
+                <section class="modal-seasons" aria-labelledby="modal-seasons-title" hidden>
+                    <h3 class="modal-seasons-title" id="modal-seasons-title"></h3>
+                    <div class="season-selector" role="group"></div>
+                    <p class="season-episode-count"></p>
+                </section>
             </div>
         </div>
     </div>
@@ -153,7 +158,8 @@
                     movie: "Movie",
                     movies: "Movies",
                     seasons: "Seasons",
-                    episodes: "Episodes"
+                    episodes: "Episodes",
+                    season: "Season"
                 };
             }
 
@@ -174,7 +180,8 @@
                 movie: "Filme",
                 movies: "Filmes",
                 seasons: "Temporadas",
-                episodes: "Epis\u00f3dios"
+                episodes: "Epis\u00f3dios",
+                season: "Temporada"
             };
         }
 
@@ -519,6 +526,44 @@
             });
         }
 
+        function renderSeriesSeasons(seasons, labels) {
+            const section = movieModal.querySelector(".modal-seasons");
+            const title = section.querySelector(".modal-seasons-title");
+            const selector = section.querySelector(".season-selector");
+            const episodeCount = section.querySelector(".season-episode-count");
+
+            section.hidden = seasons.length === 0;
+            title.textContent = labels.seasons;
+            selector.setAttribute("aria-label", labels.seasons);
+            selector.textContent = "";
+            episodeCount.textContent = "";
+
+            function selectSeason(season, selectedButton) {
+                selector.querySelectorAll("button").forEach(button => {
+                    const isSelected = button === selectedButton;
+                    button.classList.toggle("is-selected", isSelected);
+                    button.setAttribute("aria-pressed", String(isSelected));
+                });
+
+                const totalEpisodes = Math.max(0, Number(season.episodes) || 0);
+                episodeCount.textContent = `${labels.episodes}: ${totalEpisodes}`;
+            }
+
+            seasons.forEach((season, index) => {
+                const button = document.createElement("button");
+                button.type = "button";
+                button.textContent = season.season;
+                button.setAttribute("aria-label", `${labels.season} ${season.season}`);
+                button.setAttribute("aria-pressed", "false");
+                button.addEventListener("click", () => selectSeason(season, button));
+                selector.appendChild(button);
+
+                if (index === 0) {
+                    selectSeason(season, button);
+                }
+            });
+        }
+
         function openMovieModal(movie, year) {
             const titleValue = getMovieTitle(movie);
             const posterSrc = formatText(movie.poster);
@@ -542,8 +587,6 @@
 
             const details = [
                 { label: labels.year, value: year },
-                { label: labels.seasons, value: Array.isArray(movie.seasons) ? String(movie.seasons.length) : null },
-                { label: labels.episodes, value: Array.isArray(movie.seasons) ? String(movie.seasons.reduce((total, season) => total + (Number(season.episodes) || 0), 0)) : null },
                 { label: labels.original, value: formatText(movie.or) },
                 { label: labels.english, value: formatText(movie.en) },
                 { label: labels.portuguese, value: formatText(movie["pt-br"]) },
@@ -551,6 +594,7 @@
             ].filter(item => item.value && String(item.value) !== titleValue);
 
             renderModalDetails(details);
+            renderSeriesSeasons(Array.isArray(movie.seasons) ? movie.seasons : [], labels);
             movieModal.classList.add("is-open");
             movieModal.setAttribute("aria-hidden", "false");
             document.body.classList.add("modal-open");
