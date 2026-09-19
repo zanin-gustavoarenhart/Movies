@@ -786,10 +786,10 @@ img {
 .season-selector button {
   min-height: 2.4rem;
   padding: 0.5rem 0.85rem;
-  border: 1px solid var(--line);
+  border: 0;
   border-radius: 999px;
-  background: var(--bg-soft);
-  color: var(--ink);
+  background: #7f7265;
+  color: var(--bg);
   cursor: pointer;
   font: inherit;
   font-size: 0.85rem;
@@ -799,12 +799,12 @@ img {
 .season-selector button:hover,
 .season-selector button:focus-visible,
 .season-selector button.is-selected {
-  background: var(--accent);
-  color: #fff;
+  background: #322d27;
+  color: #ffffff;
 }
 
 .season-selector button:focus-visible {
-  outline: 3px solid rgba(75, 0, 130, 0.25);
+  outline: 3px solid rgba(127, 114, 101, 0.35);
   outline-offset: 2px;
 }
 
