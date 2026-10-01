@@ -230,6 +230,16 @@
         "poster": "/images/series/jury_duty_presents.jpg"
       },
       {
+        "or": "Lego One Piece",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 2
+          }
+        ],
+        "poster": "/images/series/lego_one_piece.jpg"
+      },
+      {
         "or": "Loki",
         "seasons": [
           {
