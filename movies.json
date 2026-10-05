@@ -148,6 +148,13 @@
         "pt-br": "Super Mario Galaxy: O Filme",
         "rating": 8.0,
         "poster": "/images/2026_mariogalaxy.jpg"
+      },
+      {
+        "or": "Toy Story 5",
+        "en": null,
+        "pt-br": null,
+        "rating": 7.0,
+        "poster": "/images/2026_toy_story_5.jpg"
       }
     ]    
   },
