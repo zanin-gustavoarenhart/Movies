@@ -3,6 +3,13 @@
     "year": 2026,
     "itens": [
       {
+        "or": "72 Hours",
+        "en": null,
+        "pt-br": "72 Horas em Miami",
+        "rating": 4.0,
+        "poster": "/images/2026_72_hours.jpg"
+      },
+      {
         "or": "Coyote vs. Acme",
         "en": null,
         "pt-br": null,
