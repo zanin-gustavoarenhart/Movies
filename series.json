@@ -230,6 +230,16 @@
         "poster": "/images/series/jury_duty_presents.jpg"
       },
       {
+        "or": "Lanterns",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 8
+          }
+        ],
+        "poster": "/images/series/lanterns.jpg"
+      },
+      {
         "or": "Lego One Piece",
         "seasons": [
           {
