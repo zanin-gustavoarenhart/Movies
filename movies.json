@@ -73,6 +73,13 @@
         "poster": "/images/2026_mortal_kombat2.jpg"
       },
       {
+        "or": "One Night Only",
+        "en": null,
+        "pt-br": "Só Por Uma Noite",
+        "rating": 7.0,
+        "poster": "/images/2026_one_night_only.jpg"
+      },
+      {
         "or": "Project Hail Mary",
         "en": null,
         "pt-br": "Devoradores de Estrelas",
