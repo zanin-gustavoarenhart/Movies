@@ -482,6 +482,16 @@
         "poster": "/images/series/percy_jackson_and_the_olympians.jpg"
       },
       {
+        "or": "Senna",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 6
+          }
+        ],
+        "poster": "/images/series/senna.jpg"
+      },
+      {
         "or": "She-Hulk: Attorney at Law",
         "seasons": [
           {
