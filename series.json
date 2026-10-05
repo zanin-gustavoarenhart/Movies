@@ -54,6 +54,16 @@
         "poster": "/images/series/avatar_netflix.jpg"
       },
       {
+        "or": "Avicii - I'm Tim",
+        "seasons": [
+          {
+            "season": 0,
+            "episodes": 0
+          }
+        ],
+        "poster": "/images/series/avicii_2024.jpg"
+      },
+      {
         "or": "Bel-Air",
         "seasons": [
           {
