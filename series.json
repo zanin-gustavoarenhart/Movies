@@ -530,6 +530,20 @@
         "poster": "/images/series/sky_rojo.jpg"
       },
       {
+        "or": "Soltos",
+        "seasons": [
+          {
+            "season": 1,
+            "episodes": 16
+          },
+            {
+            "season": 2,
+            "episodes": 16
+          }
+        ],
+        "poster": "/images/series/soltos.jpg"
+      },
+      {
         "or": "Spider-Noir",
         "seasons": [
           {
