@@ -536,9 +536,13 @@
             "season": 1,
             "episodes": 16
           },
-            {
+          {
             "season": 2,
             "episodes": 16
+          },
+          {
+            "season": 3,
+            "episodes": 9
           }
         ],
         "poster": "/images/series/soltos.jpg"
