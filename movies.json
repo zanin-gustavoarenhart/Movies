@@ -3391,6 +3391,13 @@
         "poster": "/images/2011_fastfive.jpg"
       },
       {
+        "or": "Green Lantern",
+        "en": null,
+        "pt-br": "Lanterna Verde",
+        "rating": 5.0,
+        "poster": "/images/2011_green_lantern.jpg"
+      },
+      {
         "or": "Harry Potter and the Deathly Hallows: Part 2",
         "en": null,
         "pt-br": "Harry Potter e as Relíquias da Morte - Parte 2",
