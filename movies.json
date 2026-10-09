@@ -169,7 +169,14 @@
         "pt-br": null,
         "rating": 7.0,
         "poster": "/images/2026_toy_story_5.jpg"
-      }
+      },
+      {
+        "or": "Verity",
+        "en": null,
+        "pt-br": null,
+        "rating": 6.0,
+        "poster": "/images/2026_verity.jpg"
+      },
     ]    
   },
   {
