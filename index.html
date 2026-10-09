@@ -29,6 +29,7 @@
                     <div class="rating-slider">
                         <input id="rating-min-filter" class="rating-range rating-range-min" type="range" min="0" max="10" step="0.1" value="0" />
                         <input id="rating-max-filter" class="rating-range rating-range-max" type="range" min="0" max="10" step="0.1" value="10" />
+                        <span class="rating-touch-target" aria-hidden="true"></span>
                     </div>
                     <output class="rating-range-value" for="rating-min-filter rating-max-filter">
                         <span class="rating-range-number rating-range-min-value" role="textbox" tabindex="0" contenteditable="true" spellcheck="false">0.0</span>
@@ -377,7 +378,7 @@
             const minRating = Number(ratingMinFilter.value);
             const maxRating = Number(ratingMaxFilter.value);
 
-            if (minRating !== maxRating || event.button !== 0) {
+            if (event.pointerType === "touch" || event.target.classList.contains("rating-touch-target") || minRating !== maxRating || event.button !== 0) {
                 return;
             }
 
@@ -420,6 +421,54 @@
             };
 
             ratingSlider.addEventListener("pointermove", move);
+            ratingSlider.addEventListener("pointerup", stop);
+            ratingSlider.addEventListener("pointercancel", stop);
+        }
+
+        function startTouchRatingDrag(event) {
+            if (event.pointerType !== "touch" && !event.target.classList.contains("rating-touch-target")) {
+                return;
+            }
+
+            event.preventDefault();
+            ratingSlider.setPointerCapture(event.pointerId);
+
+            const bounds = ratingSlider.getBoundingClientRect();
+            const startX = event.clientX;
+            const minRating = Number(ratingMinFilter.value);
+            const maxRating = Number(ratingMaxFilter.value);
+            const touchedValue = ((startX - bounds.left) / bounds.width) * 10;
+            let draggedInput = minRating === maxRating
+                ? null
+                : Math.abs(touchedValue - minRating) <= Math.abs(touchedValue - maxRating)
+                    ? ratingMinFilter
+                    : ratingMaxFilter;
+
+            const update = moveEvent => {
+                if (!draggedInput) {
+                    if (moveEvent.clientX === startX) {
+                        return;
+                    }
+                    draggedInput = moveEvent.clientX < startX ? ratingMinFilter : ratingMaxFilter;
+                }
+
+                const rawValue = ((moveEvent.clientX - bounds.left) / bounds.width) * 10;
+                const nextValue = Math.min(10, Math.max(0, Math.round(rawValue * 10) / 10));
+                draggedInput.value = String(nextValue);
+                updateRatingFilterValue(draggedInput);
+                renderMovies(movieData);
+            };
+
+            const stop = () => {
+                ratingSlider.removeEventListener("pointermove", update);
+                ratingSlider.removeEventListener("pointerup", stop);
+                ratingSlider.removeEventListener("pointercancel", stop);
+            };
+
+            if (draggedInput) {
+                update(event);
+            }
+            ratingSlider.addEventListener("pointermove", update);
             ratingSlider.addEventListener("pointerup", stop);
             ratingSlider.addEventListener("pointercancel", stop);
         }
@@ -790,6 +839,7 @@
                 renderMovies(movieData);
             });
         });
+        ratingSlider.addEventListener("pointerdown", startTouchRatingDrag);
         ratingSlider.addEventListener("pointerdown", startCollapsedRatingDrag);
         [ratingMinValue, ratingMaxValue].forEach(valueElement => {
             valueElement.addEventListener("keydown", event => {
