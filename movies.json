@@ -1582,6 +1582,13 @@
         "poster": "/images/2020_nomadland.jpg"
       },
       {
+        "or": "Run",
+        "en": null,
+        "pt-br": "Fuja",
+        "rating": 6.5,
+        "poster": "/images/2020_run.jpg"
+      },
+      {
         "or": "Sonic the Hedgehog",
         "en": null,
         "pt-br": "Sonic: O Filme",
