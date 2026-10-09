@@ -39,7 +39,8 @@ img {
 
 /* Header */
 .main-header {
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 50;
   isolation: isolate;
   display: grid;
@@ -56,9 +57,9 @@ img {
   z-index: -1;
   top: 0;
   bottom: 0;
-  left: 50%;
-  width: 100vw;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
+  box-shadow: -50vw 0 #322D27, 50vw 0 #322D27;
   background: #322D27;
   border-bottom: 1px solid var(--line);
 }
@@ -302,6 +303,7 @@ img {
   flex: 1;
   min-width: 0;
   height: 1.2rem;
+  touch-action: none;
   --range-start: 0%;
   --range-end: 100%;
 }
@@ -347,6 +349,20 @@ img {
 
 .rating-slider.is-collapsed .rating-range-max {
   z-index: 4;
+}
+
+.rating-touch-target {
+  display: none;
+}
+
+@media (pointer: coarse) {
+  .rating-touch-target {
+    position: absolute;
+    z-index: 5;
+    inset: -0.65rem 0;
+    display: block;
+    touch-action: none;
+  }
 }
 
 .rating-range::-webkit-slider-runnable-track {
@@ -627,7 +643,7 @@ img {
 .modal-backdrop {
   position: fixed;
   inset: 0;
-  z-index: 20;
+  z-index: 100;
   display: grid;
   place-items: center;
   padding: 2rem;
@@ -873,7 +889,7 @@ img {
   }
 
   .main-header {
-    grid-template-columns: minmax(112px, 132px) minmax(0, 1fr);
+    grid-template-columns: minmax(80px, 112px) minmax(0, 1fr) auto;
     align-items: stretch;
     gap: 0.75rem;
   }
@@ -883,15 +899,20 @@ img {
   }
 
   .year-select {
-    grid-column: 1;
-    grid-row: 2;
+    grid-column: 2;
+    grid-row: 1;
     min-width: 0;
   }
 
   .media-toggle {
     grid-column: 1;
     grid-row: 1;
+    display: grid;
+    place-items: center;
+    min-width: 0;
     width: 100%;
+    padding: 0 0.5rem;
+    white-space: nowrap;
   }
 
   .movie-search {
@@ -900,16 +921,25 @@ img {
   }
 
   .rating-range-filter {
-    grid-column: 2;
+    grid-column: 2 / -1;
     grid-row: 2;
   }
 
   .header-actions {
-    grid-column: 2;
+    display: contents;
+  }
+
+  .summary {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: center;
+    margin: 0;
+  }
+
+  .language-picker {
+    grid-column: 3;
     grid-row: 1;
-    justify-self: end;
-    justify-content: flex-end;
-    gap: 0.75rem;
+    align-self: center;
   }
 
   .main-header.is-series .media-toggle {
@@ -917,9 +947,10 @@ img {
     grid-row: 1;
   }
 
-  .main-header.is-series .header-actions {
+  .main-header.is-series .summary {
     grid-column: 2;
     grid-row: 1;
+    justify-self: end;
   }
 
   .main-header.is-series .movie-search {
@@ -930,5 +961,12 @@ img {
   .main-header.is-series .year-select,
   .main-header.is-series .rating-range-filter {
     display: none;
+  }
+}
+
+@media (max-width: 640px) and (hover: none) {
+  .media-toggle:hover,
+  .media-toggle[aria-pressed="true"]:hover {
+    background: #7f7265;
   }
 }
